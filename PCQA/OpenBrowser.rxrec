@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="77b83fe9-3cd4-494b-b78d-a23cf13206b8"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="PCQA">
+	</codegen>
+	<variables>
+		<var
+		id="f0ac4abb-63c8-4580-8b0c-edf06d57600a"
+		name="URL">
+			https://ssurgwsoadev4.opc.oracleoutsourcing.com/pc/PolicyCenter.do
+		</var>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="True"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Url"
+				variable="URL">
+				</binding>
+			</bindings>
+			<url>
+				https://https://ssurgwsoadev4.opc.oracleoutsourcing.com/pc/PolicyCenter.do
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="5d2c35e0-6077-4570-87f1-66cae739d1c2"
+	name="PCQARepository"
+	relativepath="PCQARepository.rxrep">
+		<codegen
+		classname="PCQARepository"
+		namespace="PCQA">
+		</codegen>
+		<rootfolder
+		id="2ca9e9c2-7d61-47da-a3e1-f1acb74838d1"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

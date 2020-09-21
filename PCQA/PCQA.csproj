@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{89A01F2B-5C70-4E06-A961-48E97412F3E3}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>PCQA</RootNamespace>
+    <AssemblyName>PCQA</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Anular\AnulaPoliza.cs">
+      <BoundTo>20db9d22-2cc8-4b81-839a-2b009a5807bc</BoundTo>
+      <DependentUpon>AnulaPoliza.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>24569f47-9a90-4f1c-8545-48e964d0d2e2</id>
+    </Compile>
+    <Compile Include="Anular\AnulaPoliza.UserCode.cs">
+      <BoundTo>20db9d22-2cc8-4b81-839a-2b009a5807bc</BoundTo>
+      <DependentUpon>AnulaPoliza.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>08f3ba30-59fd-4c95-8469-6a982adafde8</id>
+    </Compile>
+    <Compile Include="Anular\BuscaPoliza.cs">
+      <BoundTo>8c5293c7-1ced-442c-994d-eb8bb10d4d2d</BoundTo>
+      <DependentUpon>BuscaPoliza.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e5f97d75-8f70-4926-b246-d9b561534eac</id>
+    </Compile>
+    <Compile Include="Anular\BuscaPoliza.UserCode.cs">
+      <BoundTo>8c5293c7-1ced-442c-994d-eb8bb10d4d2d</BoundTo>
+      <DependentUpon>BuscaPoliza.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>151e3325-c62f-46d6-a892-c04bb5d71e8e</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>eac12d78-9abd-43b2-8f6f-9e20b6ad714c</id>
+    </Compile>
+    <Compile Include="BuscarCuentaAnswer.cs">
+      <BoundTo>37b95576-610f-4ac1-a514-068903486430</BoundTo>
+      <DependentUpon>BuscarCuentaAnswer.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>79b7330c-3e89-46bf-aa31-db7a5aebb7eb</id>
+    </Compile>
+    <Compile Include="BuscarCuentaAnswer.UserCode.cs">
+      <BoundTo>37b95576-610f-4ac1-a514-068903486430</BoundTo>
+      <DependentUpon>BuscarCuentaAnswer.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e32b09aa-7dbc-44af-a88f-dd17a47f10b7</id>
+    </Compile>
+    <Compile Include="BuscarCuenta\BuscarCuentaCreada.cs">
+      <BoundTo>f5295213-b982-4727-8b52-23b1a36977cf</BoundTo>
+      <DependentUpon>BuscarCuentaCreada.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>47b80c63-e6f2-44cb-933a-e1c3964c9e15</id>
+    </Compile>
+    <Compile Include="BuscarCuenta\BuscarCuentaCreada.UserCode.cs">
+      <BoundTo>f5295213-b982-4727-8b52-23b1a36977cf</BoundTo>
+      <DependentUpon>BuscarCuentaCreada.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bf62002b-d02b-48e6-97ae-5db9bdc6050c</id>
+    </Compile>
+    <Compile Include="CloseBrowser.cs">
+      <BoundTo>05485a62-2452-4897-85de-9319cf67530e</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>eae9a53d-842f-4fed-99be-1508a798e261</id>
+    </Compile>
+    <Compile Include="CloseBrowser.UserCode.cs">
+      <BoundTo>05485a62-2452-4897-85de-9319cf67530e</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e4376ec7-51fd-4d21-8c20-3ccf5e097c57</id>
+    </Compile>
+    <Compile Include="CrearCuentaEmpresa\BuscarCuentaCompania.cs">
+      <BoundTo>62090391-0616-4195-8b85-7fb1db550c9d</BoundTo>
+      <DependentUpon>BuscarCuentaCompania.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5a1ac0cc-5d0e-4ec5-83d1-44fd05f7725e</id>
+    </Compile>
+    <Compile Include="CrearCuentaEmpresa\BuscarCuentaCompania.UserCode.cs">
+      <BoundTo>62090391-0616-4195-8b85-7fb1db550c9d</BoundTo>
+      <DependentUpon>BuscarCuentaCompania.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d8d925c3-b70e-441c-b4eb-98793d9b65e5</id>
+    </Compile>
+    <Compile Include="CrearCuentaEmpresa\CrearCuentaCompania.cs">
+      <BoundTo>26202b84-5a7f-4929-85b8-1a4329659970</BoundTo>
+      <DependentUpon>CrearCuentaCompania.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a0700bf1-bb9c-4c5b-a279-236872835520</id>
+    </Compile>
+    <Compile Include="CrearCuentaEmpresa\CrearCuentaCompania.UserCode.cs">
+      <BoundTo>26202b84-5a7f-4929-85b8-1a4329659970</BoundTo>
+      <DependentUpon>CrearCuentaCompania.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>63baced2-eb94-46e3-9cd1-f7a5a07ced9d</id>
+    </Compile>
+    <Compile Include="CrearCuentaEmpresa\CrearCuentaCompaniaSinValidarCUIT.cs">
+      <BoundTo>3c436f8d-4783-43dd-8be5-7c2e55f8cccd</BoundTo>
+      <DependentUpon>CrearCuentaCompaniaSinValidarCUIT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4f48ed23-9148-4e8b-9ce1-87ed1facc260</id>
+    </Compile>
+    <Compile Include="CrearCuentaEmpresa\CrearCuentaCompaniaSinValidarCUIT.UserCode.cs">
+      <BoundTo>3c436f8d-4783-43dd-8be5-7c2e55f8cccd</BoundTo>
+      <DependentUpon>CrearCuentaCompaniaSinValidarCUIT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cb43e054-f924-4cd4-9a35-87570d2e6453</id>
+    </Compile>
+    <Compile Include="CrearCuentaEmpresa\CrearCuentaEmpresaValidaCUIT.cs">
+      <BoundTo>9b62c5e8-cfd2-4023-b80d-132151fc6671</BoundTo>
+      <DependentUpon>CrearCuentaEmpresaValidaCUIT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c05b527e-e1d7-4659-9c61-3a3dafc31e57</id>
+    </Compile>
+    <Compile Include="CrearCuentaEmpresa\CrearCuentaEmpresaValidaCUIT.UserCode.cs">
+      <BoundTo>9b62c5e8-cfd2-4023-b80d-132151fc6671</BoundTo>
+      <DependentUpon>CrearCuentaEmpresaValidaCUIT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6b98da2e-5b61-42af-9d3a-665ed0f4e958</id>
+    </Compile>
+    <Compile Include="CrearCuentaSinValidarDNI\BuscarCuentaSinValidarDNI.cs">
+      <BoundTo>8ad19881-c23f-4ac9-96d4-914b2edafc2a</BoundTo>
+      <DependentUpon>BuscarCuentaSinValidarDNI.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>16cb9f34-b7ad-4df0-bde4-a8ca95ff8248</id>
+    </Compile>
+    <Compile Include="CrearCuentaSinValidarDNI\BuscarCuentaSinValidarDNI.UserCode.cs">
+      <BoundTo>8ad19881-c23f-4ac9-96d4-914b2edafc2a</BoundTo>
+      <DependentUpon>BuscarCuentaSinValidarDNI.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a60af559-f141-464a-9787-0236d198b97d</id>
+    </Compile>
+    <Compile Include="CrearCuentaSinValidarDNI\BuscarGrupo.cs">
+      <BoundTo>1c9ecf88-2f67-40b1-b6fd-a02feca2c695</BoundTo>
+      <DependentUpon>BuscarGrupo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>df121e37-93d2-490d-bc13-4b54ce41deac</id>
+    </Compile>
+    <Compile Include="CrearCuentaSinValidarDNI\BuscarGrupo.UserCode.cs">
+      <BoundTo>1c9ecf88-2f67-40b1-b6fd-a02feca2c695</BoundTo>
+      <DependentUpon>BuscarGrupo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f3b4b513-08fd-4b5b-a1da-6ff73b9ae724</id>
+    </Compile>
+    <Compile Include="CrearCuentaSinValidarDNI\CargaDatosCuenta.cs">
+      <BoundTo>101e3e57-fe55-4b9f-820e-06b4dea62746</BoundTo>
+      <DependentUpon>CargaDatosCuenta.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>00f41493-09da-4eb5-b773-f8c289071217</id>
+    </Compile>
+    <Compile Include="CrearCuentaSinValidarDNI\CargaDatosCuenta.UserCode.cs">
+      <BoundTo>101e3e57-fe55-4b9f-820e-06b4dea62746</BoundTo>
+      <DependentUpon>CargaDatosCuenta.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>78694549-cce5-49f5-a386-cbf9e797caa9</id>
+    </Compile>
+    <Compile Include="CrearCuentaValidaDNI\BuscarCuentaValidaDNI.cs">
+      <BoundTo>a82ad04b-2932-4ddd-9552-2a93a909ea2f</BoundTo>
+      <DependentUpon>BuscarCuentaValidaDNI.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6887c4d3-ce91-444f-b2e6-ea98d0bff1ce</id>
+    </Compile>
+    <Compile Include="CrearCuentaValidaDNI\BuscarCuentaValidaDNI.UserCode.cs">
+      <BoundTo>a82ad04b-2932-4ddd-9552-2a93a909ea2f</BoundTo>
+      <DependentUpon>BuscarCuentaValidaDNI.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1ef00b23-1037-442b-a39e-d190a680d28e</id>
+    </Compile>
+    <Compile Include="CrearCuentaValidaDNI\CargaDatosCuentaValidaDNI.cs">
+      <BoundTo>256dec0f-fcd0-46e1-a3cd-1e0de35cd820</BoundTo>
+      <DependentUpon>CargaDatosCuentaValidaDNI.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2e0adcc2-d281-4fea-9a8f-4c915799c2d0</id>
+    </Compile>
+    <Compile Include="CrearCuentaValidaDNI\CargaDatosCuentaValidaDNI.UserCode.cs">
+      <BoundTo>256dec0f-fcd0-46e1-a3cd-1e0de35cd820</BoundTo>
+      <DependentUpon>CargaDatosCuentaValidaDNI.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d46087ea-4efe-454d-ad43-10f77b46617a</id>
+    </Compile>
+    <Compile Include="Login\Login.cs">
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7001d8eb-acf9-4578-9586-efd48b956d09</id>
+      <BoundTo>8f0be37f-ee9c-4814-83ef-5c9b6c08296c</BoundTo>
+    </Compile>
+    <Compile Include="Login\Login.UserCode.cs">
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fcadeea6-65c2-46e2-a2ad-a0a5a56aa260</id>
+      <BoundTo>8f0be37f-ee9c-4814-83ef-5c9b6c08296c</BoundTo>
+    </Compile>
+    <Compile Include="LogOut\LogOut.cs">
+      <BoundTo>7a3b4c8e-2c3e-403f-9f87-b04c005e92ab</BoundTo>
+      <DependentUpon>LogOut.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4a266e88-4f37-4df6-bda1-85a4bd767393</id>
+    </Compile>
+    <Compile Include="LogOut\LogOut.UserCode.cs">
+      <BoundTo>7a3b4c8e-2c3e-403f-9f87-b04c005e92ab</BoundTo>
+      <DependentUpon>LogOut.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>feaaa8b6-0bb0-4e89-b5e0-8d5c3c0e04a2</id>
+    </Compile>
+    <Compile Include="MenuEscritorioCuentaAnonima.cs">
+      <BoundTo>7791dec1-ea9f-46c6-89a3-d813acd7a090</BoundTo>
+      <DependentUpon>MenuEscritorioCuentaAnonima.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4eba6491-5c77-4f8d-abbf-864c593b21a7</id>
+    </Compile>
+    <Compile Include="MenuEscritorioCuentaAnonima.UserCode.cs">
+      <BoundTo>7791dec1-ea9f-46c6-89a3-d813acd7a090</BoundTo>
+      <DependentUpon>MenuEscritorioCuentaAnonima.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8fefc975-cf90-4b54-aec1-d52eb111247b</id>
+    </Compile>
+    <Compile Include="OpenBrowser.cs">
+      <BoundTo>46e4e682-39d7-455e-96b4-9e6415f78fae</BoundTo>
+      <DependentUpon>OpenBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c90d3318-75bf-477a-be6f-8ef26ff1e8f8</id>
+    </Compile>
+    <Compile Include="OpenBrowser.UserCode.cs">
+      <BoundTo>46e4e682-39d7-455e-96b4-9e6415f78fae</BoundTo>
+      <DependentUpon>OpenBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7d076bc3-1b8d-406e-8898-7a296bcd9a9b</id>
+    </Compile>
+    <Compile Include="PCQARepository.cs">
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
+      <DependentUpon>PCQARepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>eb1ad5aa-ec3a-467a-8cfe-bccc82fbcb03</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>2ed29f59-a6e3-40bd-b1e6-514b362237b1</id>
+    </Compile>
+    <Compile Include="Rehabilitar\Rehabilitar.cs">
+      <BoundTo>19705d1c-89b1-49f8-a4d0-7b52661867f6</BoundTo>
+      <DependentUpon>Rehabilitar.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>79575b7a-e06c-4dae-8fa3-c9fa4e7094de</id>
+    </Compile>
+    <Compile Include="Rehabilitar\Rehabilitar.UserCode.cs">
+      <BoundTo>19705d1c-89b1-49f8-a4d0-7b52661867f6</BoundTo>
+      <DependentUpon>Rehabilitar.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6e9e1d36-b4fe-4408-b727-7c75ad014316</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anular\AnulaPoliza.rxrec">
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
+      <id>20db9d22-2cc8-4b81-839a-2b009a5807bc</id>
+      <recordtableid>7255da00-480d-461c-a448-6c665cc6ccdc</recordtableid>
+    </None>
+    <None Include="Anular\BuscaPoliza.rxrec">
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
+      <id>8c5293c7-1ced-442c-994d-eb8bb10d4d2d</id>
+      <recordtableid>3979a088-f87a-4eda-916c-6ac51b54dd9b</recordtableid>
+    </None>
+    <None Include="app.config">
+      <id>436d9dcc-11b6-4930-8adc-8c048b3b485b</id>
+    </None>
+    <None Include="BuscarCuentaAnswer.rxrec">
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
+      <id>37b95576-610f-4ac1-a514-068903486430</id>
+      <recordtableid>e50924db-a305-40b4-bb27-2360f7b99fc3</recordtableid>
+    </None>
+    <None Include="BuscarCuenta\BuscarCuentaCreada.rxrec">
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
+      <id>f5295213-b982-4727-8b52-23b1a36977cf</id>
+      <recordtableid>1f61798e-0d10-4bd6-801c-f4f4318c50fe</recordtableid>
+    </None>
+    <None Include="CloseBrowser.rxrec">
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
+      <id>05485a62-2452-4897-85de-9319cf67530e</id>
+      <recordtableid>737d7ede-8d83-4bbd-9558-750c7ed97f03</recordtableid>
+    </None>
+    <None Include="CrearCuentaEmpresa\BuscarCuentaCompania.rxrec">
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
+      <id>62090391-0616-4195-8b85-7fb1db550c9d</id>
+      <recordtableid>b244f87c-c2dc-4b2c-95b8-8617f5a2dc30</recordtableid>
+    </None>
+    <None Include="CrearCuentaEmpresa\CrearCuentaCompania.rxrec">
+      <id>26202b84-5a7f-4929-85b8-1a4329659970</id>
+      <recordtableid>3fd738df-2a3d-4f63-9e33-82c60c470629</recordtableid>
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
+    </None>
+    <None Include="CrearCuentaEmpresa\CrearCuentaCompaniaSinValidarCUIT.rxrec">
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
+      <id>3c436f8d-4783-43dd-8be5-7c2e55f8cccd</id>
+      <recordtableid>273e0e5a-bf26-4c5e-9a1e-26bb7dbff4bc</recordtableid>
+    </None>
+    <None Include="CrearCuentaEmpresa\CrearCuentaEmpresaValidaCUIT.rxrec">
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
+      <id>9b62c5e8-cfd2-4023-b80d-132151fc6671</id>
+      <recordtableid>10ef46c3-18df-441d-b5ac-98544abdbd4e</recordtableid>
+    </None>
+    <None Include="CrearCuentaSinValidarDNI\BuscarCuentaSinValidarDNI.rxrec">
+      <id>8ad19881-c23f-4ac9-96d4-914b2edafc2a</id>
+      <recordtableid>d8ff6eaa-5aea-464c-a14e-a23960ad79b1</recordtableid>
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
+    </None>
+    <None Include="CrearCuentaSinValidarDNI\BuscarGrupo.rxrec">
+      <id>1c9ecf88-2f67-40b1-b6fd-a02feca2c695</id>
+      <recordtableid>aac03aae-ea94-4ab9-a2c8-d3b1fadfd2b0</recordtableid>
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
+    </None>
+    <None Include="CrearCuentaSinValidarDNI\CargaDatosCuenta.rxrec">
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
+      <id>101e3e57-fe55-4b9f-820e-06b4dea62746</id>
+      <recordtableid>4fb65585-9668-457e-a44b-b10809cf1ec9</recordtableid>
+    </None>
+    <None Include="CrearCuentaValidaDNI\BuscarCuentaValidaDNI.rxrec">
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
+      <id>a82ad04b-2932-4ddd-9552-2a93a909ea2f</id>
+      <recordtableid>b933c9d6-561a-44ce-a619-6c107d6844f5</recordtableid>
+    </None>
+    <None Include="CrearCuentaValidaDNI\CargaDatosCuentaValidaDNI.rxrec">
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
+      <id>256dec0f-fcd0-46e1-a3cd-1e0de35cd820</id>
+      <recordtableid>6ad964e9-26ee-4db5-a6dc-03fcd1ae7d02</recordtableid>
+    </None>
+    <None Include="Login\Login.rxrec">
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
+      <id>8f0be37f-ee9c-4814-83ef-5c9b6c08296c</id>
+      <recordtableid>570f2e8a-441d-44b3-8154-9f41958b5f14</recordtableid>
+    </None>
+    <None Include="LogOut\LogOut.rxrec">
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
+      <id>7a3b4c8e-2c3e-403f-9f87-b04c005e92ab</id>
+      <recordtableid>e63d618d-91f9-4211-a7c3-02920791d1e2</recordtableid>
+    </None>
+    <None Include="MenuEscritorioCuentaAnonima.rxrec">
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
+      <id>7791dec1-ea9f-46c6-89a3-d813acd7a090</id>
+      <recordtableid>d7396c5d-ccc1-4102-986a-8305de934e20</recordtableid>
+    </None>
+    <None Include="OpenBrowser.rxrec">
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
+      <id>46e4e682-39d7-455e-96b4-9e6415f78fae</id>
+      <recordtableid>77b83fe9-3cd4-494b-b78d-a23cf13206b8</recordtableid>
+    </None>
+    <None Include="PCQARepository.rximg">
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
+      <DependentUpon>PCQARepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>c24645a0-ae57-4783-98e3-86c2a9327597</id>
+    </None>
+    <None Include="PCQARepository.rxrep">
+      <id>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</id>
+      <repoid>5d2c35e0-6077-4570-87f1-66cae739d1c2</repoid>
+      <reporootid>2ca9e9c2-7d61-47da-a3e1-f1acb74838d1</reporootid>
+    </None>
+    <None Include="Rehabilitar\Rehabilitar.rxrec">
+      <id>19705d1c-89b1-49f8-a4d0-7b52661867f6</id>
+      <recordtableid>40d80169-c6e6-47fe-a50b-2dcb305f9f8d</recordtableid>
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="NewCustomTemplate1\RanorexReport.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>5b73a2b1-7bb0-440d-9c7a-bb9e5e918d41</id>
+    </Content>
+    <Content Include="NewCustomTemplate1\RanorexReport.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>a252be8d-2805-445e-adb4-380340a77035</id>
+    </Content>
+    <Content Include="NewCustomTemplate1\RanorexReport.xsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>ab0b485a-228b-4650-9a26-fe4a5ea09a1b</id>
+    </Content>
+    <Content Include="NewCustomTemplate1\View.rxlog">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>82e5b550-312d-4f8c-9f47-8727b0fade44</id>
+    </Content>
+    <Content Include="NewCustomTemplate1\View.rxlog.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>c08cb4cb-70f9-4b9b-af99-b5e65393f78e</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\RanorexReport.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>b694e8b5-917f-4f8a-8283-169a91348751</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\RanorexReport.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>e439d64b-4460-487c-95c6-cf7ef9d6174d</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\RanorexReport.xsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>43ac2dd2-f877-4b7a-85f1-9cb170e67195</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\View.rxlog">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>80bef4ab-942e-4a24-9d7a-f98d6f79c941</id>
+    </Content>
+    <Content Include="NewCustomTemplate2\View.rxlog.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>9c0bff39-213f-4821-97e7-51d26d3ad7db</id>
+    </Content>
+    <Content Include="NewCustomTemplate3\RanorexReport.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>7415e923-bb8c-4570-9e49-8ae6ee63b5ad</id>
+    </Content>
+    <Content Include="NewCustomTemplate3\RanorexReport.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>7295dfb4-2ffe-4c7d-bd72-9168830b681e</id>
+    </Content>
+    <Content Include="NewCustomTemplate3\RanorexReport.xsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>dc3cd070-86b5-4bc9-be81-c38a6bfe7b13</id>
+    </Content>
+    <Content Include="NewCustomTemplate3\View.rxlog">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>a999a2f1-d7c0-4650-a6d2-d4bf79628726</id>
+    </Content>
+    <Content Include="NewCustomTemplate3\View.rxlog.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>54162e9e-0fa4-40d5-96a0-dc53c520fda3</id>
+    </Content>
+    <Content Include="PCQA.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>44d07573-eeae-4d9d-a9cf-b44cd072ffd2</id>
+    </Content>
+    <Content Include="PCQA.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>9c872d4b-bfb7-48b7-b5d8-97ef68519880</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Login">
+      <id>1a542d02-6438-4370-a4b7-0a237eab14c0</id>
+    </Folder>
+    <Folder Include="CrearCuentaSinValidarDNI">
+      <id>4e231965-d7af-44f9-a6c7-121288161edf</id>
+    </Folder>
+    <Folder Include="Anular">
+      <id>9924269d-36b0-4872-8cb7-0f6a3d50fb06</id>
+    </Folder>
+    <Folder Include="BuscarCuenta">
+      <id>03fedf8b-6e10-4666-95eb-8308d3a6462d</id>
+    </Folder>
+    <Folder Include="LogOut">
+      <id>67258557-9566-4953-8053-07195e9bcf64</id>
+    </Folder>
+    <Folder Include="CrearCuentaValidaDNI">
+      <id>fa6b4c8c-2e61-4aa8-bdfc-227ca218c9be</id>
+    </Folder>
+    <Folder Include="CrearCuentaEmpresa">
+      <id>5ef68bc6-bdde-467f-a630-6820fb88e4e7</id>
+    </Folder>
+    <Folder Include="Rehabilitar">
+      <id>d0714c33-bbed-490c-a0b3-787f6b7f2d44</id>
+    </Folder>
+    <Folder Include="NewCustomTemplate1">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>d95130bf-9bd8-46a9-85ae-54d5f6518cb4</id>
+    </Folder>
+    <Folder Include="NewCustomTemplate2">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>05b74ff4-c7c0-4c1e-b8e7-33886e88729b</id>
+    </Folder>
+    <Folder Include="NewCustomTemplate3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>b75b7433-0b9d-4d75-8f46-79972fc7df31</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

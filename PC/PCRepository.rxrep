@@ -1,0 +1,474 @@
+﻿<repository
+id="be4a7659-5b11-4326-a6bc-23e245d72064"
+name="PCRepository">
+	<codegen
+	classname="PCRepository"
+	namespace="PC">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="3e665b01-86e8-4e71-9c8c-f1835f8b6333"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="eb0176e0-0cae-4fc3-a130-f8f9ba895327"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		refimgid="f105e4e1-6543-46f1-a929-c7848d83d3b9"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="7df403d9-e8a4-483c-98e4-5b38cbaf633e"
+			name="LoginLoginScreenLoginDVPassword"
+			refimgid="713ca1b8-01ee-4df0-93d4-a0660ee77265"
+			searchtimeout="30000ms">
+				/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'Login-tbody']/tr[3]/td/?/?/table/tbody/tr[2]/td/div/div//input[@name='Login:LoginScreen:LoginDV:password']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="155e4322-09e0-46b9-9d27-28a5268c0522"
+			name="LogIn"
+			refimgid="341d88a1-3f9b-4d07-88da-e25683b1d884"
+			searchtimeout="30000ms">
+				/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'Login-tbody']/tr[3]//table/tbody/tr[3]/td/div/div/?/?/table/?/?/tr/td/a//span[@innertext='Log In' or @innertext='Iniciar sesi&#243;n']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="46d5e9c3-f018-4484-9c36-1b5332d3dba5"
+			name="MisSolicitudesDePoliza"
+			refimgid="00673b8d-b58f-46fc-a22f-c2c3d52c48cc"
+			searchtimeout="30000ms">
+				/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'DesktopSubmissions-tbody']/tr[1]/td/div//span[@innertext='Mis solicitudes de p&#243;liza']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="d0600a6d-0a32-4819-b404-0ebd173c9fdd"
+			name="LoginLoginScreenLoginDVUsername"
+			refimgid="c74a6a5b-fcd4-4428-9b45-81190fc0a792"
+			searchtimeout="30000ms">
+				/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'Login-tbody']/tr[3]/td/?/?/table/tbody/tr[1]/td/div/div//input[@name='Login:LoginScreen:LoginDV:username']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="d40481b5-c9e9-45fc-a336-c278be5f052a"
+			name="XBtnSplitXBtnSplitRightXBtnWrap"
+			refimgid="c96acd90-4985-4cb4-8128-d3eb7910a19f"
+			searchtimeout="30000ms">
+				/dom[@domain='i-preproducciongestion.segurossura.com.ar']//a[#'TabBar:AccountTab']/span
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="1a957adb-768b-4a2f-bd97-6afcd0ebfcb4"
+			name="NuevaCuenta"
+			refimgid="d329ce3e-1076-49c5-aced-fa750ef49d34"
+			searchtimeout="30000ms">
+				/dom[@domain='i-preproducciongestion.segurossura.com.ar']/body/div[11]/div/div[2]/div/div[1]/?/?/span[@innertext='Nueva cuenta']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="a4de3e2c-8621-4001-ab3d-8673765257fa"
+			name="NewAccountNewAccountScreenNewAccountSe"
+			refimgid="4cfc6e1b-d826-467e-ac9c-8d4893be8e28"
+			searchtimeout="30000ms">
+				/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'NewAccount-tbody']/tr[4]/td/?/?/table/tbody/tr[4]/td/div/div//input[@name='NewAccount:NewAccountScreen:NewAccountSearchDV:GlobalPersonNameInputSet:FirstName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="350e2d47-556b-4811-942b-2ee2c71ab08e"
+			name="NewAccountNewAccountScreenNewAccountSe1"
+			refimgid="ddacd1cd-84b4-48be-9c28-d644ea7aa56a"
+			searchtimeout="30000ms">
+				/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'NewAccount-tbody']/tr[4]/td/?/?/table/tbody/tr[5]/td/div/div//input[@name='NewAccount:NewAccountScreen:NewAccountSearchDV:GlobalPersonNameInputSet:LastName']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="64e91ac3-3e5b-4669-9ffc-658fc284adfe"
+			name="Bucar"
+			refimgid="d16f4a59-3703-4f44-924b-5e71f3d38eac"
+			searchtimeout="30000ms">
+				/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'NewAccount-tbody']/tr[4]//table/tbody/tr[12]/td/div/div/?/?/table/?/?/tr/td[1]/a[@innertext='Bucar']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="29732883-eb8c-479a-8694-950dfd13b13b"
+			name="Btn_crearCuentaNueva"
+			refimgid="b66be81a-4157-48ff-8e00-ee87711c085b"
+			searchtimeout="30000ms">
+				/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'NewAccount-tbody']/tr[5]/td/div/table/tbody//span
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="0c15d93f-08d3-45b1-b57e-f15206fdb409"
+			name="SomeDivTag"
+			searchtimeout="30000ms">
+				/dom[@domain='i-preproducciongestion.segurossura.com.ar']/body/div
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="4d8cd9f1-a7cf-4474-a138-4f19730310a5"
+			name="Seleccionar"
+			refimgid="6318a484-25bf-4ea8-a4a9-04ebe69448a0"
+			searchtimeout="30000ms">
+				/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'VerifiedAddressSelectionPopup-tbody']/tr[3]/td/div/div[3]/div[1]/div/table[1]/?/?/tr/td[1]/?/?/a[@innertext='Seleccionar']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="2e5825e8-81c6-4a18-a8c7-531d6e864e0c"
+			name="GroupSearchPopupGroupSearchPickerScreen"
+			refimgid="97abaefb-6370-44f0-a878-d067964eed5c"
+			searchtimeout="30000ms">
+				/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'GroupSearchPopup-tbody']/tr[3]/td/?/?/table/tbody/tr[3]/td/div/div//input[@name='GroupSearchPopup:GroupSearchPickerScreen:GroupSearchDV:ProducerCode']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="674ccd4b-55a8-4c20-b37f-4926deffc107"
+			name="Bucar1"
+			refimgid="901ea2c1-08f0-4091-88d2-eb1a6a30dd68"
+			searchtimeout="30000ms">
+				/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'GroupSearchPopup-tbody']/tr[3]//table/tbody/tr[5]/td/div/div/?/?/table/?/?/tr/td[1]/a[@innertext='Bucar']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="565c1f32-45fe-48a1-9d9c-538650fb3f73"
+			name="Seleccionar1"
+			refimgid="67c06b6d-4894-4a93-9ca3-7952f8e54f80"
+			searchtimeout="30000ms">
+				/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'GroupSearchPopup-tbody']/tr[4]/td/div/div[4]/div[1]/div/table[2]/?/?/tr/td[1]/?/?/a[@innertext='Seleccionar']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="96676929-e5be-44ed-a177-cc819ff5b9c0"
+			name="SpanTagU"
+			refimgid="b242a369-8dda-40b7-ade3-222f1cffa869"
+			searchtimeout="30000ms">
+				/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'CreateAccount-tbody']/tr[2]/td/div/div/div/a[1]//span[@innertext='Actalizar']/span[@innertext='u']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="dbcefda5-e6c2-44b3-853d-8c970bf25aa7"
+			name="ResumenDelArchivoDeCuenta"
+			refimgid="98d6061f-9c08-4442-9474-07afcd8af6a6"
+			searchtimeout="30000ms">
+				/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'AccountFile_Summary-tbody']/tr[1]/td/div//span[@innertext&gt;'Resumen del archivo de cu']
+			</item>
+			<folder
+			capname="table"
+			id="17150edf-cf8d-48be-bd87-02fefb0ed618"
+			isrooted="True"
+			name="XTableLayout"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="608e54cf-a790-4d28-bc40-26960345db6e"
+				name="XGridCellInner"
+				refimgid="72db1153-2855-4d8b-9513-f5c770c77781"
+				searchtimeout="30000ms">
+					/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[2]/td/div/div[3]/div[1]/div/table/tbody/tr/td[2]/div
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="divtag"
+				id="e7d84e7e-64ab-43f6-833f-bf6406a5968b"
+				name="OfficialIDType"
+				refimgid="6c559141-8617-4b6b-b067-f3e96da120ca"
+				searchtimeout="30000ms">
+					/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[2]/td/div/div[3]/div[1]/?/?/table/?/?/tr/td[2]/div
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="bbf6732c-c653-41f7-9fff-8ce5e8efdd41"
+				name="ValidarDocumento"
+				refimgid="3b75d87b-c845-49e4-9a27-7804b6ec6f4d"
+				searchtimeout="30000ms">
+					/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[3]/td/div/div/div/table/tbody/tr/td/a//span[@innertext='Validar Documento']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="0891448d-0d1c-4970-9c5d-889e7ac2b30a"
+				name="Nombre"
+				refimgid="0c953e6e-15ee-44d8-9e14-0846a69d6d32"
+				searchtimeout="30000ms">
+					/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[5]//label/span[@innertext='Nombre']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="a040817d-12b4-4216-b441-71c98dd99282"
+				name="OfficialIDValue"
+				refimgid="4aeca644-2e7a-411a-8349-da154d951041"
+				refpath="/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'CreateAccount-tbody']/tr[4]/td/div/table/tbody/tr/td/div/table/tbody/tr/td[1]/div/table/tbody/tr[2]/td/div/div[3]/div[1]/div[3]/div/div/div/div/input[@name='OfficialIDValue']"
+				searchtimeout="30000ms">
+					/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[2]/td/div/div[3]/div[1]/div[3]/div/div/div/?/?/input[@name='OfficialIDValue']
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="atag"
+				id="ade1c2f6-13ff-4ae2-9e84-e12825748224"
+				name="HttpsIPreproducciongestionSegurossu"
+				refimgid="39d8376a-124a-48e8-9304-98cf9648942b"
+				searchtimeout="30000ms">
+					/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[22]/td/div/div/div/div/div/div/div[3]/a[@href='javascript:void(0)']
+				</item>
+				<basepath>
+					/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table
+				</basepath>
+			</folder>
+			<folder
+			capname="table"
+			id="db136f04-4f71-444f-98d2-f3126ebf80da"
+			isrooted="True"
+			name="CreateAccountSuraCreateAccountScreenCr"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="ded0c93d-8046-483a-97c5-9ae2d2fab89a"
+				name="HttpsSsurgwsoadev4OpcOracleoutsourc"
+				refimgid="5da18d9c-8ad7-4a98-9c1e-f841b7d68f53"
+				searchtimeout="30000ms">
+					/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[22]/td/div/div/div/div/div/div/div[3]/a[@href='javascript:void(0)']/img[@src~'drop_button.png']
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="5ae41654-54a6-44d0-96d1-5100d315bdce"
+				name="Copy_of_HttpsSsurgwsoadev4OpcOracleoutsourc"
+				refimgid="5da18d9c-8ad7-4a98-9c1e-f841b7d68f53"
+				searchtimeout="30000ms">
+					/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[22]/td/div/div/div/div/div/div/div[3]/a[@href='javascript:void(0)']/img[@src~'drop_button.png']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="51a58d50-9631-4915-9526-298ed351fabe"
+				name="XFormArrowTriggerXFormArrowTrigge"
+				refimgid="131db580-6bbe-4a42-ad6a-2c0f16cd5751"
+				searchtimeout="30000ms">
+					/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[23]/td/div/div/div/div[2]
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="8b42ad17-14ea-4325-849e-073b825588be"
+				name="GregarDocumento"
+				refimgid="b409c43f-56d0-405e-a05e-46e0319fa909"
+				searchtimeout="30000ms">
+					/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'CreateAccount-tbody']/tr[4]//table//td/?/?/table/tbody/tr/td[1]/?/?/table/tbody/tr[2]/td/div/div[1]/div/div/a[1]//span[@innertext='gregar Documento']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="094e72cc-5e2c-4c1c-9855-3832022da663"
+				name="XGridCellInner"
+				refimgid="a82b4064-03e4-49a8-ada2-91f674933a98"
+				searchtimeout="30000ms">
+					/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'CreateAccount-tbody']/tr[4]//table/tbody/tr//table/?/?/tr/td[1]/?/?/table/tbody/tr[2]/td/div/div[3]/div[1]/div[1]/table/?/?/tr/td[3]/div
+				</item>
+				<basepath>
+					/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'CreateAccount-tbody']/tr[4]//table
+				</basepath>
+			</folder>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="3295ec1b-83ac-4346-8f0b-16ea0f9b4b44"
+			isrooted="True"
+			name="NorthPanel"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="b96813d3-24f4-4294-92af-e6489c7d84cd"
+				name="LiTag2302MattioliLuisFederico"
+				refimgid="0638b9dd-c60e-40ee-b7a5-d14de0006085"
+				searchtimeout="30000ms">
+					/dom[@domain='i-preproducciongestion.segurossura.com.ar']/body/div[12]/?/?/ul/li[@innertext&gt;'2302 Mattioli Luis Federi']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="1a1b6758-e117-4405-8d97-55e8fee82e7c"
+				name="BuscarGrupo"
+				refimgid="ed1c931e-7661-4128-8371-c4ed9ac9be6d"
+				searchtimeout="30000ms">
+					/dom[@domain='i-preproducciongestion.segurossura.com.ar']/body/div[12]/div/div[2]//span[@innertext='Buscar grupo...']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="01da156b-4ebf-46e5-b292-6c0480a4527d"
+				name="Personal"
+				refimgid="86a867a4-99f9-431c-a1ae-75322301b22d"
+				searchtimeout="30000ms">
+					/dom[@domain='i-preproducciongestion.segurossura.com.ar']/body/div[12]/div/div[2]/div/div[2]/?/?/span[@innertext='Personal']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="86075013-f974-4ec9-828f-6f3f572c70f6"
+				name="XMenuItemLink"
+				refimgid="57be7644-36df-4b74-9ec0-5d91208a14ea"
+				refpath="/dom[@domain='i-preproducciongestion.segurossura.com.ar']/body/div[12]/div/div[2]/div/div[2]/a"
+				searchtimeout="30000ms">
+					/dom[@domain='i-preproducciongestion.segurossura.com.ar']/body/div[12]/div/div[2]/div/div[2]/a
+				</item>
+				<basepath>
+					/dom[@domain='i-preproducciongestion.segurossura.com.ar']/body/div[12]
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="320f8437-231e-4e22-b528-01c1f8703a91"
+			name="CrearCuenta"
+			refimgid="cc7cbe76-19a6-491a-9f98-8a2deb1aced8"
+			searchtimeout="30000ms">
+				/dom[@domain='i-preproducciongestion.segurossura.com.ar']//tbody[#'CreateAccount-tbody']/tr[1]/td/div//span[@innertext='Crear cuenta']
+			</item>
+			<item
+			capname="imgtag"
+			id="a10a8604-848b-4b09-b173-462356612a7e"
+			name="imagen"
+			searchtimeout="30000ms">
+				/dom[@domain='i-preproducciongestion.segurossura.com.ar']//img[@src='https://i-preproducciongestion.segurossura.com.ar/pc/resources/themes/theme-9/resources/images/app/drop_button.png']
+			</item>
+			<basepath>
+				/dom[@domain='i-preproducciongestion.segurossura.com.ar']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="menubar,nativewindow"
+		capname="menubar"
+		id="39e55bab-2071-4a95-b4f9-442d36077844"
+		isrooted="True"
+		name="Explorer"
+		refpath="/menubar[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="aa0cd09d-fed3-406c-a002-aff9b0b3ceb8"
+			name="MostrarEscritorio"
+			refimgid="d648888e-a063-4384-9a67-1e957395262f"
+			refpath="/menubar[@processname='explorer']/container[@controlid='303']/element/button[@accessiblename='Mostrar escritorio']"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/container[@controlid='303']/?/?/button[@accessiblename='Mostrar escritorio']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="4a48c31b-8d1f-4097-ae77-77e97e3a8677"
+			name="PCRanorexStudioAdministrator"
+			refimgid="bf2e4ac2-447f-4172-b069-479817b368f7"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[@accessiblename>'PC - Ranorex Studio (Admi']"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/?/?/container[@caption='Aplicaciones en ejecuci&#243;n']/?/?/toolbar[@accessiblename='Aplicaciones en ejecuci&#243;n']/button[@accessiblename&gt;'PC - Ranorex Studio (Admi']
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

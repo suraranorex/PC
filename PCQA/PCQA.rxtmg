@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="PCQA"
+      id="f622452b-6580-404a-bd0f-fe8f1b0d49f7"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="PCQA"
+      id="f622452b-6580-404a-bd0f-fe8f1b0d49f7"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

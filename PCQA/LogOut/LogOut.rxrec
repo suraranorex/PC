@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e63d618d-91f9-4211-a7c3-02920791d1e2"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="LogOut"
+	namespace="PCQA.LogOut">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="7;7"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="1ff88e17-cc7f-45a4-bdd3-44c20c968f3c"
+		sx="1350"
+		sy="115"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8ec3c794-5dfd-4a88-821f-8b5580cb2048"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="1343,108,12,12"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-icon-el x-btn-icon-el-plain-toolbar-small g-preferences-icon&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						:TabLinkMenuButton-btnIconEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						g-preferences-icon x-btn-icon-el x-btn-icon-el-plain-toolbar-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[#':TabLinkMenuButton-btnEl']/span[1]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="2e5c682a-6041-4ac9-a1af-e965d0da154b">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAAsADUDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKZk
+/wB40ZP940APopmT/eNVLvUY7SURyeYSV3fKBSbS3KjCU3aKL1FZX9t2/wDdm/75X/GpLfVYrmdY
+kEoZs4yBjpmlzI0dColdo0aKZk/3jRVGJmLLFsGbg5xz++P+NTaW7SQSFnZ8SEAk54wKrrpkoiKk
+Qk7SM57+vSrmn2zWtuUdgSWzxURTW4kWay7timtwMBnERP8A6FWpWPqUscOrQySqWQR8gdf4qJbH
+TQTcml2ZZlukibbLcCNm5GSAB+dQs5k1u2YjH7s/+zVXa5juvtG0H5LSXG4DP8OKVpJodSjme0bb
+EfKxG+8lipb27Gm9UrCh+7k1LTR/kblFNjdZY1kQ5VwGB9QaKZgZX27Uv+fP/wAhNR9u1L/nz/8A
+ITVtUUwMX7dqX/Pn/wCQmpr32pbSfsWSBx+6atyigDMt45LqVZJTDJbSQMoaMFc7iuQRn2NX/Ij8
+zfj5t+/Oe+3b/KqkJMOtTQIf3ckQmK+jZwcfXGfrU2oytBp88icMqEigDJtb3UFtIVS13IEUKfLY
+5GKK3IIlggjiUkrGoUE9cAYooA//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<explicitdelayitem
+		duration="3000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="bb77e35a-9830-4e62-ac77-225486f1497c"
+		sx="1278"
+		sy="273"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9be7722e-cc7c-497e-aa08-52de196d18e7"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="1218,264,120,18"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="False">
+					<attribute
+					name="class"
+					type="System.String">
+						x-menu-item-text x-menu-item-text-default x-menu-item-indent-no-separator
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						TabBar:LogoutTabBarLink-textEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Cerrar sesi&#243;n Super User
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-menu-item-indent-no-separator x-menu-item-text x-menu-item-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body/div[11]/div/div[2]/div/?/?/span[@innertext='Cerrar sesi&#243;n Super User']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="21;7"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="809e01f2-2b05-448c-9194-747db12a65bd"
+		sx="649"
+		sy="454"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="99a106c3-b9e1-4468-bdc3-8b253529044d"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="628,447,42,12"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						button-1005-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Aceptar
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-default-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext='Aceptar']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="1e617397-6c0e-44dc-a9cf-c074662aa310">
+				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
+BwOf1opcy/mD2f8AdP/Z
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="5d2c35e0-6077-4570-87f1-66cae739d1c2"
+	name="PCQARepository"
+	relativepath="..\PCQARepository.rxrep">
+		<codegen
+		classname="PCQARepository"
+		namespace="PCQA">
+		</codegen>
+		<rootfolder
+		id="2ca9e9c2-7d61-47da-a3e1-f1acb74838d1"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		LogOut.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="d7396c5d-ccc1-4102-986a-8305de934e20"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="MenuEscritorioCuentaAnonima"
+	namespace="PCQA">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="44;10"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="9afec70f-f7df-49ad-82bf-b547b00be6a0"
+		sx="62"
+		sy="164"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="290fe839-331d-4c66-8913-e6c8885332b0"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="18,154,74,21"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-btn-inner x-btn-inner-action-small
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						Desktop:DesktopMenuActions-btnInnerEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Nuevo ...
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-btn-inner x-btn-inner-action-small
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain~$Ambiente]//span[#'Desktop:DesktopMenuActions-btnInnerEl']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="84b5b2db-a089-41eb-8f6f-3c337271f774">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="99;10"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="0c13c995-fca7-4834-9cce-03f3abf13321"
+		sx="134"
+		sy="236"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c6ede219-10f5-4a8b-afdd-96ff26f91e40"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="35,226,136,20"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-menu-item-text x-menu-item-text-default x-menu-item-indent-no-separator x-menu-item-indent-right-arrow
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						Desktop:DesktopMenuActions:DesktopMenuActions_Create:DesktopMenuActions_NewAnonymousSubmission-textEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Nueva Solicitud An&#243;nima
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-menu-item-indent-no-separator x-menu-item-indent-right-arrow x-menu-item-text x-menu-item-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain~$Ambiente]/body/div[11]/div/div[2]/div/div[3]/?/?/span[@innertext='Nueva Solicitud An&#243;nima']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="8c7af4c5-b4b1-4b72-afa7-cce388a8a8d2">
+				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
+oACg9KKKKAP/2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="22;12"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="4393ef4b-1bee-412f-9ae5-43a23f691d4c"
+		sx="238"
+		sy="259"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="41081851-fbe5-4edc-9c75-fe23e2842c1f"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="216,247,45,20"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						x-menu-item-text x-menu-item-text-default x-menu-item-indent-no-separator
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						Desktop:DesktopMenuActions:DesktopMenuActions_Create:DesktopMenuActions_NewAnonymousSubmission:DesktopMenuActions_NewAnonymousSubmission_Person-textEl
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Persona
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						x-menu-item-indent-no-separator x-menu-item-text x-menu-item-text-default
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="unselectable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain~$Ambiente]/body/div[13]/div/div[2]//span[@innertext='Persona']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="dbc5aa47-7edc-48d4-bd59-8d506dfc877b">
+				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
+rdFAH//Z
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="5d2c35e0-6077-4570-87f1-66cae739d1c2"
+	name="PCQARepository"
+	relativepath="PCQARepository.rxrep">
+		<codegen
+		classname="PCQARepository"
+		namespace="PCQA">
+		</codegen>
+		<rootfolder
+		id="2ca9e9c2-7d61-47da-a3e1-f1acb74838d1"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		MenuEscritorioCuentaAnonima.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
