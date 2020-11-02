@@ -14,6 +14,24 @@
 					variableid="6035d2ea-8259-4cbf-86da-a0ed267b3c8e"
 					variablename="NroCuenta">
 					</var>
+					<var
+					dataname="Ambiente"
+					datasourceid="1e9ef14c-1c83-482e-b53b-167dbe51be03"
+					variableid="6220ee55-3dcc-4717-9260-d89ec7bc2052"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="PAS"
+					datasourceid="1e9ef14c-1c83-482e-b53b-167dbe51be03"
+					variableid="f0ddb07f-2986-4e1d-bb32-e20ae95ac80f"
+					variablename="PAS">
+					</var>
+					<var
+					dataname="NombreProductor"
+					datasourceid="1e9ef14c-1c83-482e-b53b-167dbe51be03"
+					variableid="88b5136d-85bb-4c8c-bc17-dacfb1fe6f47"
+					variablename="NombreProductor">
+					</var>
 				</databinding>
 			</testmodule>
 			<testmodule
@@ -196,6 +214,26 @@
 			name="BuscarCuentaValidaDNI"
 			ref="b933c9d6-561a-44ce-a619-6c107d6844f5"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="1e9ef14c-1c83-482e-b53b-167dbe51be03"
+					variableid="6220ee55-3dcc-4717-9260-d89ec7bc2052"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Name"
+					datasourceid="1e9ef14c-1c83-482e-b53b-167dbe51be03"
+					variableid="ab4a6b88-8df3-4b52-9965-e76b22404efb"
+					variablename="Name">
+					</var>
+					<var
+					dataname="LastName"
+					datasourceid="1e9ef14c-1c83-482e-b53b-167dbe51be03"
+					variableid="70e3d0de-f91d-4294-8614-905cb961e450"
+					variablename="LastName">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="30ea0dff-33d2-4a8a-a997-a5ce58b4cf19"
@@ -269,6 +307,14 @@
 			name="LogOut"
 			ref="e63d618d-91f9-4211-a7c3-02920791d1e2"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="1e9ef14c-1c83-482e-b53b-167dbe51be03"
+					variableid="6220ee55-3dcc-4717-9260-d89ec7bc2052"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="405374ef-be0e-497f-8a15-1924f411609b"
@@ -375,6 +421,20 @@
 			name="CargaDatosCuentaValidaDNI"
 			ref="6ad964e9-26ee-4db5-a6dc-03fcd1ae7d02"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="1e9ef14c-1c83-482e-b53b-167dbe51be03"
+					variableid="6220ee55-3dcc-4717-9260-d89ec7bc2052"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Documento"
+					datasourceid="1e9ef14c-1c83-482e-b53b-167dbe51be03"
+					variableid="2111a245-abab-4d7a-84db-2a33e00f6211"
+					variablename="Documento">
+					</var>
+				</databinding>
 			</testmodule>
 			<testcase
 			datasource="CrearCuentaEmpresaUber"
@@ -510,6 +570,14 @@
 				<description>
 					<![CDATA[Open Browser]]>
 				</description>
+				<databinding>
+					<var
+					dataname="URL"
+					datasourceid="1e9ef14c-1c83-482e-b53b-167dbe51be03"
+					variableid="f0ac4abb-63c8-4580-8b0c-edf06d57600a"
+					variablename="URL">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="7dbab127-8fe9-4d61-bc4b-d3dbcc17277b"
@@ -680,12 +748,11 @@
 			name="teardown">
 			</teardown>
 			<testcase
-			datarangeactive="True"
 			datasource="xls_CuentasNuevas"
 			errorbehavior="ContinueNextIteration"
 			id="9ff78c3e-6440-429c-8263-52f6f7de3e2f"
-			maxrange="0"
-			minrange="0"
+			maxrange="1"
+			minrange="1"
 			name="CrearCuentaSinValidateDNI">
 				<description>
 					<![CDATA[PC QA - Caso de Prueba - Creacion Cuenta Sin validar documento]]>
@@ -748,6 +815,14 @@
 			name="CloseBrowser"
 			ref="737d7ede-8d83-4bbd-9558-750c7ed97f03"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="1e9ef14c-1c83-482e-b53b-167dbe51be03"
+					variableid="6220ee55-3dcc-4717-9260-d89ec7bc2052"
+					variablename="Ambiente">
+					</var>
+				</databinding>
 			</testmodule>
 			<setup
 			id="af237f2b-445e-4d9a-a9d8-cfd3f9f60e3b"
@@ -1028,6 +1103,26 @@
 				<description>
 					<![CDATA[Login]]>
 				</description>
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="1e9ef14c-1c83-482e-b53b-167dbe51be03"
+					variableid="6220ee55-3dcc-4717-9260-d89ec7bc2052"
+					variablename="Ambiente">
+					</var>
+					<var
+					dataname="Usuario"
+					datasourceid="1e9ef14c-1c83-482e-b53b-167dbe51be03"
+					variableid="4634ac89-0e8c-40f5-beee-c2e85cdc9c19"
+					variablename="Usuario">
+					</var>
+					<var
+					dataname="Contrasenia"
+					datasourceid="1e9ef14c-1c83-482e-b53b-167dbe51be03"
+					variableid="73e07acd-5c08-45d2-ab32-1efdcf6fa2f0"
+					variablename="Contrasenia">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="e70db6ff-18aa-4c21-a2d3-d657d0b7e867"
@@ -1646,6 +1741,12 @@
 					Documento
 				</column>
 				<column>
+					IVA
+				</column>
+				<column>
+					IBB
+				</column>
+				<column>
 					PAS
 				</column>
 				<column>
@@ -1700,7 +1801,7 @@
 		filename="R:\PC\DataSources\ExcelDatosCuentas.xlsx"
 		id="57b5df72-945a-40da-9f29-9b4998c89f02"
 		includefile="Unchecked"
-		lastknownrowcount="9"
+		lastknownrowcount="3"
 		name="xls_CuentasNuevas"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"

@@ -104,6 +104,9 @@
     <Reference Include="Ranorex.Plugin.Wpf">
       <Private>False</Private>
     </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -473,66 +476,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="NewCustomTemplate1\RanorexReport.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>5b73a2b1-7bb0-440d-9c7a-bb9e5e918d41</id>
-    </Content>
-    <Content Include="NewCustomTemplate1\RanorexReport.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>a252be8d-2805-445e-adb4-380340a77035</id>
-    </Content>
-    <Content Include="NewCustomTemplate1\RanorexReport.xsl">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>ab0b485a-228b-4650-9a26-fe4a5ea09a1b</id>
-    </Content>
-    <Content Include="NewCustomTemplate1\View.rxlog">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>82e5b550-312d-4f8c-9f47-8727b0fade44</id>
-    </Content>
-    <Content Include="NewCustomTemplate1\View.rxlog.data">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>c08cb4cb-70f9-4b9b-af99-b5e65393f78e</id>
-    </Content>
-    <Content Include="NewCustomTemplate2\RanorexReport.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>b694e8b5-917f-4f8a-8283-169a91348751</id>
-    </Content>
-    <Content Include="NewCustomTemplate2\RanorexReport.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>e439d64b-4460-487c-95c6-cf7ef9d6174d</id>
-    </Content>
-    <Content Include="NewCustomTemplate2\RanorexReport.xsl">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>43ac2dd2-f877-4b7a-85f1-9cb170e67195</id>
-    </Content>
-    <Content Include="NewCustomTemplate2\View.rxlog">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>80bef4ab-942e-4a24-9d7a-f98d6f79c941</id>
-    </Content>
-    <Content Include="NewCustomTemplate2\View.rxlog.data">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>9c0bff39-213f-4821-97e7-51d26d3ad7db</id>
-    </Content>
-    <Content Include="NewCustomTemplate3\RanorexReport.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>7415e923-bb8c-4570-9e49-8ae6ee63b5ad</id>
-    </Content>
-    <Content Include="NewCustomTemplate3\RanorexReport.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>7295dfb4-2ffe-4c7d-bd72-9168830b681e</id>
-    </Content>
-    <Content Include="NewCustomTemplate3\RanorexReport.xsl">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>dc3cd070-86b5-4bc9-be81-c38a6bfe7b13</id>
-    </Content>
-    <Content Include="NewCustomTemplate3\View.rxlog">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>a999a2f1-d7c0-4650-a6d2-d4bf79628726</id>
-    </Content>
-    <Content Include="NewCustomTemplate3\View.rxlog.data">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>54162e9e-0fa4-40d5-96a0-dc53c520fda3</id>
-    </Content>
     <Content Include="PCQA.rxtmg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>44d07573-eeae-4d9d-a9cf-b44cd072ffd2</id>
@@ -566,18 +509,6 @@
     </Folder>
     <Folder Include="Rehabilitar">
       <id>d0714c33-bbed-490c-a0b3-787f6b7f2d44</id>
-    </Folder>
-    <Folder Include="NewCustomTemplate1">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>d95130bf-9bd8-46a9-85ae-54d5f6518cb4</id>
-    </Folder>
-    <Folder Include="NewCustomTemplate2">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>05b74ff4-c7c0-4c1e-b8e7-33886e88729b</id>
-    </Folder>
-    <Folder Include="NewCustomTemplate3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <id>b75b7433-0b9d-4d75-8f46-79972fc7df31</id>
     </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
