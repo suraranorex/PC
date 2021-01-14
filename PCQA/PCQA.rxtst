@@ -143,8 +143,8 @@
 			datarangeactive="True"
 			datasource="CrearCuentaValidaDNI"
 			id="15cde1d1-5403-440a-b2bd-4ca4cab3196c"
-			maxrange="0"
-			minrange="0"
+			maxrange="8"
+			minrange="8"
 			name="CrearCuentaValidaDNI">
 			</testcase>
 			<testmodule
@@ -558,8 +558,8 @@
 			datarangeactive="True"
 			datasource="CuentaCompania"
 			id="6f6e7473-52d3-4a2a-9e49-b39b80967e98"
-			maxrange="0"
-			minrange="0"
+			maxrange="1"
+			minrange="1"
 			name="CrearCuentaEmpresa">
 			</testcase>
 			<testmodule
@@ -748,6 +748,7 @@
 			name="teardown">
 			</teardown>
 			<testcase
+			datarangeactive="True"
 			datasource="xls_CuentasNuevas"
 			errorbehavior="ContinueNextIteration"
 			id="9ff78c3e-6440-429c-8263-52f6f7de3e2f"
@@ -1548,9 +1549,9 @@
 	</testsuiteentryhierarchy>
 	<datasources>
 		<DataSource
-		filename="R:\PC\DataSources\ExcelDatosCuentasCompaniaUBER.xlsx"
+		filename="ExcelDatosCuentasCompaniaUBER.xlsx"
 		id="3f3c1c37-c2e9-4dd2-b635-0862827ad24c"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="1"
 		name="CrearCuentaEmpresaUber"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -1601,9 +1602,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\PC\DataSources\ExcelDatosCuentasCompaniaValidaCUIT.xlsx"
+		filename="ExcelDatosCuentasCompaniaValidaCUIT.xlsx"
 		id="987f0ea5-28cd-47da-9b3b-e18f85ea4610"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="1"
 		name="CrearCuentaEmpresaValidaCUIT"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -1654,9 +1655,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\PC\DataSources\ExcelDatosCuentasValidaDNI.xlsx"
+		filename="ExcelDatosCuentasValidaDNI.xlsx"
 		id="1e9ef14c-1c83-482e-b53b-167dbe51be03"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="10"
 		name="CrearCuentaValidaDNI"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -1710,10 +1711,10 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\PC\DataSources\ExcelDatosCuentasCompania.xlsx"
+		filename="ExcelDatosCuentasCompania.xlsx"
 		id="1e0163a0-e555-4aa5-902b-84f18c3c483c"
-		includefile="Unchecked"
-		lastknownrowcount="1"
+		includefile="Checked"
+		lastknownrowcount="2"
 		name="CuentaCompania"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
@@ -1741,12 +1742,6 @@
 					Documento
 				</column>
 				<column>
-					IVA
-				</column>
-				<column>
-					IBB
-				</column>
-				<column>
 					PAS
 				</column>
 				<column>
@@ -1769,9 +1764,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\PC\DataSources\ExcelAnulaciones.xlsx"
+		filename="ExcelAnulaciones.xlsx"
 		id="72c4823b-5358-4dda-a5f2-1d9f7bda32cb"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="4"
 		name="xls_Anulaciones"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -1798,9 +1793,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\PC\DataSources\ExcelDatosCuentas.xlsx"
+		filename="ExcelDatosCuentas.xlsx"
 		id="57b5df72-945a-40da-9f29-9b4998c89f02"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="3"
 		name="xls_CuentasNuevas"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -1829,9 +1824,6 @@
 					Documento
 				</column>
 				<column>
-					FechaNacimiento
-				</column>
-				<column>
 					PAS
 				</column>
 				<column>
@@ -1854,9 +1846,9 @@
 			</maskedcolumns>
 		</DataSource>
 		<DataSource
-		filename="R:\PC\DataSources\ExcelRehabilitaciones.xlsx"
+		filename="ExcelRehabilitaciones.xlsx"
 		id="24e0e536-099e-44fd-9523-cafd512e51c9"
-		includefile="Unchecked"
+		includefile="Checked"
 		lastknownrowcount="4"
 		name="xls_Rehabilitaciones"
 		type="Ranorex.Core.Data.ExcelDataConnector"
@@ -1884,9 +1876,15 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="TestRun">
+	default="SmokeCuentas">
 		<testconfiguration
-		name="TestRun">
+		name="SmokeCuentas">
+			<testcontainer
+			id="15cde1d1-5403-440a-b2bd-4ca4cab3196c">
+			</testcontainer>
+			<testcontainer
+			id="6f6e7473-52d3-4a2a-9e49-b39b80967e98">
+			</testcontainer>
 			<testcontainer
 			id="9ff78c3e-6440-429c-8263-52f6f7de3e2f">
 			</testcontainer>

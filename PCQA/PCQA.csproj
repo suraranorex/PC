@@ -438,6 +438,55 @@
       <id>256dec0f-fcd0-46e1-a3cd-1e0de35cd820</id>
       <recordtableid>6ad964e9-26ee-4db5-a6dc-03fcd1ae7d02</recordtableid>
     </None>
+    <Content Include="ExcelDatosCuentasCompaniaUBER.xlsx">
+      <Link>ExcelDatosCuentasCompaniaUBER.xlsx</Link>
+      <BoundTo>9c872d4b-bfb7-48b7-b5d8-97ef68519880</BoundTo>
+      <DependentUpon>PCQA.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>759e9b01-0ba9-4be0-a2c3-ee2575f0524a</id>
+    </Content>
+    <Content Include="ExcelDatosCuentasCompaniaValidaCUIT.xlsx">
+      <Link>ExcelDatosCuentasCompaniaValidaCUIT.xlsx</Link>
+      <BoundTo>9c872d4b-bfb7-48b7-b5d8-97ef68519880</BoundTo>
+      <DependentUpon>PCQA.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>0ec16b26-e625-4edb-9ba2-db530c87e577</id>
+    </Content>
+    <Content Include="ExcelDatosCuentasValidaDNI.xlsx">
+      <Link>ExcelDatosCuentasValidaDNI.xlsx</Link>
+      <BoundTo>9c872d4b-bfb7-48b7-b5d8-97ef68519880</BoundTo>
+      <DependentUpon>PCQA.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>a5907e93-7c03-4d9e-beda-faefd4cefd5f</id>
+    </Content>
+    <Content Include="ExcelDatosCuentasCompania.xlsx">
+      <Link>ExcelDatosCuentasCompania.xlsx</Link>
+      <BoundTo>9c872d4b-bfb7-48b7-b5d8-97ef68519880</BoundTo>
+      <DependentUpon>PCQA.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>d1d685c3-c862-4a4f-8c37-f0a87de03255</id>
+    </Content>
+    <Content Include="ExcelAnulaciones.xlsx">
+      <Link>ExcelAnulaciones.xlsx</Link>
+      <BoundTo>9c872d4b-bfb7-48b7-b5d8-97ef68519880</BoundTo>
+      <DependentUpon>PCQA.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>6cd8032a-0f5c-4248-916b-6f3f5ad7eb1c</id>
+    </Content>
+    <Content Include="ExcelDatosCuentas.xlsx">
+      <Link>ExcelDatosCuentas.xlsx</Link>
+      <BoundTo>9c872d4b-bfb7-48b7-b5d8-97ef68519880</BoundTo>
+      <DependentUpon>PCQA.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>0ad483f6-19dd-4924-866f-822bc41e43c7</id>
+    </Content>
+    <Content Include="ExcelRehabilitaciones.xlsx">
+      <Link>ExcelRehabilitaciones.xlsx</Link>
+      <BoundTo>9c872d4b-bfb7-48b7-b5d8-97ef68519880</BoundTo>
+      <DependentUpon>PCQA.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>d59c4181-a08e-46c2-9329-a18ac84d2486</id>
+    </Content>
     <None Include="Login\Login.rxrec">
       <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
       <id>8f0be37f-ee9c-4814-83ef-5c9b6c08296c</id>
