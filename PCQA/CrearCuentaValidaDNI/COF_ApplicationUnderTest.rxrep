@@ -1,0 +1,20 @@
+﻿<repository
+id="8423b261-d095-4fc1-9ab7-1341ba044b4e"
+name="COF_ApplicationUnderTest">
+	<codegen
+	classname="COF_ApplicationUnderTest"
+	namespace="PCQA.CrearCuentaValidaDNI">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="974942a0-d03d-4d55-b8bc-555f389500a9"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

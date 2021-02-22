@@ -752,8 +752,8 @@
 			datasource="xls_CuentasNuevas"
 			errorbehavior="ContinueNextIteration"
 			id="9ff78c3e-6440-429c-8263-52f6f7de3e2f"
-			maxrange="1"
-			minrange="1"
+			maxrange="3"
+			minrange="0"
 			name="CrearCuentaSinValidateDNI">
 				<description>
 					<![CDATA[PC QA - Caso de Prueba - Creacion Cuenta Sin validar documento]]>
@@ -1796,12 +1796,15 @@
 		filename="ExcelDatosCuentas.xlsx"
 		id="57b5df72-945a-40da-9f29-9b4998c89f02"
 		includefile="Checked"
-		lastknownrowcount="3"
+		lastknownrowcount="15"
 		name="xls_CuentasNuevas"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
 		worksheetrange="Auto-Range">
 			<lastknowncolumns>
+				<column>
+					ID
+				</column>
 				<column>
 					Ambiente
 				</column>
@@ -1822,6 +1825,9 @@
 				</column>
 				<column>
 					Documento
+				</column>
+				<column>
+					FechaNacimiento
 				</column>
 				<column>
 					PAS

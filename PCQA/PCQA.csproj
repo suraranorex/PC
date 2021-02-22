@@ -294,6 +294,12 @@
       <UserCode>true</UserCode>
       <id>d46087ea-4efe-454d-ad43-10f77b46617a</id>
     </Compile>
+    <Compile Include="CrearCuentaValidaDNI\COF_ApplicationUnderTest.cs">
+      <BoundTo>C56742FA-61E5-42E6-935F-3BE75D26A1A9</BoundTo>
+      <DependentUpon>COF_ApplicationUnderTest.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>fded0230-8883-49ca-b47b-81e9602535f2</id>
+    </Compile>
     <Compile Include="Login\Login.cs">
       <DependentUpon>Login.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
@@ -434,9 +440,9 @@
       <recordtableid>b933c9d6-561a-44ce-a619-6c107d6844f5</recordtableid>
     </None>
     <None Include="CrearCuentaValidaDNI\CargaDatosCuentaValidaDNI.rxrec">
-      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
       <id>256dec0f-fcd0-46e1-a3cd-1e0de35cd820</id>
       <recordtableid>6ad964e9-26ee-4db5-a6dc-03fcd1ae7d02</recordtableid>
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
     </None>
     <Content Include="ExcelDatosCuentasCompaniaUBER.xlsx">
       <Link>ExcelDatosCuentasCompaniaUBER.xlsx</Link>
@@ -487,6 +493,17 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <id>d59c4181-a08e-46c2-9329-a18ac84d2486</id>
     </Content>
+    <None Include="CrearCuentaValidaDNI\COF_ApplicationUnderTest.rximg">
+      <BoundTo>C56742FA-61E5-42E6-935F-3BE75D26A1A9</BoundTo>
+      <DependentUpon>COF_ApplicationUnderTest.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>9c3cf3ee-0fa4-455d-9a77-9e3efbc1b2b3</id>
+    </None>
+    <None Include="CrearCuentaValidaDNI\COF_ApplicationUnderTest.rxrep">
+      <id>C56742FA-61E5-42E6-935F-3BE75D26A1A9</id>
+      <repoid>8423b261-d095-4fc1-9ab7-1341ba044b4e</repoid>
+      <reporootid>974942a0-d03d-4d55-b8bc-555f389500a9</reporootid>
+    </None>
     <None Include="Login\Login.rxrec">
       <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
       <id>8f0be37f-ee9c-4814-83ef-5c9b6c08296c</id>
