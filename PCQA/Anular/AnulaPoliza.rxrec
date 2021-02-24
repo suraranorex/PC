@@ -23,6 +23,10 @@ mode="Global">
 	namespace="PCQA.Anular">
 	</codegen>
 	<variables>
+		<var
+		id="fb75159b-884f-4325-8756-4d5741544595"
+		name="NumeroTransaccion">
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -30,7 +34,7 @@ mode="Global">
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="40;13"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="71c86107-cb73-456b-a206-e31dcffca3a3"
@@ -157,7 +161,7 @@ i/6af9/W/wAaPskX/TT/AL+t/jTvNb0FHmt6Ci7DlXYb9ki/6af9/W/xop3mt6Cii7DlXY//2Q==
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="24;12"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="c6745c74-3307-4abd-b0f2-5e868d20ad2a"
@@ -207,7 +211,7 @@ i/6af9/W/wAaPskX/TT/AL+t/jTvNb0FHmt6Ci7DlXYb9ki/6af9/W/xop3mt6Cii7DlXY//2Q==
 					<attribute
 					name="innertext"
 					type="System.String">
-						Anular p&#243;liza
+						Anular póliza
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -233,16 +237,34 @@ i/6af9/W/wAaPskX/TT/AL+t/jTvNb0FHmt6Ci7DlXYb9ki/6af9/W/xop3mt6Cii7DlXY//2Q==
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain~$Ambiente]/body/div[10]/div/div[2]/div/div[15]/?/?/span[@innertext='Anular p&#243;liza']
+					/dom[@domain~$Ambiente]/body/div[10]/div/div[2]/div/div[15]/?/?/span[@innertext='Anular póliza']
 				</path>
 			</info>
 		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="465c3bbb-2701-4c6f-b441-616f60e7cb05"
+		waitaction="Exists"
+		waittimeout="20000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="813d5b37-caae-4bd5-8b9c-c50a328b0db2"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain=$Ambiente]//span[@innertext~'Iniciar anulación de póliza']
+				</path>
+			</info>
+		</WaitForRecordItem>
 		<mouseitem
 		action="Click"
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="4;11"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="8a39eb7e-a119-4311-ae7b-7b49a79f4fec"
@@ -254,93 +276,12 @@ i/6af9/W/wAaPskX/TT/AL+t/jTvNb0FHmt6Ci7DlXYb9ki/6af9/W/xop3mt6Cii7DlXY//2Q==
 			<bindings>
 			</bindings>
 			<info
-			id="b85d734d-f472-4c72-a9a8-e098de8c84d4"
-			sourcename="Recorder">
-				<element
-				capabilities="webelement, divtag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="1"
-				prefcap="divtag"
-				rect="526,245,22,24"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						x-form-trigger x-form-trigger-default x-form-arrow-trigger x-form-arrow-trigger-default  x-form-trigger-over
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="id"
-					type="System.String">
-						StartCancellation:StartCancellationScreen:CancelPolicyDV:Source-trigger-picker
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						x-form-arrow-trigger x-form-arrow-trigger-default x-form-trigger x-form-trigger-default
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						div
-					</attribute>
-				</element>
+			id="b7423b54-128f-440a-86ec-739835efd773"
+			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'StartCancellation-tbody']/tr[4]//table/tbody/tr[1]/td/div/div/div/div[2]
+					/dom[@domain='i-preproducciongestion.segurossura.com.ar']//span[@innertext='Fuente']/../..//input
 				</path>
 			</info>
-			<helperscreenshot
-			guid="5efd6dc3-037e-4791-a809-ec51ddb0d05b">
-				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
-YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACEAIQDASIA
-AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
-AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
-ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
-p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
-AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
-BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
-U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
-uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKbt
-P/PRv0/wo2n/AJ6N+n+FADqKbtP/AD0b9P8ACjaf+ejfp/hQA6im7T/z0b9P8KNp/wCejfp/hQA6
-im7T/wA9G/T/AAo2n/no36f4UAOopu0/89G/T/Cjaf8Ano36f4UAOopu0/8APRv0/wAKNp/56N+n
-+FADqKbtP/PRv0/wo2n/AJ6N+n+FADqKbtP/AD0b9P8ACjaf+ejfp/hQA6im7T/z0b9P8KKAHUUU
-UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
-AUUUUAFFFFABRRRQAzzP9hv0/wAaPM/2G/T/ABoooAPM/wBhv0/xo8z/AGG/T/GiigA8z/Yb9P8A
-GjzP9hv0/wAaKKAKWoX09u8KQRqWkJGH9eMd/eo/tGr/APPrD+f/ANlSap/x+2H/AF0/qtaVRq29
-Tp5lCEXyp3/zM77Rq/8Az6w/n/8AZUya+1OCMyS28KqOp6/1rUqlrH/IOk+o/mKGmluFOopTUXFa
-/wBdy5byGW2ikbALoGOPcVJUNl/x4wf9c1/lU1UtjCWkmFFFFMkKKKKACiiigBlFJn2P5UZ9j+VA
-C0UmfY/lRn2P5UALRSZ9j+VGfY/lQBnap/x+2H/XT+q0moAGeQu0m1BB8qs2OZCD8o68VHrzOrWz
-RHEgLFSeOeMdeKmsIvte+4aeSWKQRFCyhWUoxJU4GOv8/wAamO7N6n8OHz/MdYfZGdjDMskgz8p4
-ZRnHI6inax/yDpPqP5iodTs4havLuOYkldD3DE7gQe2CP1pdUuYJLCRY5kZjjgMM9aJbE0U3Uj6o
-v2X/AB4wf9c1/lU1Q2X/AB4wf9c1/lU1NbET+JhRRRTJCiiigAooooAi2+7f99Gjb7t/30adRQA3
-b7t/30aNvu3/AH0adRQA3b7t/wB9Gjb7t/30adRQBBPaQXG3zkL7emWPH61VjQabcuscchtphuAR
-Wfa4wD0B6jH5GtGkYkKSo3H0zjNIrmbVr6GZeMb4RWyRybHkHmb4nUbByecewH41Y/suy3D9z/48
-3+NSwTvMxHlbQOpJ71OPvL9aGk9wjOUfhdhyIsaKiDCqAAPaloopkhRRRQAUUUUAFFFFADKKbn2f
-9KM+z/pQA6im59n/AEoz7P8ApQA6im59n/SjPs/6UAOopufZ/wBKM+z/AKUAOoH3l+tNz7P+lAOC
-Dtc4+lAEtFM8z/Yb9P8AGjzP9hv0/wAaAH0UzzP9hv0/xpytuzwRj1oAWiiigAooooAZRRRSAKKK
-KACiiigAooooAKKKKACiiigApU+8foKSlT7x+gpgOooooAKKKKAGUUUUgCiiigAooooAKKKKACii
-igAooooAKVPvH6CiimA6iiigAooooA//2Q==
-			</helperscreenshot>
 		</mouseitem>
 		<WaitForRecordItem
 		enabled="True"
@@ -365,7 +306,7 @@ igAooooAKVPvH6CiimA6iiigAooooA//2Q==
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="53;11"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="10b3648e-7797-41c6-befe-b4159753f8fe"
@@ -593,21 +534,30 @@ KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
 ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP//Z
 			</helperscreenshot>
 		</mouseitem>
-		<explicitdelayitem
-		duration="3000ms"
+		<WaitForRecordItem
 		enabled="True"
-		optional="False">
+		optional="False"
+		searchpropertyid="693dc650-b324-474a-a2ae-7c50635af43b"
+		waitaction="NotExists"
+		waittimeout="10000ms">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-		</explicitdelayitem>
+			<info
+			id="ca102ea8-98cf-42df-83e4-6eac8eb20d21"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='i-preproducciongestion.segurossura.com.ar']//span[@innertext='Fuente']/../..//input[@data-tabindexsaved='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
 		<mouseitem
 		action="Click"
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="8;13"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="39a2fc81-434d-4d9b-9565-47fabce66bfc"
@@ -619,17 +569,17 @@ ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP//Z
 			<bindings>
 			</bindings>
 			<info
-			id="03c3c2d1-83fb-4dab-9967-a55105e53779"
-			sourcename="Recorder">
+			id="ce9522e6-7fdb-48db-b307-934643244301"
+			sourcename="RepositoryEditor">
 				<element
-				capabilities="webelement, divtag"
+				capabilities="webelement, inputtag"
 				dontcache="True"
 				enabled="True"
 				flavor="chromeweb"
-				hasfocus="False"
-				index="1"
-				prefcap="divtag"
-				rect="526,273,22,24"
+				hasfocus="True"
+				index="0"
+				prefcap="inputtag"
+				rect="375,305,151,24"
 				role="unknown"
 				snapElem=""
 				valid="True"
@@ -637,7 +587,7 @@ ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP//Z
 					<attribute
 					name="class"
 					type="System.String">
-						x-form-trigger x-form-trigger-default x-form-arrow-trigger x-form-arrow-trigger-default  x-form-trigger-over
+						x-form-field x-form-text x-form-text-default&#32;
 					</attribute>
 					<attribute
 					name="draggable"
@@ -652,7 +602,7 @@ ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP//Z
 					<attribute
 					name="id"
 					type="System.String">
-						StartCancellation:StartCancellationScreen:CancelPolicyDV:ReasonSura-trigger-picker
+						StartCancellation:StartCancellationScreen:CancelPolicyDV:ReasonSura-inputEl
 					</attribute>
 					<attribute
 					name="innertext"
@@ -661,51 +611,97 @@ ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP//Z
 					<attribute
 					name="safeclass"
 					type="System.String">
-						x-form-arrow-trigger x-form-arrow-trigger-default x-form-trigger x-form-trigger-default
+						x-form-field x-form-text x-form-text-default
 					</attribute>
 					<attribute
 					name="tagname"
 					type="System.String">
-						div
+						input
 					</attribute>
+					<attribute
+					name="autocomplete"
+					type="System.String">
+						off
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						StartCancellation:StartCancellationScreen:CancelPolicyDV:ReasonSura
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						1
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="componentid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'StartCancellation-tbody']/tr[4]//table/tbody/tr[2]/td/div/div/div/div[2]
+					/dom[@domain='i-preproducciongestion.segurossura.com.ar']//span[@innertext='Motivo']/../..//input
 				</path>
 			</info>
-			<helperscreenshot
-			guid="e72af460-288c-40db-b9f1-3f4ac7704df6">
-				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
-			</helperscreenshot>
 		</mouseitem>
 		<WaitForRecordItem
 		enabled="True"
@@ -779,7 +775,7 @@ FHmH0FFFAB5h9BR5h9BRRQAeYfQVJCxYsT7UUUASUUUUAFFFFAH/2Q==
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="114;8"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="eb218694-a3b0-447e-957f-f3d52538e1b3"
@@ -824,7 +820,7 @@ FHmH0FFFAB5h9BR5h9BRRQAeYfQVJCxYsT7UUUASUUUUAFFFFAH/2Q==
 					<attribute
 					name="innertext"
 					type="System.String">
-						Anulaci&#243;n por desistimiento
+						Anulación por desistimiento
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -1175,21 +1171,50 @@ CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
 KKKACiiigD//2Q==
 			</helperscreenshot>
 		</mouseitem>
-		<explicitdelayitem
-		duration="300ms"
+		<WaitForRecordItem
 		enabled="True"
-		optional="False">
+		optional="False"
+		searchpropertyid="d96ed60c-8903-48d6-aa97-15651a9e4672"
+		waitaction="NotExists"
+		waittimeout="10000ms">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-		</explicitdelayitem>
+			<info
+			id="a73acdbd-b555-41da-abf5-8186a3c09a2f"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='i-preproducciongestion.segurossura.com.ar']//span[@innertext='Motivo']/../..//input[@data-tabindexsaved='True']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="f2d85d99-c0f5-4ec3-b755-2fe3127ef64d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="920b5cdc-6f8f-4038-b076-7e07ef5ce35b"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain~$Ambiente]
+				</path>
+			</info>
+		</loggingrecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="58;7"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="13e41958-de94-4b72-8333-2aacb4ff64c7"
@@ -1239,7 +1264,7 @@ KKKACiiigD//2Q==
 					<attribute
 					name="innertext"
 					type="System.String">
-						Iniciar anulaci&#243;n
+						Iniciar anulación
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -1265,7 +1290,7 @@ KKKACiiigD//2Q==
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//a[#'StartCancellation:StartCancellationScreen:NewCancellation']//span[@innertext='Iniciar anulaci&#243;n']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//a[#'StartCancellation:StartCancellationScreen:NewCancellation']//span[@innertext='Iniciar anulación']
 				</path>
 			</info>
 			<helperscreenshot
@@ -1308,12 +1333,50 @@ fpf8KnjjSJAkSKiDoqjAFFFADqKKKACiiigAooooAKKKKACgnCk+lFFADN7/AN1f++v/AK1G9/7q
 /wDfX/1qKKAP/9k=
 			</helperscreenshot>
 		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="4d2c6c78-9796-4290-9853-b7b44c6a1893"
+		waitaction="Exists"
+		waittimeout="10000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="628fe87e-daaa-4db8-a13a-eb6da872b1b3"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain~$Ambiente]/dom[@domain='i-preproducciongestion.segurossura.com.ar']//span[@innertext='Confirmación']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="f2d85d99-c0f5-4ec3-b755-2fe3127ef64d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="920b5cdc-6f8f-4038-b076-7e07ef5ce35b"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain~$Ambiente]
+				</path>
+			</info>
+		</loggingrecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="36;9"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="e8d689aa-bc25-4cb3-9e4a-f62b0c60a245"
@@ -1432,7 +1495,7 @@ jLEnJJwKmoooAKKKKACiiigAooooAKKKKACiiigAooooA//Z
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="31;6"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="12960e5d-8f8f-42ff-ac89-60da7435aa13"
@@ -1597,7 +1660,7 @@ P//Z
 					<attribute
 					name="innertext"
 					type="System.String">
-						Anulaci&#243;n Contratada
+						Anulación Contratada
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -1611,7 +1674,7 @@ P//Z
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'JobComplete-tbody']/tr[1]/td/div//span[@innertext='Anulaci&#243;n Contratada']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'JobComplete-tbody']/tr[1]/td/div//span[@innertext='Anulación Contratada']
 				</path>
 			</info>
 			<helperscreenshot
@@ -1712,9 +1775,53 @@ zSg+YDn6UUUlsD3/AK8jN1XSxeXQl84p8gGNufWiiisXJpmiWh//2Q==
 				InnerText
 			</matchname>
 			<matchvalue>
-				Anulaci&#243;n Contratada
+				Anulación Contratada
 			</matchvalue>
 		</validationitem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		captureregex="[0-9]{10}"
+		enabled="True"
+		optional="False"
+		searchpropertyid="ab23ebaf-1592-43dd-8bbf-ffeeec50d7d9"
+		varname="NumeroTransaccion">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="374184f9-d2ad-45c3-b064-31f09c9e5dcd"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain~$Ambiente]//tbody[#'JobComplete-tbody']//label[@innertext&gt;'Se contrat&#243; Anulaci&#243;n (n.&#176;']
+				</path>
+			</info>
+		</getvaluerecorditem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				El número de transacción es
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="2ba099ae-9a0e-4078-8381-b56fd31684ef">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="NumeroTransaccion">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
 	</recorditems>
 	<repository
 	id="5d2c35e0-6077-4570-87f1-66cae739d1c2"

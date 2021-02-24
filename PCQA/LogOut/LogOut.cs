@@ -100,8 +100,8 @@ namespace PCQA.LogOut
             repo.ApplicationUnderTest.CerrarSesionSuperUser.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Aceptar' at 21;7.", repo.ApplicationUnderTest.AceptarInfo, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.Aceptar.Click("21;7");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.bttn_Aceptar' at 21;7.", repo.ApplicationUnderTest.bttn_AceptarInfo, new RecordItemIndex(3));
+            repo.ApplicationUnderTest.bttn_Aceptar.Click("21;7");
             Delay.Milliseconds(0);
             
         }

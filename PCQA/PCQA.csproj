@@ -377,9 +377,9 @@
       <recordtableid>7255da00-480d-461c-a448-6c665cc6ccdc</recordtableid>
     </None>
     <None Include="Anular\BuscaPoliza.rxrec">
-      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
       <id>8c5293c7-1ced-442c-994d-eb8bb10d4d2d</id>
       <recordtableid>3979a088-f87a-4eda-916c-6ac51b54dd9b</recordtableid>
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
     </None>
     <None Include="app.config">
       <id>436d9dcc-11b6-4930-8adc-8c048b3b485b</id>

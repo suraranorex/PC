@@ -102,24 +102,27 @@ namespace PCQA.Anular
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.XBtnSplitXBtnSplitRightXBtnWrap1' at 51;5.", repo.ApplicationUnderTest.XBtnSplitXBtnSplitRightXBtnWrap1Info, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.XBtnSplitXBtnSplitRightXBtnWrap1.Click("51;5");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.bttn_MenuPoliza' at CenterRight.", repo.ApplicationUnderTest.bttn_MenuPolizaInfo, new RecordItemIndex(0));
+            repo.ApplicationUnderTest.bttn_MenuPoliza.Click(Location.CenterRight);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.TabBarPolicyTabPolicyTabPolicyRetriev1' at 11;15.", repo.ApplicationUnderTest.TabBarPolicyTabPolicyTabPolicyRetriev1Info, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.TabBarPolicyTabPolicyTabPolicyRetriev1.Click("11;15");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txtbox_NumPoliza' at Center.", repo.ApplicationUnderTest.txtbox_NumPolizaInfo, new RecordItemIndex(1));
+            repo.ApplicationUnderTest.txtbox_NumPoliza.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$NroPoliza' with focus on 'ApplicationUnderTest.TabBarPolicyTabPolicyTabPolicyRetriev1'.", repo.ApplicationUnderTest.TabBarPolicyTabPolicyTabPolicyRetriev1Info, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.TabBarPolicyTabPolicyTabPolicyRetriev1.PressKeys(NroPoliza);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$NroPoliza' with focus on 'ApplicationUnderTest.txtbox_NumPoliza'.", repo.ApplicationUnderTest.txtbox_NumPolizaInfo, new RecordItemIndex(2));
+            repo.ApplicationUnderTest.txtbox_NumPoliza.PressKeys(NroPoliza);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'ApplicationUnderTest.TabBarPolicyTabPolicyTabPolicyRetriev1'.", repo.ApplicationUnderTest.TabBarPolicyTabPolicyTabPolicyRetriev1Info, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.TabBarPolicyTabPolicyTabPolicyRetriev1.PressKeys("{Return}");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'ApplicationUnderTest.txtbox_NumPoliza'.", repo.ApplicationUnderTest.txtbox_NumPolizaInfo, new RecordItemIndex(3));
+            repo.ApplicationUnderTest.txtbox_NumPoliza.PressKeys("{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(4));
-            Delay.Duration(300, false);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'SURA.txt_InformacionDePoliza'", repo.SURA.txt_InformacionDePolizaInfo, new ActionTimeout(30000), new RecordItemIndex(4));
+            repo.SURA.txt_InformacionDePolizaInfo.WaitForExists(30000);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(5));
+            Delay.Duration(1000, false);
             
         }
 

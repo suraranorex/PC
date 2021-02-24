@@ -35,7 +35,7 @@ mode="Global">
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="51;5"
+		loc="CenterRight"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="6b99bf20-9439-43a5-a1db-0f2143d99f0e"
@@ -161,7 +161,7 @@ gAooooAKKKKACiiigD//2Q==
 		button="Left"
 		duration="300ms"
 		enabled="True"
-		loc="11;15"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="f4535b06-10a1-4ba0-ae09-bb50014f2282"
@@ -520,8 +520,75 @@ pR5Q9KKKADyh6UeUPSiigA8oelHlD0oooAPKHpR5Q9KKKADyh6UeUPSiigA8oelHlD0oooAPKHpR
 				</path>
 			</info>
 		</keysequenceitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="23af5e5c-45fa-4b19-b8bf-d490742049d0"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2c82e542-09cf-4dcc-bcfb-d57a9c0f7665"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="264,143,170,17"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SubmissionWizard:LOBWizardStepGroup:SubmissionWizard_PolicyInfoScreen:ttlBar
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Información de póliza
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						g-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div/table//span[@innertext='Información de póliza']
+				</path>
+			</info>
+		</WaitForRecordItem>
 		<explicitdelayitem
-		duration="300ms"
+		duration="1000ms"
 		enabled="True"
 		optional="False">
 			<comment>
