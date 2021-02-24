@@ -35,7 +35,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="051437a0-b7a8-468c-8320-b84d0c757aaf"
 			name="LogOut"
 			ref="e63d618d-91f9-4211-a7c3-02920791d1e2"
@@ -76,7 +75,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="0e7b8516-f6b7-4b47-9932-55d74896f622"
 			name="CloseBrowser"
 			ref="737d7ede-8d83-4bbd-9558-750c7ed97f03"
@@ -146,7 +144,6 @@
 			name="CrearCuentaValidaDNI">
 			</testcase>
 			<testmodule
-			enabled="False"
 			id="1cb30ed0-d106-4166-b9e1-65ceff0e9e16"
 			name="OpenBrowser"
 			ref="77b83fe9-3cd4-494b-b78d-a23cf13206b8"
@@ -711,7 +708,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="979f15af-53ec-4ee2-bad8-69ee2f0949f2"
 			name="LogOut"
 			ref="e63d618d-91f9-4211-a7c3-02920791d1e2"
@@ -1025,7 +1021,6 @@
 			reportwriteinterval="30000ms">
 			</testsuite>
 			<testmodule
-			enabled="False"
 			id="d268486b-b935-4fbd-924a-7bacec339375"
 			name="CloseBrowser"
 			ref="737d7ede-8d83-4bbd-9558-750c7ed97f03"
@@ -1040,7 +1035,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="d8174d18-6b4f-467e-bec9-185ac14a2242"
 			name="OpenBrowser"
 			ref="77b83fe9-3cd4-494b-b78d-a23cf13206b8"
@@ -1186,7 +1180,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			enabled="False"
 			id="f5783671-b5e1-4319-a897-6724d8fe9c91"
 			name="Login"
 			ref="570f2e8a-441d-44b3-8154-9f41958b5f14"
@@ -1217,7 +1210,6 @@
 			name="teardown">
 			</teardown>
 			<testmodule
-			enabled="False"
 			id="ff944292-10b2-46ae-a194-6c4db6653081"
 			name="Login"
 			ref="570f2e8a-441d-44b3-8154-9f41958b5f14"
