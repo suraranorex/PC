@@ -1876,9 +1876,33 @@
 	<testconfigurations
 	default="SmokeCuentas">
 		<testconfiguration
-		name="SmokeCuentas">
+		name="AnularPolizas">
+			<testcontainer
+			id="c03bbc11-8669-439d-90f9-8876bfbc8ad9">
+			</testcontainer>
+			<testcontainer
+			id="e2b36b57-7adc-4cfe-a5e7-ddcabd014504">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="RehabilitarPolizas">
 			<testcontainer
 			id="53449155-3b3d-4c44-aa93-6c09f4db3d09">
+			</testcontainer>
+			<testcontainer
+			id="e2b36b57-7adc-4cfe-a5e7-ddcabd014504">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="SmokeCuentas">
+			<testcontainer
+			id="15cde1d1-5403-440a-b2bd-4ca4cab3196c">
+			</testcontainer>
+			<testcontainer
+			id="6f6e7473-52d3-4a2a-9e49-b39b80967e98">
+			</testcontainer>
+			<testcontainer
+			id="9ff78c3e-6440-429c-8263-52f6f7de3e2f">
 			</testcontainer>
 			<testcontainer
 			id="e2b36b57-7adc-4cfe-a5e7-ddcabd014504">

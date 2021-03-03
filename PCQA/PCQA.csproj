@@ -540,6 +540,9 @@
       <recordtableid>40d80169-c6e6-47fe-a50b-2dcb305f9f8d</recordtableid>
       <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
     </None>
+    <None Include="Utilitarios\VPNConnect.exe">
+      <id>8fc74e31-d80d-4694-98aa-27684627db9c</id>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="PCQA.rxtmg">
@@ -572,6 +575,9 @@
     </Folder>
     <Folder Include="CrearCuentaEmpresa">
       <id>5ef68bc6-bdde-467f-a630-6820fb88e4e7</id>
+    </Folder>
+    <Folder Include="Utilitarios">
+      <id>6440988a-f296-457c-9473-e1fe6a2c9979</id>
     </Folder>
     <Folder Include="Rehabilitar">
       <id>d0714c33-bbed-490c-a0b3-787f6b7f2d44</id>

@@ -185,10 +185,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="PCQA.rxtst">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <id>8e37d879-2e68-4e50-af78-1bcade05ae93</id>
-    </Content>
     <None Include="app.config">
       <id>b2b3ec66-9ad5-47db-aa8d-da3a3efdee8f</id>
     </None>
