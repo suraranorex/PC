@@ -1651,7 +1651,7 @@
 		filename="ExcelDatosCuentasValidaDNI.xlsx"
 		id="1e9ef14c-1c83-482e-b53b-167dbe51be03"
 		includefile="Checked"
-		lastknownrowcount="10"
+		lastknownrowcount="9"
 		name="CrearCuentaValidaDNI"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
