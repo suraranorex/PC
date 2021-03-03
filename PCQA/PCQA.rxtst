@@ -745,10 +745,11 @@
 			</teardown>
 			<testcase
 			datarangeactive="True"
+			datarangeset="1,2"
 			datasource="xls_CuentasNuevas"
 			errorbehavior="ContinueNextIteration"
 			id="9ff78c3e-6440-429c-8263-52f6f7de3e2f"
-			maxrange="3"
+			maxrange="1"
 			minrange="0"
 			name="CrearCuentaSinValidateDNI">
 				<description>
@@ -1874,7 +1875,7 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="SmokeCuentas">
+	default="CreaCuentas">
 		<testconfiguration
 		name="AnularPolizas">
 			<testcontainer
@@ -1885,16 +1886,7 @@
 			</testcontainer>
 		</testconfiguration>
 		<testconfiguration
-		name="RehabilitarPolizas">
-			<testcontainer
-			id="53449155-3b3d-4c44-aa93-6c09f4db3d09">
-			</testcontainer>
-			<testcontainer
-			id="e2b36b57-7adc-4cfe-a5e7-ddcabd014504">
-			</testcontainer>
-		</testconfiguration>
-		<testconfiguration
-		name="SmokeCuentas">
+		name="CreaCuentas">
 			<testcontainer
 			id="15cde1d1-5403-440a-b2bd-4ca4cab3196c">
 			</testcontainer>
@@ -1903,6 +1895,15 @@
 			</testcontainer>
 			<testcontainer
 			id="9ff78c3e-6440-429c-8263-52f6f7de3e2f">
+			</testcontainer>
+			<testcontainer
+			id="e2b36b57-7adc-4cfe-a5e7-ddcabd014504">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="RehabilitarPolizas">
+			<testcontainer
+			id="53449155-3b3d-4c44-aa93-6c09f4db3d09">
 			</testcontainer>
 			<testcontainer
 			id="e2b36b57-7adc-4cfe-a5e7-ddcabd014504">
