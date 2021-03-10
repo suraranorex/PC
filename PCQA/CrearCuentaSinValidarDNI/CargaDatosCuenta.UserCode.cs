@@ -35,7 +35,7 @@ namespace PCQA.CrearCuentaSinValidarDNI
 
         public void Prueba()
         {
-        	WinForms.MessageBox.Show(repo.ApplicationUnderTest.Self.Element.GetAttributeValueText("state"));
+        	WinForms.MessageBox.Show(repo.SURA.Self.Element.GetAttributeValueText("state"));
         }
 
     }

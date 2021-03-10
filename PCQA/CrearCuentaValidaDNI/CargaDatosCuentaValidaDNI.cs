@@ -102,62 +102,65 @@ namespace PCQA.CrearCuentaValidaDNI
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Btn_AGregarDocumento' at 56;12.", repo.ApplicationUnderTest.Btn_AGregarDocumentoInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.Btn_AGregarDocumento.Click("56;12");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Btn_AGregarDocumento' at 56;12.", repo.SURA.Btn_AGregarDocumentoInfo, new RecordItemIndex(0));
+            repo.SURA.Btn_AGregarDocumento.Click("56;12");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.XTableLayout.TipoDocumento' at 105;16.", repo.ApplicationUnderTest.XTableLayout.TipoDocumentoInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.XTableLayout.TipoDocumento.Click("105;16");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.txt_TipoDocumento' at 105;16.", repo.SURA.txt_TipoDocumentoInfo, new RecordItemIndex(1));
+            repo.SURA.txt_TipoDocumento.Click("105;16");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Select_Tipo_Doc' at 29;13.", repo.ApplicationUnderTest.Select_Tipo_DocInfo, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.Select_Tipo_Doc.Click("29;13");
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.Copy_of_txt_TipoDocumento'", repo.SURA.Copy_of_txt_TipoDocumentoInfo, new ActionTimeout(30000), new RecordItemIndex(2));
+            repo.SURA.Copy_of_txt_TipoDocumentoInfo.WaitForNotExists(30000);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Select_Tipo_Doc' at 29;13.", repo.SURA.Select_Tipo_DocInfo, new RecordItemIndex(3));
+            repo.SURA.Select_Tipo_Doc.Click("29;13");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.XTableLayout.Copy_of_TipoDocumento'", repo.ApplicationUnderTest.XTableLayout.Copy_of_TipoDocumentoInfo, new ActionTimeout(30000), new RecordItemIndex(3));
-            repo.ApplicationUnderTest.XTableLayout.Copy_of_TipoDocumentoInfo.WaitForNotExists(30000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.Copy_of_TipoDocumentoDNI'", repo.SURA.Copy_of_TipoDocumentoDNIInfo, new ActionTimeout(30000), new RecordItemIndex(4));
+            repo.SURA.Copy_of_TipoDocumentoDNIInfo.WaitForNotExists(30000);
             
-            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 6s.", new RecordItemIndex(4));
-            //Delay.Duration(6000, false);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.XTableLayout.Txt_NumeroDoc' at 67;15.", repo.ApplicationUnderTest.XTableLayout.Txt_NumeroDocInfo, new RecordItemIndex(5));
-            repo.ApplicationUnderTest.XTableLayout.Txt_NumeroDoc.Click("67;15");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Txt_NumeroDoc' at 67;15.", repo.SURA.Txt_NumeroDocInfo, new RecordItemIndex(5));
+            repo.SURA.Txt_NumeroDoc.Click("67;15");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Documento' with focus on 'ApplicationUnderTest.XTableLayout.Txt_NumeroDoc'.", repo.ApplicationUnderTest.XTableLayout.Txt_NumeroDocInfo, new RecordItemIndex(6));
-            repo.ApplicationUnderTest.XTableLayout.Txt_NumeroDoc.EnsureVisible();
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Documento' with focus on 'SURA.Txt_NumeroDoc'.", repo.SURA.Txt_NumeroDocInfo, new RecordItemIndex(6));
+            repo.SURA.Txt_NumeroDoc.EnsureVisible();
             Keyboard.Press(Documento);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "User", Documento, new RecordItemIndex(7));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.XTableLayout.ValidarDocumento' at 97;12.", repo.ApplicationUnderTest.XTableLayout.ValidarDocumentoInfo, new RecordItemIndex(8));
-            repo.ApplicationUnderTest.XTableLayout.ValidarDocumento.Click("97;12");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.ValidarDocumento' at 97;12.", repo.SURA.ValidarDocumentoInfo, new RecordItemIndex(8));
+            repo.SURA.ValidarDocumento.Click("97;12");
             Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to not exist. Associated repository item: 'SURA.Copy_of_ValidarDocumento'", repo.SURA.Copy_of_ValidarDocumentoInfo, new ActionTimeout(40000), new RecordItemIndex(9));
+            repo.SURA.Copy_of_ValidarDocumentoInfo.WaitForNotExists(40000);
             
             try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ApplicationUnderTest.Seleccionar' at 37;13.", repo.ApplicationUnderTest.SeleccionarInfo, new RecordItemIndex(9));
-                repo.ApplicationUnderTest.Seleccionar.Click("37;13");
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'SURA_COF.Seleccionar_COF' at 37;13.", repo.SURA_COF.Seleccionar_COFInfo, new RecordItemIndex(10));
+                repo.SURA_COF.Seleccionar_COF.Click("37;13");
                 Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(9)); }
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(10)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.XTableLayout.ClickFlechaBuscaGrupo2' at CenterRight.", repo.ApplicationUnderTest.XTableLayout.ClickFlechaBuscaGrupo2Info, new RecordItemIndex(10));
-            repo.ApplicationUnderTest.XTableLayout.ClickFlechaBuscaGrupo2.Click(Location.CenterRight);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.ClickFlechaBuscaGrupo2' at CenterRight.", repo.SURA.ClickFlechaBuscaGrupo2Info, new RecordItemIndex(11));
+            repo.SURA.ClickFlechaBuscaGrupo2.Click(Location.CenterRight);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BuscarGrupo' at Center.", repo.ApplicationUnderTest.BuscarGrupoInfo, new RecordItemIndex(11));
-            repo.ApplicationUnderTest.BuscarGrupo.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.BuscarGrupo' at Center.", repo.SURA.BuscarGrupoInfo, new RecordItemIndex(12));
+            repo.SURA.BuscarGrupo.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Validar_BuscarGrupos' at 112;14.", repo.ApplicationUnderTest.Validar_BuscarGruposInfo, new RecordItemIndex(12));
-            repo.ApplicationUnderTest.Validar_BuscarGrupos.Click("112;14");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Validar_BuscarGrupos' at 112;14.", repo.SURA.Validar_BuscarGruposInfo, new RecordItemIndex(13));
+            repo.SURA.Validar_BuscarGrupos.Click("112;14");
             Delay.Milliseconds(0);
             
             // **** Validación de Carga de Datos de la Cuenta exitoso ****
-            Report.Log(ReportLevel.Info, "Section", "**** Validación de Carga de Datos de la Cuenta exitoso ****", new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Section", "**** Validación de Carga de Datos de la Cuenta exitoso ****", new RecordItemIndex(14));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Buscar grupos') on item 'ApplicationUnderTest.Validar_BuscarGrupos'.", repo.ApplicationUnderTest.Validar_BuscarGruposInfo, new RecordItemIndex(14));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.Validar_BuscarGruposInfo, "InnerText", "Buscar grupos");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Buscar grupos') on item 'SURA.Validar_BuscarGrupos'.", repo.SURA.Validar_BuscarGruposInfo, new RecordItemIndex(15));
+            Validate.AttributeEqual(repo.SURA.Validar_BuscarGruposInfo, "InnerText", "Buscar grupos");
             Delay.Milliseconds(0);
             
         }

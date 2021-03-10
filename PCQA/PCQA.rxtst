@@ -705,6 +705,12 @@
 					variableid="04d36cde-c27a-450e-8e17-95af6cb453ba"
 					variablename="NumeroCalle">
 					</var>
+					<var
+					dataname="FechaNacimiento"
+					datasourceid="57b5df72-945a-40da-9f29-9b4998c89f02"
+					variableid="89bc5809-685f-44c5-a0bf-67fd8961b77e"
+					variablename="FechaNacimiento">
+					</var>
 				</databinding>
 			</testmodule>
 			<testmodule
@@ -1651,7 +1657,7 @@
 		filename="ExcelDatosCuentasValidaDNI.xlsx"
 		id="1e9ef14c-1c83-482e-b53b-167dbe51be03"
 		includefile="Checked"
-		lastknownrowcount="9"
+		lastknownrowcount="10"
 		name="CrearCuentaValidaDNI"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"

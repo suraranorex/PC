@@ -102,52 +102,52 @@ namespace PCQA.Rehabilitar
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Anulacion_Rehabilitacion.bttn_Nuevo' at Center.", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.bttn_NuevoInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.Anulacion_Rehabilitacion.bttn_Nuevo.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Anulacion_Rehabilitacion.bttn_Nuevo' at Center.", repo.SURA.Anulacion_Rehabilitacion.bttn_NuevoInfo, new RecordItemIndex(0));
+            repo.SURA.Anulacion_Rehabilitacion.bttn_Nuevo.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Anulacion_Rehabilitacion.bttn_RehabilitarPoliza' at Center.", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.bttn_RehabilitarPolizaInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.Anulacion_Rehabilitacion.bttn_RehabilitarPoliza.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Anulacion_Rehabilitacion.bttn_RehabilitarPoliza' at Center.", repo.SURA.Anulacion_Rehabilitacion.bttn_RehabilitarPolizaInfo, new RecordItemIndex(1));
+            repo.SURA.Anulacion_Rehabilitacion.bttn_RehabilitarPoliza.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to exist. Associated repository item: 'ApplicationUnderTest.Anulacion_Rehabilitacion.txt_IniciarLaRehabilitacion'", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.txt_IniciarLaRehabilitacionInfo, new ActionTimeout(20000), new RecordItemIndex(2));
-            repo.ApplicationUnderTest.Anulacion_Rehabilitacion.txt_IniciarLaRehabilitacionInfo.WaitForExists(20000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to exist. Associated repository item: 'SURA.Anulacion_Rehabilitacion.txt_IniciarLaRehabilitacion'", repo.SURA.Anulacion_Rehabilitacion.txt_IniciarLaRehabilitacionInfo, new ActionTimeout(20000), new RecordItemIndex(2));
+            repo.SURA.Anulacion_Rehabilitacion.txt_IniciarLaRehabilitacionInfo.WaitForExists(20000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Anulacion_Rehabilitacion.txtbox_Motivo' at 9;4.", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.txtbox_MotivoInfo, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.Anulacion_Rehabilitacion.txtbox_Motivo.Click("9;4");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Anulacion_Rehabilitacion.txtbox_Motivo' at 9;4.", repo.SURA.Anulacion_Rehabilitacion.txtbox_MotivoInfo, new RecordItemIndex(3));
+            repo.SURA.Anulacion_Rehabilitacion.txtbox_Motivo.Click("9;4");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'otro{Return}' with focus on 'ApplicationUnderTest.Anulacion_Rehabilitacion.txtbox_Motivo'.", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.txtbox_MotivoInfo, new RecordItemIndex(4));
-            repo.ApplicationUnderTest.Anulacion_Rehabilitacion.txtbox_Motivo.PressKeys("otro{Return}");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'otro{Return}' with focus on 'SURA.Anulacion_Rehabilitacion.txtbox_Motivo'.", repo.SURA.Anulacion_Rehabilitacion.txtbox_MotivoInfo, new RecordItemIndex(4));
+            repo.SURA.Anulacion_Rehabilitacion.txtbox_Motivo.PressKeys("otro{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Anulacion_Rehabilitacion.lbl_GrupoDeAfinidad' at 563;19.", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.lbl_GrupoDeAfinidadInfo, new RecordItemIndex(5));
-            repo.ApplicationUnderTest.Anulacion_Rehabilitacion.lbl_GrupoDeAfinidad.Click("563;19");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Anulacion_Rehabilitacion.lbl_GrupoDeAfinidad' at 563;19.", repo.SURA.Anulacion_Rehabilitacion.lbl_GrupoDeAfinidadInfo, new RecordItemIndex(5));
+            repo.SURA.Anulacion_Rehabilitacion.lbl_GrupoDeAfinidad.Click("563;19");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Anulacion_Rehabilitacion.bttn_Recotizar' at Center.", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.bttn_RecotizarInfo, new RecordItemIndex(6));
-            repo.ApplicationUnderTest.Anulacion_Rehabilitacion.bttn_Recotizar.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Anulacion_Rehabilitacion.bttn_Recotizar' at Center.", repo.SURA.Anulacion_Rehabilitacion.bttn_RecotizarInfo, new RecordItemIndex(6));
+            repo.SURA.Anulacion_Rehabilitacion.bttn_Recotizar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to exist. Associated repository item: 'ApplicationUnderTest.Anulacion_Rehabilitacion.txt_Cotizacion'", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.txt_CotizacionInfo, new ActionTimeout(20000), new RecordItemIndex(7));
-            repo.ApplicationUnderTest.Anulacion_Rehabilitacion.txt_CotizacionInfo.WaitForExists(20000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to exist. Associated repository item: 'SURA.Anulacion_Rehabilitacion.txt_Cotizacion'", repo.SURA.Anulacion_Rehabilitacion.txt_CotizacionInfo, new ActionTimeout(20000), new RecordItemIndex(7));
+            repo.SURA.Anulacion_Rehabilitacion.txt_CotizacionInfo.WaitForExists(20000);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.ApplicationUnderTest.Self, false, new RecordItemIndex(8));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(8));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Anulacion_Rehabilitacion.bttn_Rehabilitar' at Center.", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.bttn_RehabilitarInfo, new RecordItemIndex(9));
-            repo.ApplicationUnderTest.Anulacion_Rehabilitacion.bttn_Rehabilitar.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Anulacion_Rehabilitacion.bttn_Rehabilitar' at Center.", repo.SURA.Anulacion_Rehabilitacion.bttn_RehabilitarInfo, new RecordItemIndex(9));
+            repo.SURA.Anulacion_Rehabilitacion.bttn_Rehabilitar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.bttn_Aceptar' at Center.", repo.ApplicationUnderTest.bttn_AceptarInfo, new RecordItemIndex(10));
-            repo.ApplicationUnderTest.bttn_Aceptar.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.bttn_Aceptar' at Center.", repo.SURA.bttn_AceptarInfo, new RecordItemIndex(10));
+            repo.SURA.bttn_Aceptar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Rehabilitación Contratada') on item 'ApplicationUnderTest.Anulacion_Rehabilitacion.txt_RehabilitacionContratada'.", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.txt_RehabilitacionContratadaInfo, new RecordItemIndex(11));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.Anulacion_Rehabilitacion.txt_RehabilitacionContratadaInfo, "InnerText", "Rehabilitación Contratada");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Rehabilitación Contratada') on item 'SURA.Anulacion_Rehabilitacion.txt_RehabilitacionContratada'.", repo.SURA.Anulacion_Rehabilitacion.txt_RehabilitacionContratadaInfo, new RecordItemIndex(11));
+            Validate.AttributeEqual(repo.SURA.Anulacion_Rehabilitacion.txt_RehabilitacionContratadaInfo, "InnerText", "Rehabilitación Contratada");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.Anulacion_Rehabilitacion.txt_NroRehabilitacion' and assigning the part of its value captured by '[0-9]{10}' to variable 'NumeroTransaccion'.", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.txt_NroRehabilitacionInfo, new RecordItemIndex(12));
-            NumeroTransaccion = repo.ApplicationUnderTest.Anulacion_Rehabilitacion.txt_NroRehabilitacion.Element.GetAttributeValueText("InnerText", new Regex("[0-9]{10}"));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.Anulacion_Rehabilitacion.txt_NroRehabilitacion' and assigning the part of its value captured by '[0-9]{10}' to variable 'NumeroTransaccion'.", repo.SURA.Anulacion_Rehabilitacion.txt_NroRehabilitacionInfo, new RecordItemIndex(12));
+            NumeroTransaccion = repo.SURA.Anulacion_Rehabilitacion.txt_NroRehabilitacion.Element.GetAttributeValueText("InnerText", new Regex("[0-9]{10}"));
             Delay.Milliseconds(0);
             
             // El número de transacción es

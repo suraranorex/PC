@@ -128,84 +128,84 @@ namespace PCQA.CrearCuentaEmpresa
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.XTableLayout.txt_Cuit' at Center.", repo.ApplicationUnderTest.XTableLayout.txt_CuitInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.XTableLayout.txt_Cuit.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.XTableLayout.txt_Cuit' at Center.", repo.SURA.XTableLayout.txt_CuitInfo, new RecordItemIndex(0));
+            repo.SURA.XTableLayout.txt_Cuit.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Documento' with focus on 'ApplicationUnderTest.XTableLayout.txt_Cuit'.", repo.ApplicationUnderTest.XTableLayout.txt_CuitInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.XTableLayout.txt_Cuit.PressKeys(Documento);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Documento' with focus on 'SURA.XTableLayout.txt_Cuit'.", repo.SURA.XTableLayout.txt_CuitInfo, new RecordItemIndex(1));
+            repo.SURA.XTableLayout.txt_Cuit.PressKeys(Documento);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.XTableLayout.lbl_Identificacion' at Center.", repo.ApplicationUnderTest.XTableLayout.lbl_IdentificacionInfo, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.XTableLayout.lbl_Identificacion.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.XTableLayout.lbl_Identificacion' at Center.", repo.SURA.XTableLayout.lbl_IdentificacionInfo, new RecordItemIndex(2));
+            repo.SURA.XTableLayout.lbl_Identificacion.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.XTableLayout.txt_Cuit_Espera'", repo.ApplicationUnderTest.XTableLayout.txt_Cuit_EsperaInfo, new ActionTimeout(30000), new RecordItemIndex(3));
-            repo.ApplicationUnderTest.XTableLayout.txt_Cuit_EsperaInfo.WaitForNotExists(30000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.XTableLayout.txt_Cuit_Espera'", repo.SURA.XTableLayout.txt_Cuit_EsperaInfo, new ActionTimeout(30000), new RecordItemIndex(3));
+            repo.SURA.XTableLayout.txt_Cuit_EsperaInfo.WaitForNotExists(30000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.btn_ValidarDocumento' at Center.", repo.ApplicationUnderTest.btn_ValidarDocumentoInfo, new RecordItemIndex(4));
-            repo.ApplicationUnderTest.btn_ValidarDocumento.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.btn_ValidarDocumento' at Center.", repo.SURA.btn_ValidarDocumentoInfo, new RecordItemIndex(4));
+            repo.SURA.btn_ValidarDocumento.Click();
             Delay.Milliseconds(0);
             
             try {
-                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'ApplicationUnderTest.Seleccionar' at 37;13.", repo.ApplicationUnderTest.SeleccionarInfo, new RecordItemIndex(5));
-                repo.ApplicationUnderTest.Seleccionar.Click("37;13");
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'SURA_COF.Seleccionar_COF' at 37;13.", repo.SURA_COF.Seleccionar_COFInfo, new RecordItemIndex(5));
+                repo.SURA_COF.Seleccionar_COF.Click("37;13");
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(5)); }
             
-            //Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.btn_ValidarDocumento_Espera'", repo.ApplicationUnderTest.btn_ValidarDocumento_EsperaInfo, new ActionTimeout(30000), new RecordItemIndex(6));
-            //repo.ApplicationUnderTest.btn_ValidarDocumento_EsperaInfo.WaitForNotExists(30000);
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.btn_ValidarDocumento_Espera'", repo.SURA.btn_ValidarDocumento_EsperaInfo, new ActionTimeout(30000), new RecordItemIndex(6));
+            //repo.SURA.btn_ValidarDocumento_EsperaInfo.WaitForNotExists(30000);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 6s.", new RecordItemIndex(7));
             Delay.Duration(6000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.XTableLayout.FlechaSelectIva' at Center.", repo.ApplicationUnderTest.XTableLayout.FlechaSelectIvaInfo, new RecordItemIndex(8));
-            repo.ApplicationUnderTest.XTableLayout.FlechaSelectIva.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.XTableLayout.FlechaSelectIva' at Center.", repo.SURA.XTableLayout.FlechaSelectIvaInfo, new RecordItemIndex(8));
+            repo.SURA.XTableLayout.FlechaSelectIva.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$IVA' with focus on 'ApplicationUnderTest.txt_IVA'.", repo.ApplicationUnderTest.txt_IVAInfo, new RecordItemIndex(9));
-            repo.ApplicationUnderTest.txt_IVA.PressKeys(IVA);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$IVA' with focus on 'SURA.txt_IVA'.", repo.SURA.txt_IVAInfo, new RecordItemIndex(9));
+            repo.SURA.txt_IVA.PressKeys(IVA);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.XTableLayout.CondicionFiscal' at Center.", repo.ApplicationUnderTest.XTableLayout.CondicionFiscalInfo, new RecordItemIndex(10));
-            repo.ApplicationUnderTest.XTableLayout.CondicionFiscal.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.XTableLayout.CondicionFiscal' at Center.", repo.SURA.XTableLayout.CondicionFiscalInfo, new RecordItemIndex(10));
+            repo.SURA.XTableLayout.CondicionFiscal.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.txt_IVA_Espera'", repo.ApplicationUnderTest.txt_IVA_EsperaInfo, new ActionTimeout(30000), new RecordItemIndex(11));
-            repo.ApplicationUnderTest.txt_IVA_EsperaInfo.WaitForNotExists(30000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.txt_IVA_Espera'", repo.SURA.txt_IVA_EsperaInfo, new ActionTimeout(30000), new RecordItemIndex(11));
+            repo.SURA.txt_IVA_EsperaInfo.WaitForNotExists(30000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.XTableLayout.FlechaSelectIBB' at Center.", repo.ApplicationUnderTest.XTableLayout.FlechaSelectIBBInfo, new RecordItemIndex(12));
-            repo.ApplicationUnderTest.XTableLayout.FlechaSelectIBB.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.XTableLayout.FlechaSelectIBB' at Center.", repo.SURA.XTableLayout.FlechaSelectIBBInfo, new RecordItemIndex(12));
+            repo.SURA.XTableLayout.FlechaSelectIBB.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$IBB' with focus on 'ApplicationUnderTest.txt_IBB'.", repo.ApplicationUnderTest.txt_IBBInfo, new RecordItemIndex(13));
-            repo.ApplicationUnderTest.txt_IBB.PressKeys(IBB);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$IBB' with focus on 'SURA.txt_IBB'.", repo.SURA.txt_IBBInfo, new RecordItemIndex(13));
+            repo.SURA.txt_IBB.PressKeys(IBB);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.XTableLayout.CondicionFiscal' at Center.", repo.ApplicationUnderTest.XTableLayout.CondicionFiscalInfo, new RecordItemIndex(14));
-            repo.ApplicationUnderTest.XTableLayout.CondicionFiscal.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.XTableLayout.CondicionFiscal' at Center.", repo.SURA.XTableLayout.CondicionFiscalInfo, new RecordItemIndex(14));
+            repo.SURA.XTableLayout.CondicionFiscal.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.txt_IBB_Espera'", repo.ApplicationUnderTest.txt_IBB_EsperaInfo, new ActionTimeout(30000), new RecordItemIndex(15));
-            repo.ApplicationUnderTest.txt_IBB_EsperaInfo.WaitForNotExists(30000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.txt_IBB_Espera'", repo.SURA.txt_IBB_EsperaInfo, new ActionTimeout(30000), new RecordItemIndex(15));
+            repo.SURA.txt_IBB_EsperaInfo.WaitForNotExists(30000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.XTableLayout.ClickFlechaBuscaGrupo2' at CenterRight.", repo.ApplicationUnderTest.XTableLayout.ClickFlechaBuscaGrupo2Info, new RecordItemIndex(16));
-            repo.ApplicationUnderTest.XTableLayout.ClickFlechaBuscaGrupo2.Click(Location.CenterRight);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.ClickFlechaBuscaGrupo2' at CenterRight.", repo.SURA.ClickFlechaBuscaGrupo2Info, new RecordItemIndex(16));
+            repo.SURA.ClickFlechaBuscaGrupo2.Click(Location.CenterRight);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.BuscarGrupo' at Center.", repo.ApplicationUnderTest.BuscarGrupoInfo, new RecordItemIndex(17));
-            repo.ApplicationUnderTest.BuscarGrupo.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.BuscarGrupo' at Center.", repo.SURA.BuscarGrupoInfo, new RecordItemIndex(17));
+            repo.SURA.BuscarGrupo.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Validar_BuscarGrupos' at 112;14.", repo.ApplicationUnderTest.Validar_BuscarGruposInfo, new RecordItemIndex(18));
-            repo.ApplicationUnderTest.Validar_BuscarGrupos.Click("112;14");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Validar_BuscarGrupos' at 112;14.", repo.SURA.Validar_BuscarGruposInfo, new RecordItemIndex(18));
+            repo.SURA.Validar_BuscarGrupos.Click("112;14");
             Delay.Milliseconds(0);
             
             // **** Validación de Carga de Datos de la Cuenta exitoso ****
             Report.Log(ReportLevel.Info, "Section", "**** Validación de Carga de Datos de la Cuenta exitoso ****", new RecordItemIndex(19));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Buscar grupos') on item 'ApplicationUnderTest.Validar_BuscarGrupos'.", repo.ApplicationUnderTest.Validar_BuscarGruposInfo, new RecordItemIndex(20));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.Validar_BuscarGruposInfo, "InnerText", "Buscar grupos");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Buscar grupos') on item 'SURA.Validar_BuscarGrupos'.", repo.SURA.Validar_BuscarGruposInfo, new RecordItemIndex(20));
+            Validate.AttributeEqual(repo.SURA.Validar_BuscarGruposInfo, "InnerText", "Buscar grupos");
             Delay.Milliseconds(0);
             
         }

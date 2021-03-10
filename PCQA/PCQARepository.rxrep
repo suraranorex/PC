@@ -17,7 +17,7 @@ name="PCQARepository">
 		capname="webdocument"
 		id="920b5cdc-6f8f-4038-b076-7e07ef5ce35b"
 		isrooted="True"
-		name="ApplicationUnderTest"
+		name="SURA"
 		refimgid="5e96b07c-74c0-4370-9372-4d23b53255df"
 		searchtimeout="30000ms"
 		usecache="False">
@@ -55,7 +55,7 @@ name="PCQARepository">
 			name="Btn_LogIn"
 			refimgid="0d334606-495a-4b93-bdfa-d88cbcf1871f"
 			searchtimeout="30000ms">
-				/dom[@domain~$Ambiente]//tbody[#'Login-tbody']/tr[3]//table/tbody/tr[3]/td/div/div/?/?/table/?/?/tr/td/a//span[@innertext~'Log In' or @innertext~'Iniciar sesión']
+				/dom[@domain~$Ambiente]//tbody[#'Login-tbody']/tr[3]//table/tbody/tr[3]/td/div/div/?/?/table/?/?/tr/td/a//span[@innertext~'Log In' or @innertext~'Iniciar sesi&#243;n']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -82,7 +82,16 @@ name="PCQARepository">
 			name="txt_Nombre"
 			refimgid="61286f02-e099-478a-94d4-65220c5457b5"
 			searchtimeout="30000ms">
-				/dom[@domain~$Ambiente]//tbody[#'NewAccount-tbody']/tr[4]/td/?/?/table/tbody/tr[4]/td/div/div//input[@name='NewAccount:NewAccountScreen:NewAccountSearchDV:GlobalPersonNameInputSet:FirstName']
+				/dom[@domain~$Ambiente]//tbody[#'NewAccount-tbody']//input[@name='NewAccount:NewAccountScreen:NewAccountSearchDV:GlobalPersonNameInputSet:FirstName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="63c2e6f1-2367-4168-a518-8ed917b3f434"
+			name="Copy_of_txt_Nombre"
+			refimgid="61286f02-e099-478a-94d4-65220c5457b5"
+			searchtimeout="30000ms">
+				/dom[@domain~$Ambiente]//tbody[#'NewAccount-tbody']//input[@name='NewAccount:NewAccountScreen:NewAccountSearchDV:GlobalPersonNameInputSet:FirstName' and @data-tabindexsaved='True']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -100,7 +109,16 @@ name="PCQARepository">
 			name="txt_Apellido"
 			refimgid="61663c82-7aeb-4b1c-bcfd-f0b79fea4b72"
 			searchtimeout="30000ms">
-				/dom[@domain~$Ambiente]//tbody[#'NewAccount-tbody']/tr[4]/td/?/?/table/tbody/tr[5]/td/div/div//input[@name='NewAccount:NewAccountScreen:NewAccountSearchDV:GlobalPersonNameInputSet:LastName']
+				/dom[@domain~$Ambiente]//tbody[#'NewAccount-tbody']//input[@name='NewAccount:NewAccountScreen:NewAccountSearchDV:GlobalPersonNameInputSet:LastName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="cb05ea15-5c3b-46e4-a376-58adc395bccd"
+			name="Copy_of_txt_Apellido"
+			refimgid="61663c82-7aeb-4b1c-bcfd-f0b79fea4b72"
+			searchtimeout="30000ms">
+				/dom[@domain~$Ambiente]//tbody[#'NewAccount-tbody']//input[@name='NewAccount:NewAccountScreen:NewAccountSearchDV:GlobalPersonNameInputSet:LastName' and @data-tabindexsaved='True']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -118,7 +136,7 @@ name="PCQARepository">
 			name="Btn_CrearCuentaNueva"
 			refimgid="47e7a61b-0add-4080-9ba8-277beba8cc6f"
 			searchtimeout="30000ms">
-				/dom[@domain~$Ambiente]//tbody[#'NewAccount-tbody']/tr[5]/td/div/table/tbody/tr//span[@innertext='Crear cuenta nueva']
+				/dom[@domain~$Ambiente]//tbody[#'NewAccount-tbody']//span[@innertext='Crear cuenta nueva']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -127,7 +145,7 @@ name="PCQARepository">
 			name="Btn_AGregarDocumento"
 			refimgid="3ac856f0-4397-49c1-94d5-e5106cfeb8fc"
 			searchtimeout="30000ms">
-				/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//td/?/?/table/tbody/tr/td[1]/?/?/table/tbody/tr[2]/td/div/div[1]/div/div/a[1]//span[@innertext='gregar Documento']
+				/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']//span[@innertext='gregar Documento']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -237,6 +255,69 @@ name="PCQARepository">
 			searchtimeout="30000ms">
 				/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']//table//tbody/tr/td[2]/div[@safeclass='x-grid-cell-inner' and @data-tabindexsaved='True']
 			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="59de8567-f979-409c-a26e-54ffd47b3a1f"
+			name="Txt_NumeroDoc"
+			refimgid="611ab49d-9e6d-4f05-b7d2-94a63288064b"
+			searchtimeout="30000ms">
+				/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[2]/td/div/div[3]/div[1]/div[1]/table/tbody/tr/td[3]/div
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="tdtag"
+			id="0e3ff719-82be-4a9e-aaa1-1c8081296826"
+			name="txt_TipoDocumento"
+			refimgid="9510837a-aa72-4dd1-9574-7d4c9938e392"
+			searchtimeout="30000ms">
+				/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']//table/tbody/tr[@class='  x-grid-row']/td[2]
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="inputtag"
+			id="a84be5cb-456c-494d-85e6-a5ca8a1d2ff2"
+			name="Copy_of_txt_TipoDocumento"
+			refimgid="9510837a-aa72-4dd1-9574-7d4c9938e392"
+			searchtimeout="30000ms">
+				/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']//table/tbody/tr[@class='  x-grid-row']/td[2]/../..//input[@data-tabindexsaved='True']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="56ee3903-2ac1-4c9e-9764-6612857d2a84"
+			name="Copy_of_TipoDocumentoDNI"
+			refimgid="9510837a-aa72-4dd1-9574-7d4c9938e392"
+			searchtimeout="30000ms">
+				/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']//div[@innertext='D.N.I.' and @data-tabindexsaved='True']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="cb6ba152-5e9a-408e-b03d-8cbdfe78ad66"
+			name="ClickFlechaBuscaGrupo2"
+			refimgid="3953066a-4342-4db3-8bd4-2b14e33d534f"
+			searchtimeout="30000ms">
+				/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']//div[@class='g-input-suffix']//img[@src='https://'+$Ambiente+'/pc/resources/themes/theme-9/resources/images/app/drop_button.png']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="c256d4bc-a78c-4ef0-8a87-f8c43fea40bc"
+			name="ValidarDocumento"
+			refimgid="0dd64fa0-7b4e-4fe5-b003-524b6b502557"
+			searchtimeout="30000ms">
+				/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']//span[@innertext='Validar Documento']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="69d2c7ea-a631-43d3-9eb7-a0e48908e4cd"
+			name="Copy_of_ValidarDocumento"
+			refimgid="0dd64fa0-7b4e-4fe5-b003-524b6b502557"
+			searchtimeout="30000ms">
+				/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']//span[@innertext='Validar Documento' and @data-tabindexsaved='True']
+			</item>
 			<folder
 			capname="table"
 			id="c9432cc2-5e25-4c4e-aee5-ffc3842a452b"
@@ -244,33 +325,6 @@ name="PCQARepository">
 			name="XTableLayout"
 			searchtimeout="30000ms"
 			usecache="False">
-				<item
-				addcaps="unknown,webelement,divtag"
-				capname="divtag"
-				id="0e3ff719-82be-4a9e-aaa1-1c8081296826"
-				name="TipoDocumento"
-				refimgid="9510837a-aa72-4dd1-9574-7d4c9938e392"
-				searchtimeout="30000ms">
-					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[2]/td/div/div[3]/div[1]/div/table/tbody/tr/td[2]/div
-				</item>
-				<item
-				addcaps="unknown,webelement,divtag"
-				capname="divtag"
-				id="56ee3903-2ac1-4c9e-9764-6612857d2a84"
-				name="Copy_of_TipoDocumento"
-				refimgid="9510837a-aa72-4dd1-9574-7d4c9938e392"
-				searchtimeout="30000ms">
-					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[2]/td/div/div[3]/div[1]/div/table/tbody/tr/td[2]/div[@innertext='D.N.I.' and @data-tabindexsaved='True']
-				</item>
-				<item
-				addcaps="unknown,webelement,divtag"
-				capname="divtag"
-				id="59de8567-f979-409c-a26e-54ffd47b3a1f"
-				name="Txt_NumeroDoc"
-				refimgid="611ab49d-9e6d-4f05-b7d2-94a63288064b"
-				searchtimeout="30000ms">
-					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[2]/td/div/div[3]/div[1]/div[1]/table/tbody/tr/td[3]/div
-				</item>
 				<item
 				addcaps="unknown,webelement,divtag"
 				capname="divtag"
@@ -305,7 +359,7 @@ name="PCQARepository">
 				name="Btn_ValidarDireccion"
 				refimgid="d13fd674-5bce-4669-923d-495984c9868f"
 				searchtimeout="30000ms">
-					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[7]/td/div/div/div/table/tbody/tr/td/a//span[@innertext='Validar Dirección']
+					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[7]/td/div/div/div/table/tbody/tr/td/a//span[@innertext='Validar Direcci&#243;n']
 				</item>
 				<item
 				addcaps="unknown,webelement,spantag"
@@ -314,7 +368,7 @@ name="PCQARepository">
 				name="Copy_of_Btn_ValidarDireccion"
 				refimgid="d13fd674-5bce-4669-923d-495984c9868f"
 				searchtimeout="30000ms">
-					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?//span[@innertext='Validar Dirección' and @data-tabindexsaved='True']
+					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?//span[@innertext='Validar Direcci&#243;n' and @data-tabindexsaved='True']
 				</item>
 				<item
 				addcaps="unknown,webelement,divtag"
@@ -362,15 +416,6 @@ name="PCQARepository">
 					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[23]/td/div/div/div/div[2]
 				</item>
 				<item
-				addcaps="unknown,webelement,imgtag"
-				capname="imgtag"
-				id="cb6ba152-5e9a-408e-b03d-8cbdfe78ad66"
-				name="ClickFlechaBuscaGrupo2"
-				refimgid="3953066a-4342-4db3-8bd4-2b14e33d534f"
-				searchtimeout="30000ms">
-					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/tbody/tr/td[2]/?/?/table/tbody/tr[22]/td/div/div/div/div/div/div/div[@class='g-input-suffix']//img[@src='https://'+$Ambiente+'/pc/resources/themes/theme-9/resources/images/app/drop_button.png']
-				</item>
-				<item
 				addcaps="unknown,webelement,labeltag"
 				capname="labeltag"
 				id="614666f7-f085-4bf5-995b-fd74c2cb8d0e"
@@ -378,7 +423,7 @@ name="PCQARepository">
 				refimgid="e2a524c5-cc6f-4162-bc54-a657fffc9054"
 				refpath="/dom[@domain='preproducciongestion.segurossura.com.ar']//tbody[#'CreateAccount-tbody']/tr[4]/td/div/table/tbody/tr/td/div/table/tbody/tr/td[1]/div/table/tbody/tr[14]/td/label[@innertext='Condición Fiscal']"
 				searchtimeout="30000ms">
-					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/div/table/tbody/tr[14]/?/?/label[@innertext='Condición Fiscal']
+					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/div/table/tbody/tr[14]/?/?/label[@innertext='Condici&#243;n Fiscal']
 				</item>
 				<item
 				addcaps="unknown,webelement,labeltag"
@@ -389,16 +434,6 @@ name="PCQARepository">
 				refpath="/dom[@domain='preproducciongestion.segurossura.com.ar']//tbody[#'CreateAccount-tbody']/tr[4]/td/div/table/tbody/tr/td/div/table/tbody/tr/td[2]/div/table/tbody/tr[20]/td/label[@innertext='Seleccionar Productor']"
 				searchtimeout="30000ms">
 					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[2]/div/table/tbody/tr[20]/?/?/label[@innertext='Seleccionar Productor']
-				</item>
-				<item
-				addcaps="unknown,webelement,spantag"
-				capname="spantag"
-				id="c256d4bc-a78c-4ef0-8a87-f8c43fea40bc"
-				name="ValidarDocumento"
-				refimgid="0dd64fa0-7b4e-4fe5-b003-524b6b502557"
-				refpath="/dom[@domain='preproducciongestion.segurossura.com.ar']//tbody[#'CreateAccount-tbody']/tr[4]/td/div/table/tbody/tr/td/div/table/tbody/tr/td[1]/div/table/tbody/tr[3]/td/div/div/div/table/tbody/tr/td/a/span/span/span[@innertext='Validar Documento']"
-				searchtimeout="30000ms">
-					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[3]/td/div/div/div/table/tbody/tr/td/a//span[@innertext='Validar Documento']
 				</item>
 				<item
 				addcaps="unknown,webelement,inputtag"
@@ -427,7 +462,7 @@ name="PCQARepository">
 				refimgid="168a1f17-da50-48ae-b9ef-9efd67a527d1"
 				refpath="/dom[@domain='preproducciongestion.segurossura.com.ar']//tbody[#'CreateAccount-tbody']/tr[4]/td/div/table/tbody/tr/td/div/table/tbody/tr/td[1]/div/table/tbody/tr[1]/td/label[@innertext='Identificación']"
 				searchtimeout="30000ms">
-					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/div/table/tbody/tr[1]/?/?/label[@innertext='Identificación']
+					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/div/table/tbody/tr[1]/?/?/label[@innertext='Identificaci&#243;n']
 				</item>
 				<item
 				addcaps="unknown,webelement,divtag"
@@ -447,7 +482,7 @@ name="PCQARepository">
 				refimgid="54b098eb-1213-42cc-abb7-1f9df2bb83c5"
 				refpath="/dom[@domain='preproducciongestion.segurossura.com.ar']//tbody[#'CreateAccount-tbody']/tr[4]/td/div/table/tbody/tr/td/div/table/tbody/tr/td[1]/div/table/tbody/tr[6]/td/label[@innertext='Condición Fiscal']"
 				searchtimeout="30000ms">
-					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/div/table/tbody/tr[6]/?/?/label[@innertext='Condición Fiscal']
+					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/div/table/tbody/tr[6]/?/?/label[@innertext='Condici&#243;n Fiscal']
 				</item>
 				<item
 				addcaps="unknown,webelement,divtag"
@@ -552,7 +587,7 @@ name="PCQARepository">
 			name="bttn_MenuPoliza"
 			refimgid="c8026418-ff00-4d25-8167-e88df2981c1c"
 			searchtimeout="30000ms">
-				/dom[@domain~$Ambiente]//a[#'TabBar:PolicyTab']//span[@innertext~'óliza']/../../../span
+				/dom[@domain~$Ambiente]//a[#'TabBar:PolicyTab']//span[@innertext~'&#243;liza']/../../../span
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -632,7 +667,7 @@ name="PCQARepository">
 				name="SubMenuNuevaSolicitudAnonima"
 				refimgid="be69896d-535f-47cc-9f38-6434556f8985"
 				searchtimeout="30000ms">
-					/dom[@domain~$Ambiente]/body/div[11]/div/div[2]/div/div[3]/?/?/span[@innertext~'Nueva Solicitud Anónima']
+					/dom[@domain~$Ambiente]/body/div[11]/div/div[2]/div/div[3]/?/?/span[@innertext~'Nueva Solicitud An&#243;nima']
 				</item>
 				<basepath>
 					/dom[@domain~$Ambiente]/body/div[11]/div/div[2]/div
@@ -681,7 +716,7 @@ name="PCQARepository">
 			name="txtbox_NumPoliza"
 			refimgid="1d78f7df-f1ef-45cd-af62-01c82d330328"
 			searchtimeout="30000ms">
-				/dom[@domain~$Ambiente]//div[@class~'x-menu']//span[@innertext='N.° de póliza']/../..//input
+				/dom[@domain~$Ambiente]//div[@class~'x-menu']//span[@innertext='N.&#176; de p&#243;liza']/../..//input
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -699,7 +734,7 @@ name="PCQARepository">
 			name="Compania"
 			refimgid="79e9956f-2a06-401a-a932-92c05f5df385"
 			searchtimeout="30000ms">
-				/dom[@domain~$Ambiente]//span[@innertext='Compañía']
+				/dom[@domain~$Ambiente]//span[@innertext='Compa&#241;&#237;a']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -708,7 +743,7 @@ name="PCQARepository">
 			name="NroCuenta"
 			refimgid="55737458-03e9-4dc7-8f7d-6c0a933858ea"
 			searchtimeout="30000ms">
-				/dom[@domain~$Ambiente]//span[@innertext='Cuenta número']/../..//div[@innertext~'[0-9]+']
+				/dom[@domain~$Ambiente]//span[@innertext='Cuenta n&#250;mero']/../..//div[@innertext~'[0-9]+']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -762,7 +797,7 @@ name="PCQARepository">
 			name="AnularPoliza1"
 			refimgid="101e6bfd-4fa3-4a86-904e-be1e8dd7ef1d"
 			searchtimeout="30000ms">
-				/dom[@domain~$Ambiente]/dom[@domain=$Ambiente]//span[@innertext='Anular póliza']
+				/dom[@domain~$Ambiente]/dom[@domain=$Ambiente]//span[@innertext='Anular p&#243;liza']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -780,7 +815,7 @@ name="PCQARepository">
 			name="CerrarSesionSuperUser"
 			refimgid="367cca82-9d2e-4fa0-a907-e374a333d0d3"
 			searchtimeout="30000ms">
-				/dom[@domain~$Ambiente]//span[@innertext~'Cerrar sesión']
+				/dom[@domain~$Ambiente]//span[@innertext~'Cerrar sesi&#243;n']
 			</item>
 			<item
 			addcaps="unknown,webelement,litag"
@@ -827,7 +862,7 @@ name="PCQARepository">
 			refimgid="f6867a04-2f4e-4d13-9f12-e6600fc44449"
 			refpath="/dom[@domain='preproducciongestion.segurossura.com.ar']//tbody[#'CreateAccount-tbody']/tr[4]/td/div/table/tbody/tr/td/div/table/tbody/tr/td[2]/div/table/tbody/tr[1]/td/div/label/span[@innertext='Dirección']"
 			searchtimeout="30000ms">
-				/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]/td/?/?/table/tbody//table/?/?/tr/td[2]/?/?/table/tbody/tr[1]//label/span[@innertext='Dirección']
+				/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]/td/?/?/table/tbody//table/?/?/tr/td[2]/?/?/table/tbody/tr[1]//label/span[@innertext='Direcci&#243;n']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -845,7 +880,7 @@ name="PCQARepository">
 			name="ValidacionDireccion"
 			refimgid="3abb3fac-6dd3-4bdb-9b87-56938262143a"
 			searchtimeout="30000ms">
-				/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table/?/?/tr/?/?/div/table/?/?/tr/td[2]/?/?/table/tbody/tr[16]//label/span[@innertext='Validación']/../..//div[@id='CreateAccount:SuraCreateAccountScreen:CreateAccountDV:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:VerificationStatusSura-inputEl' and @innertext~'[A-Za-z]+']
+				/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table/?/?/tr/?/?/div/table/?/?/tr/td[2]/?/?/table/tbody/tr[16]//label/span[@innertext='Validaci&#243;n']/../..//div[@id='CreateAccount:SuraCreateAccountScreen:CreateAccountDV:AddressInputSet:globalAddressContainer:GlobalAddressInputSet:VerificationStatusSura-inputEl' and @innertext~'[A-Za-z]+']
 			</item>
 			<item
 			addcaps="unknown,webelement,litag"
@@ -901,7 +936,7 @@ name="PCQARepository">
 			refimgid="2ed5d753-ac7f-40b6-9211-52e6a070d982"
 			refpath="/dom[@domain='preproducciongestion.segurossura.com.ar']//tbody[#'AccountSearch-tbody']/tr[4]/td/div/div[1]/div/div/div/div/span[@innertext='Resultados de la búsqueda']"
 			searchtimeout="30000ms">
-				/dom[@domain~$Ambiente]//tbody[#'AccountSearch-tbody']/tr[4]/td/div/div[1]//span[@innertext='Resultados de la búsqueda']
+				/dom[@domain~$Ambiente]//tbody[#'AccountSearch-tbody']/tr[4]/td/div/div[1]//span[@innertext='Resultados de la b&#250;squeda']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -911,16 +946,6 @@ name="PCQARepository">
 			refimgid="f01cedbe-e307-405c-9dda-5bce2140d38f"
 			searchtimeout="30000ms">
 				/dom[@domain~$Ambiente]/body//div[@class='x-mask-msg']
-			</item>
-			<item
-			addcaps="unknown,webelement,atag"
-			capname="atag"
-			id="3ca2defa-4ed2-463e-81ac-72ecc5c0bf7c"
-			name="Seleccionar"
-			refimgid="26854676-d1e9-4839-87ab-c02cd6d7222d"
-			refpath="/dom[@domain='preproducciongestion.segurossura.com.ar']//tbody[#'VerifiedAddressSelectionPopup-tbody']/tr[3]/td/div/div[3]/div[1]/div/table[1]/tbody/tr/td[1]/div/a[@innertext='Seleccionar']"
-			searchtimeout="30000ms">
-				/dom[@domain~$Ambiente]//tbody[#'VerifiedAddressSelectionPopup-tbody']/tr[3]/td/div/div[3]/div[1]/div/table[1]/?/?/tr/td[1]/?/?/a[@innertext='Seleccionar']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -1095,7 +1120,7 @@ name="PCQARepository">
 				name="txt_IniciarLaRehabilitacion"
 				refimgid="550c26b2-6ae1-4a62-b88b-20d5df05e66a"
 				searchtimeout="30000ms">
-					/dom[@domain~$Ambiente]//span[@innertext='Iniciar la rehabilitación']
+					/dom[@domain~$Ambiente]//span[@innertext='Iniciar la rehabilitaci&#243;n']
 				</item>
 				<item
 				addcaps="unknown,webelement,spantag"
@@ -1104,7 +1129,7 @@ name="PCQARepository">
 				name="txt_Cotizacion"
 				refimgid="2f5608ca-32a9-4f94-a2d3-7f6983d44a8b"
 				searchtimeout="30000ms">
-					/dom[@domain~$Ambiente]//div[#'ReinstatementWizard/ViewQuote']//span[@innertext='Cotización']
+					/dom[@domain~$Ambiente]//div[#'ReinstatementWizard/ViewQuote']//span[@innertext='Cotizaci&#243;n']
 				</item>
 				<item
 				addcaps="unknown,webelement,spantag"
@@ -1113,7 +1138,7 @@ name="PCQARepository">
 				name="txt_Confirmacion"
 				refimgid="f91ccfdb-35c5-4450-a4dd-9613f2ddb565"
 				searchtimeout="30000ms">
-					/dom[@domain~$Ambiente]//span[@innertext='Confirmación']
+					/dom[@domain~$Ambiente]//span[@innertext='Confirmaci&#243;n']
 				</item>
 				<item
 				addcaps="unknown,webelement,spantag"
@@ -1122,7 +1147,7 @@ name="PCQARepository">
 				name="bttn_RehabilitarPoliza"
 				refimgid="d793f06a-f1a6-4dba-af3a-da29bda4413c"
 				searchtimeout="30000ms">
-					/dom[@domain~$Ambiente]//span[@innertext='Rehabilitar póliza']
+					/dom[@domain~$Ambiente]//span[@innertext='Rehabilitar p&#243;liza']
 				</item>
 				<item
 				addcaps="unknown,webelement,spantag"
@@ -1140,7 +1165,7 @@ name="PCQARepository">
 				name="option_AnulacionPorDesistimiento"
 				refimgid="98712d65-1d21-4d93-9b95-ea7fe1c9d9ee"
 				searchtimeout="30000ms">
-					/dom[@domain~$Ambiente]//li[@innertext~'Anulación por desistimien']
+					/dom[@domain~$Ambiente]//li[@innertext~'Anulaci&#243;n por desistimien']
 				</item>
 				<item
 				addcaps="unknown,webelement,spantag"
@@ -1158,7 +1183,7 @@ name="PCQARepository">
 				name="bttn_AnularPoliza"
 				refimgid="56df25b1-34b9-4eb8-9b56-f373f20ab2d1"
 				searchtimeout="30000ms">
-					/dom[@domain~$Ambiente]//span[@innertext~'Anular póliza']
+					/dom[@domain~$Ambiente]//span[@innertext~'Anular p&#243;liza']
 				</item>
 				<item
 				addcaps="unknown,webelement,labeltag"
@@ -1176,7 +1201,7 @@ name="PCQARepository">
 				name="txt_RehabilitacionContratada"
 				refimgid="c7892c19-819c-49af-a9cf-77952285e9a1"
 				searchtimeout="30000ms">
-					/dom[@domain~$Ambiente]//tbody[#'JobComplete-tbody']/tr[1]/td/div//span[@innertext='Rehabilitación Contratada']
+					/dom[@domain~$Ambiente]//tbody[#'JobComplete-tbody']/tr[1]/td/div//span[@innertext='Rehabilitaci&#243;n Contratada']
 				</item>
 				<item
 				addcaps="unknown,webelement,spantag"
@@ -1185,7 +1210,7 @@ name="PCQARepository">
 				name="bttn_IniciarAnulacion"
 				refimgid="35eca2d9-36a0-4fb5-8bad-b2778276ccc9"
 				searchtimeout="30000ms">
-					/dom[@domain~$Ambiente]//a[#'StartCancellation:StartCancellationScreen:NewCancellation']//span[@innertext='Iniciar anulación']
+					/dom[@domain~$Ambiente]//a[#'StartCancellation:StartCancellationScreen:NewCancellation']//span[@innertext='Iniciar anulaci&#243;n']
 				</item>
 				<item
 				addcaps="unknown,webelement,spantag"
@@ -1221,7 +1246,7 @@ name="PCQARepository">
 				name="txt_AnulacionContratada"
 				refimgid="8219428b-4e2d-4f72-8147-e9e6bfbc9c1d"
 				searchtimeout="30000ms">
-					/dom[@domain~$Ambiente]//span[@innertext='Anulación Contratada']
+					/dom[@domain~$Ambiente]//span[@innertext='Anulaci&#243;n Contratada']
 				</item>
 				<item
 				addcaps="unknown,webelement,labeltag"
@@ -1248,9 +1273,18 @@ name="PCQARepository">
 				name="txt_IniciarAnulacion"
 				refimgid="98d08bf4-5c1a-4c23-bbb9-55c9ee2e23b2"
 				searchtimeout="30000ms">
-					/dom[@domain~$Ambiente]//span[@innertext~'Iniciar anulación de póliza']
+					/dom[@domain~$Ambiente]//span[@innertext~'Iniciar anulaci&#243;n de p&#243;liza']
 				</item>
 			</folder>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="2c82e542-09cf-4dcc-bcfb-d57a9c0f7665"
+			name="txt_InformacionDePoliza"
+			refimgid="8b744f25-3b48-4faf-965c-5833c12ea44b"
+			searchtimeout="30000ms">
+				/dom[@domain~$Ambiente]//span[@innertext='Informaci&#243;n de p&#243;liza']
+			</item>
 			<basepath>
 				/dom[@domain~$Ambiente]
 			</basepath>
@@ -1272,39 +1306,23 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		</appfolder>
 		<appfolder
 		capname="webdocument"
-		id="6888f402-bbd2-418a-b4be-c28a84d1d804"
+		id="0a50bce7-fb7a-43f8-9738-523840ec392f"
 		isrooted="True"
-		name="SURA"
-		refimgid="7f2a277d-cf8b-455a-ad2f-ce2b65212546"
-		searchtimeout="30000ms"
+		name="SURA_COF"
+		searchtimeout="0ms"
 		usecache="False">
 			<item
-			addcaps="unknown,webelement,spantag"
-			capname="spantag"
-			id="2c82e542-09cf-4dcc-bcfb-d57a9c0f7665"
-			name="txt_InformacionDePoliza"
-			refimgid="8b744f25-3b48-4faf-965c-5833c12ea44b"
-			searchtimeout="30000ms">
-				/dom[@domain=$Ambiente]//div/table//span[@innertext='Información de póliza']
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="3ca2defa-4ed2-463e-81ac-72ecc5c0bf7c"
+			name="Seleccionar_COF"
+			refimgid="26854676-d1e9-4839-87ab-c02cd6d7222d"
+			searchtimeout="5000ms">
+				/dom[@domain~$Ambiente]//tbody[#'VerifiedAddressSelectionPopup-tbody']//a[@innertext='Seleccionar']
 			</item>
 			<basepath>
-				/dom[@domain=$Ambiente]
+				/dom[@domain~$Ambiente]
 			</basepath>
-			<icon>
-				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
-AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
-dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
-yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
-9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
-cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
-bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
-dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
-6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
-lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
-zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
-8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
-F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
-			</icon>
 		</appfolder>
 		<basepath>
 		</basepath>
@@ -1313,7 +1331,7 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		<var
 		id="6220ee55-3dcc-4717-9260-d89ec7bc2052"
 		name="Ambiente">
-			i-preproducciongestion.segurossura.com.ar
+			preproducciongestion.segurossura.com.ar
 		</var>
 		<var
 		id="1cb33de0-eb2d-4f2e-bb31-7a26f68f859e"

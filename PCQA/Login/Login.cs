@@ -119,32 +119,32 @@ namespace PCQA.Login
             // **** Ingreso de usuario y clave ****
             Report.Log(ReportLevel.Info, "Section", "**** Ingreso de usuario y clave ****", new RecordItemIndex(0));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txt_User' at 38;15.", repo.ApplicationUnderTest.txt_UserInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.txt_User.Click("38;15");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.txt_User' at 38;15.", repo.SURA.txt_UserInfo, new RecordItemIndex(1));
+            repo.SURA.txt_User.Click("38;15");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LControlKey down}{Akey}{LControlKey up}' with focus on 'ApplicationUnderTest.txt_User'.", repo.ApplicationUnderTest.txt_UserInfo, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.txt_User.PressKeys("{LControlKey down}{Akey}{LControlKey up}");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LControlKey down}{Akey}{LControlKey up}' with focus on 'SURA.txt_User'.", repo.SURA.txt_UserInfo, new RecordItemIndex(2));
+            repo.SURA.txt_User.PressKeys("{LControlKey down}{Akey}{LControlKey up}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Usuario' with focus on 'ApplicationUnderTest.txt_User'.", repo.ApplicationUnderTest.txt_UserInfo, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.txt_User.PressKeys(Usuario);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Usuario' with focus on 'SURA.txt_User'.", repo.SURA.txt_UserInfo, new RecordItemIndex(3));
+            repo.SURA.txt_User.PressKeys(Usuario);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txt_password' at 27;7.", repo.ApplicationUnderTest.txt_passwordInfo, new RecordItemIndex(4));
-            repo.ApplicationUnderTest.txt_password.Click("27;7");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.txt_password' at 27;7.", repo.SURA.txt_passwordInfo, new RecordItemIndex(4));
+            repo.SURA.txt_password.Click("27;7");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LControlKey down}{Akey}{LControlKey up}' with focus on 'ApplicationUnderTest.txt_password'.", repo.ApplicationUnderTest.txt_passwordInfo, new RecordItemIndex(5));
-            repo.ApplicationUnderTest.txt_password.PressKeys("{LControlKey down}{Akey}{LControlKey up}");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LControlKey down}{Akey}{LControlKey up}' with focus on 'SURA.txt_password'.", repo.SURA.txt_passwordInfo, new RecordItemIndex(5));
+            repo.SURA.txt_password.PressKeys("{LControlKey down}{Akey}{LControlKey up}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Contrasenia' with focus on 'ApplicationUnderTest.txt_password'.", repo.ApplicationUnderTest.txt_passwordInfo, new RecordItemIndex(6));
-            repo.ApplicationUnderTest.txt_password.PressKeys(Contrasenia);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Contrasenia' with focus on 'SURA.txt_password'.", repo.SURA.txt_passwordInfo, new RecordItemIndex(6));
+            repo.SURA.txt_password.PressKeys(Contrasenia);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Btn_LogIn' at 23;5.", repo.ApplicationUnderTest.Btn_LogInInfo, new RecordItemIndex(7));
-            repo.ApplicationUnderTest.Btn_LogIn.Click("23;5");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Btn_LogIn' at 23;5.", repo.SURA.Btn_LogInInfo, new RecordItemIndex(7));
+            repo.SURA.Btn_LogIn.Click("23;5");
             Delay.Milliseconds(0);
             
             // **** Validación de Login Exitoso ****
@@ -152,8 +152,8 @@ namespace PCQA.Login
             
             //Report.Log(ReportLevel.Info, "User", "", new RecordItemIndex(9));
             
-            //Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Mis actividades') on item 'ApplicationUnderTest.Validate_MisActividades'.", repo.ApplicationUnderTest.Validate_MisActividadesInfo, new RecordItemIndex(10));
-            //Validate.AttributeEqual(repo.ApplicationUnderTest.Validate_MisActividadesInfo, "InnerText", "Mis actividades");
+            //Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Mis actividades') on item 'SURA.Validate_MisActividades'.", repo.SURA.Validate_MisActividadesInfo, new RecordItemIndex(10));
+            //Validate.AttributeEqual(repo.SURA.Validate_MisActividadesInfo, "InnerText", "Mis actividades");
             //Delay.Milliseconds(100);
             
         }

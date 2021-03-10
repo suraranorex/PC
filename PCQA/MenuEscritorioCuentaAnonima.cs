@@ -89,16 +89,16 @@ namespace PCQA
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.MenuNuevo' at 44;10.", repo.ApplicationUnderTest.MenuNuevoInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.MenuNuevo.Click("44;10");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.MenuNuevo' at 44;10.", repo.SURA.MenuNuevoInfo, new RecordItemIndex(0));
+            repo.SURA.MenuNuevo.Click("44;10");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.GBannerXBoxItemXBoxLayoutCtXCo.SubMenuNuevaSolicitudAnonima' at 99;10.", repo.ApplicationUnderTest.GBannerXBoxItemXBoxLayoutCtXCo.SubMenuNuevaSolicitudAnonimaInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.GBannerXBoxItemXBoxLayoutCtXCo.SubMenuNuevaSolicitudAnonima.Click("99;10");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.GBannerXBoxItemXBoxLayoutCtXCo.SubMenuNuevaSolicitudAnonima' at 99;10.", repo.SURA.GBannerXBoxItemXBoxLayoutCtXCo.SubMenuNuevaSolicitudAnonimaInfo, new RecordItemIndex(1));
+            repo.SURA.GBannerXBoxItemXBoxLayoutCtXCo.SubMenuNuevaSolicitudAnonima.Click("99;10");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SubMenuPersona' at 22;12.", repo.ApplicationUnderTest.SubMenuPersonaInfo, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.SubMenuPersona.Click("22;12");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.SubMenuPersona' at 22;12.", repo.SURA.SubMenuPersonaInfo, new RecordItemIndex(2));
+            repo.SURA.SubMenuPersona.Click("22;12");
             Delay.Milliseconds(0);
             
         }

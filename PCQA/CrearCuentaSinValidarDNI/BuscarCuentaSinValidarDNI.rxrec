@@ -1384,10 +1384,10 @@ I//Z
 			<bindings>
 			</bindings>
 			<info
-			id="4e297c8a-acc7-47e6-809c-3a777db08c0d"
+			id="63c2e6f1-2367-4168-a518-8ed917b3f434"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'NewAccount-tbody']/tr[4]/td/?/?/table/tbody/tr[4]/td/div/div//input[@name='NewAccount:NewAccountScreen:NewAccountSearchDV:GlobalPersonNameInputSet:FirstName']
+					/dom[@domain~$Ambiente]//tbody[#'NewAccount-tbody']//input[@name='NewAccount:NewAccountScreen:NewAccountSearchDV:GlobalPersonNameInputSet:FirstName' and @data-tabindexsaved='True']
 				</path>
 			</info>
 		</WaitForRecordItem>
@@ -2130,167 +2130,31 @@ I//Z
 			<bindings>
 			</bindings>
 			<info
-			id="c3b8343f-0f6c-4ce7-987b-03234756e6e4"
+			id="cb05ea15-5c3b-46e4-a376-58adc395bccd"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'NewAccount-tbody']/tr[4]/td/?/?/table/tbody/tr[5]/td/div/div//input[@data-tabindexsaved='True']
+					/dom[@domain~$Ambiente]//tbody[#'NewAccount-tbody']//input[@name='NewAccount:NewAccountScreen:NewAccountSearchDV:GlobalPersonNameInputSet:LastName' and @data-tabindexsaved='True']
 				</path>
 			</info>
 		</WaitForRecordItem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
-		enabled="False"
-		loc="34;12"
-		movetime="300ms"
+		<WaitForRecordItem
+		enabled="True"
 		optional="False"
-		searchpropertyid="844e9af2-828b-4be1-863d-864dd2fa027f"
-		sx="45"
-		sy="523"
-		warnoutofbounds="False">
+		searchpropertyid="484b261c-106b-460e-aaef-c5a7fc323a72"
+		waitaction="Exists"
+		waittimeout="30000ms">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="53a1680c-1c15-4732-b3cc-5b0312ed5996"
-			sourcename="Recorder">
-				<element
-				capabilities="webelement, atag"
-				dontcache="True"
-				enabled="True"
-				flavor="chromeweb"
-				hasfocus="False"
-				index="0"
-				prefcap="atag"
-				rect="11,511,64,23"
-				role="unknown"
-				snapElem=""
-				valid="True"
-				visible="True">
-					<attribute
-					name="class"
-					type="System.String">
-						bigButton
-					</attribute>
-					<attribute
-					name="draggable"
-					type="System.String">
-						True
-					</attribute>
-					<attribute
-					name="hidden"
-					type="System.String">
-						False
-					</attribute>
-					<attribute
-					name="id"
-					type="System.String">
-						NewAccount:NewAccountScreen:NewAccountSearchDV:SearchAndResetInputSet:SearchLinksInputSet:Search
-					</attribute>
-					<attribute
-					name="innertext"
-					type="System.String">
-						Bucar
-					</attribute>
-					<attribute
-					name="safeclass"
-					type="System.String">
-						bigButton
-					</attribute>
-					<attribute
-					name="tagname"
-					type="System.String">
-						a
-					</attribute>
-					<attribute
-					name="href"
-					type="System.String">
-						javascript:void(0)
-					</attribute>
-				</element>
+			id="bdd733f3-f566-4c13-95bd-ca34515f8a2e"
+			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'NewAccount-tbody']/tr[4]//table/tbody/tr[12]/td/div/div/?/?/table/?/?/tr/td[1]/a[@innertext='Bucar']
+					/dom[@domain~$Ambiente]//tbody[#'NewAccount-tbody']//span[@innertext='Crear cuenta nueva']
 				</path>
 			</info>
-			<helperscreenshot
-			guid="53c23ad5-c636-456f-bd75-b89b1dc4c857">
-				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
-YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
-qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCADCAJ0DASIA
-AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
-AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
-ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
-p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
-AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
-BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
-U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
-uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKguf
-9bbf9df/AGVqnooAp3LlWky7Ku+MZB6Anmm7/lcRys1uGXL7ycDv835fSrkiCQAHPDBuPY06gCC1
-YEyBHLxAjaxbd9ee9ViysV3SN53nDKbjwN3HHpjHNaFFAFCKR2ugGkRZN5yplOSvP8OMenNTTSxw
-3iGWREBjYAswHcVZooAoA7VJyY7d5Scg7cDHr2BNKZPkG6Rhb+ZjzN5+7j+96Z71eooApiZI5W/e
-/uzEvl5fO45Ocep6UwbpEJaST5bdGGHI555/Sr9FAFImSNcxs7O8JbDMTluO3br2piOxilMcy4Cj
-7sxcg568jj6VoUUAULpNqzxBpCvlBsFyecmnO8W/5p2WPYDGRKfmPOec89uOau0UAMhLmFDIMOVG
-4e9PoooAKKKKACiioJZ2juFUgeXj5j3BJ4/CgCeioRP8209WkKKQPbPNJ54QBSHkYPs4AyTjNAE9
-FQLdBiP3UijdtJIHyn06/wAqUXClwu1tpYqH4wT6evagCaioBdKV3COTGcLwPmPoOakilEmflZWU
-4Kt1H5UAPoqs1yWeMIrhWfbvIGG6/jT1uFZwu1grEhXOMMf59jQBNRUEjTGfy4mjUBdx3IWzz9RQ
-tz8uGQmQMV2J3I+uO1AE9FQm5XaCEdmJI2DGcjr3xSicfPlWUooZgcf57UAS0VBJdqm793IwVQzE
-AcA/j7UouV+YuroFXd82OR68UATUVB9qVQxeORCuDtIBJBOOxpsl2VjciFw6lcqcdCcZ60AWaKha
-42nHlSHAy+MfL9ef5ZqYEEAjkGgAqNog0jM2CGTaVIqSigCstqyIoWXLK5dWYZ7YweeeKctuQwZp
-MkSeYflx/DjFT0UAQ/Z/lYbusm/p7g4/SmR2axzb1EW3JbmP5sn/AGs/0qzRQBCbf90qhsMjblbH
-fnt+NOijKFmdgzuckgYFSUUAV1tmUovmDy0bcq7efoTn3pIbMQy7lEW0ZI/d/N/31n+lWaKAIZIp
-TN5kUiL8u0hkLf1FJ9mKhSj/ALwEncwznPXIqeigCv8AZmADJIBKGLFiuQc9eM/Tv2oe3kYuRKq+
-YgV/k/Uc8dferFFAEDW25JV3/wCsjCdOnB5/Wlkt1lBDHgpsIxU1FAFZLTarL+6GSOY4tvQ555p0
-tv5jSNvwXVQOOhBJ/rU9FAEDQSEsVlVS4w/ydfcc8frUyqEUKvQDApaKACopLm3ibbJPEjejOAal
-qC5/1tt/11/9lagCZWDKGUggjII703zU8syZ+UcZx74qn5khuyDIiP5mArSkEr7LjB4701nZUjDM
-FiJfJMhjGd3HI/GgC88qIyqxOW6AAn+VPqkFYyROW3yCFiCrnBPGKInG5fKlZyVJkBcnBx6djntx
-QBdoqim9FgZHdnkjJO5iQTjI47U63dTLGIpWckHzQWJx+HY57cUAXKKKKACiiigAooooAKKKKACi
-iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACqtzcGOcJ58EIK
-5zKM557cirVQyRSmbzIpEX5dpDIW/qKAEkuhFuyjsEALsoGAPXrTkn3Fl8t1YDIBxyPbmkktzIky
-l8GVducdOKJrcyFiH2kqF6ehzQAn2jI5Vo2DqpVgCefoadbuzxsWOSHYfgGIFRx2YQHlBllbCJtH
-HtU0UfloVznLM35kn+tAD6KKKACiiigAooooAKKKKACiiigAooooAKKKKACsf+3W27vshxnGd/8A
-9atiuNP3R9aVm5JGicY05Tavaxs/26f+fQ/99/8A1qP7dP8Az6H/AL7/APrVjxoZJFQYyxAGame0
-ZVdkkSTY21gmcg/iKv2fmZfWY/yL72aX9un/AJ9D/wB9/wD1qP7dP/Pof++//rVj+W/zfI3ynDcd
-D705redWVWhkBb7oKnmn7PzD6zH+RfezW/t0/wDPof8Avv8A+tR/bp/59D/33/8AWrKFtOXKCCTc
-OSNhyKasErAlYnOM5wp4xR7PzD6zH/n3+LNf+3T/AM+h/wC+/wD61SR6yzSRB7UxpI2A5fjryelY
-NWG/48oP+uj/AMlqZQcVe5pRrQqS5eTv1fY6b7Vbf8/EX/fYo+1W3/PxF/32K5entGyxJISMPnH4
-Vr7Ndzh9u+x0v2q2/wCfiL/vsUfarb/n4i/77Fc4beQsBGrScA8Ke9I0MqLuaJ1UcZKkCj2a7j9v
-LsdJ9qtv+fiL/vsUfarb/n4i/wC+xXNtBKq7micL6lTinG3k8xkjR5NvXCH+VHs13D28ux0X2q2/
-5+Iv++xR9qtv+fiL/vsVzSxSMCVjcgdSFPFMo9mu4e3fY60EMAVIIPQiiqmlf8g6L8f5mrdZNWdj
-pi7pMK40/dH1rsq5KOBpYtyvGOSMM4U9vWlFpTVzRxcqMkl1X6jbdglxGzHAVwSfxq9JcxBZCZUk
-zIHRY0K9+/Azx9aqfZJP78H/AH+X/Gj7JJ/fg/7/AC/41s3F9TiUKi+y/uZa3x7p/ImDyTSBkARu
-Oc88VKYpDcRIoEUs+9Gfy32j5c5AOOeKofZJP78H/f5f8an0q3lF/bTYRoxI6Eo+dpCt1+tS7W0Z
-cYzvrEjtGt/IDSSIZDtPzb8AY9u4p95cpJFIsbk7py+MHkY4q3JoiiFMKqyBIkJjOOQfnb0PB7+l
-Zq2knzAyRHazLkyKpOCR0J9qaknuDhJK0Vchqw3/AB5Qf9dH/ktJ9kk/vwf9/l/xqWSIiG2hV43k
-aRuEcHGdoH8qmpJcu5rhac1Uu09n+TIasny5LWFfORGTdkMG7n2FP/sy8/54/wDjw/xo/sy8/wCe
-P/jw/wAa2bT6nCoyXQJJ0MEiq3LJGOh7DmlmuEea4IclXjCr15PH/wBek/sy8/54/wDjw/xo/sy8
-/wCeP/jw/wAaPd7le/2Jrh0jmmZpclogoTBznA/CmmW2ad5C65MgI3bumO2O/wBaY2nXzHLRkn1L
-j/Gk/sy8/wCeP/jw/wAaXu9xvn7DrjfJbuY0kKGZnztOMdjVGrn9mXn/ADx/8eH+NH9mXn/PH/x4
-f4000upMoyfQ1tK/5B0X4/zNW6gsImgs445MbhnOPrmp655bs7YaRQVS/smx/wCeH/j7f41doqWk
-9zSM5R+F2KX9k2P/ADw/8fb/ABo/smx/54f+Pt/jV2ijlXYr21T+Z/eUv7Jsf+eH/j7f41EbePTb
-yKWBCIZiIpBycN/C38x17itKmyRpKhSVFdD1VhkGhJIUqk5KzdyvcziGGSU5IRSxA9qq2OlQNZxv
-dRl53G9ySVOTzjGffFW/7Psv+fO3/wC/S/4VZptJijKUXeLsUv7Jsf8Anh/4+3+NOTTLON1dIcMp
-BB3Hr+dW6KXKuxXtan8z+8KKKKZmFFFFABRRRQAUUUUAFFFFABRWR9sm/wCe0n/jn/xNH2uf/ntL
-/wCOf/E07MVzXorKS4uZPuSSsPX5APz2/wAqd5l5/wA9Sfo65/8AQKLBc06KyWurhThpJlPodn/x
-PNJ9sm/57Sf+Of8AxNFmFzXorI+2Tf8APaT/AMc/+Jo+1zf89pP/ABz/AOJoswua9FZIupv+e8n/
-AI5/8TThcTH/AJbyfkn/AMTRysLmpRWYJpv+fiT8k/8AiacJJz0uJfyT/wCJoatqwuaNFZxknH/L
-xJ+Sf/E0eZN/z8Sfkn/xNJa6oG7GjRWd5k3/AD8Sfkn/AMTR5k3/AD8Sfkn/AMTVcrC6NGis7zJv
-+fiT8k/+Jo8yb/n4k/JP/iaOVhdGjRWd5k3/AD8Sfkn/AMTR5k3/AD8Sfkn/AMTRysLoo0FlH3ug
-6j19qKo3FwPNZecqxH61aVyG7Fx7qRm2oP8A61OWWUHDDJ9qhsxI33FTP+0atRuv2hxNiMqu0Ang
-nqefyrCXtIyvbQ15qbhZbkZuQRtcEj0oznvn39feob+SNfusGPsaZZzCQlBnhcn8x/8AXrSDcldo
-xvrYs0opKUVRQ4U/OB6+1MFTQKDIGb7qgk0pSUVdhZvRD1hVE8yc8egPFJvWX5c+WP4VxilkHmbZ
-HlSMfwhvT86YyoVwbqH8v/r1nCDqPnn8kTKSiuWL+Yxco5jfqejetTVDeSRkAo6swIIwc1NW7ilq
-iYSbVmFFFFIsKcEAkViflA+ZeOT9c02tCsKrehcUmUWwZgoQKh6vuzj8M02Vo4iAZOvT5f8A69Xi
-ajIX0P4E1kp23Lkr7GTWfeRbbrd/C/P+NaFNkRZE2t+B9K7E7Mwkrogt5WjIODWnblfs3zgMXJYg
-88ms9Yyhw3T1HSpMx4+Vxn0DU61N1Y+67GFOr7KXvIi1JlLBUAVQM4AxUenx7UeQ/wAXAqTyN5+b
-IX36mpwAAABgDoKlRUIqKNk3OTk1YKUUlKKCxwqR22QDAzk81GKeOmOuOazqR5reo0SnE0ashG5e
-nuKbiQ8bdnqSRTPL5yjFD7dKDFI33pTj2GK3VjC01ohN7GcIkjEDlsgcD8qnpscaxrhRj+tOpNlx
-TS1CiiikUFW3kQPhyRgdjj1qpSSszsSR2xx+PvUON5A3ZEsksYc5Lf8AfdM82M9C3/fZ/wAaRGcL
-jgcnqPf61DcpJLtxtOM+1CvzWa0E1pe5DRRRVFBS7j6miigBKKKKAClFFFADhTxRRQA8U4UUUxC0
-UUUAFFFFABRRRQAUUUUAf//Z
-			</helperscreenshot>
-		</mouseitem>
+		</WaitForRecordItem>
 		<mouseitem
 		action="Click"
 		button="Left"
