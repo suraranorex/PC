@@ -751,12 +751,11 @@
 			</teardown>
 			<testcase
 			datarangeactive="True"
-			datarangeset="1,2"
 			datasource="xls_CuentasNuevas"
 			errorbehavior="ContinueNextIteration"
 			id="9ff78c3e-6440-429c-8263-52f6f7de3e2f"
 			maxrange="1"
-			minrange="0"
+			minrange="1"
 			name="CrearCuentaSinValidateDNI">
 				<description>
 					<![CDATA[PC QA - Caso de Prueba - Creacion Cuenta Sin validar documento]]>
@@ -1657,7 +1656,7 @@
 		filename="ExcelDatosCuentasValidaDNI.xlsx"
 		id="1e9ef14c-1c83-482e-b53b-167dbe51be03"
 		includefile="Checked"
-		lastknownrowcount="10"
+		lastknownrowcount="9"
 		name="CrearCuentaValidaDNI"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
