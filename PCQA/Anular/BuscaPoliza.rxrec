@@ -124,6 +124,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//a[#'TabBar:PolicyTab']/span
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="76a43305-3c1f-492a-bad0-3231186200a6">
@@ -310,6 +312,8 @@ gAooooAKKKKACiiigD//2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body/div[11]/div/div[2]/div/div[3]//input[@name='TabBar:PolicyTab:PolicyTab_PolicyRetrievalItem']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="07806d48-74f9-4515-bf49-66bee76c3e6b">
@@ -499,6 +503,8 @@ pR5Q9KKKADyh6UeUPSiigA8oelHlD0oooAPKHpR5Q9KKKADyh6UeUPSiigA8oelHlD0oooAPKHpR
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body/div[11]/div/div[2]/div/div[3]//input[@name='TabBar:PolicyTab:PolicyTab_PolicyRetrievalItem']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<keysequenceitem
@@ -518,6 +524,8 @@ pR5Q9KKKADyh6UeUPSiigA8oelHlD0oooAPKHpR5Q9KKKADyh6UeUPSiigA8oelHlD0oooAPKHpR
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body/div[11]/div/div[2]/div/div[3]//input[@name='TabBar:PolicyTab:PolicyTab_PolicyRetrievalItem']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<WaitForRecordItem
@@ -585,6 +593,8 @@ pR5Q9KKKADyh6UeUPSiigA8oelHlD0oooAPKHpR5Q9KKKADyh6UeUPSiigA8oelHlD0oooAPKHpR
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div/table//span[@innertext='Información de póliza']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<explicitdelayitem

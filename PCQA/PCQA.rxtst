@@ -755,7 +755,7 @@
 			errorbehavior="ContinueNextIteration"
 			id="9ff78c3e-6440-429c-8263-52f6f7de3e2f"
 			maxrange="1"
-			minrange="1"
+			minrange="0"
 			name="CrearCuentaSinValidateDNI">
 				<description>
 					<![CDATA[PC QA - Caso de Prueba - Creacion Cuenta Sin validar documento]]>
@@ -1015,16 +1015,21 @@
 			VideoFps="15"
 			VideoRecordingMode="Off"
 			VideoSource="Auto"
+			createsinglereportpdfchecked="False"
 			enabletracingscreenshots="True"
 			id="cb8d54b5-5213-4f9b-80bf-4a7c2c5f5964"
+			includeimageschecked="False"
+			includerecordingschecked="False"
 			junitreport="False"
 			name="PCQA"
+			overwritefilechecked="False"
 			reportcompress="False"
 			reportdirectoryname="Reports"
 			reportenabled="True"
 			reportfilename="%S_%Y%M%D_%T.rxlog"
 			reporttemplatefolder=""
-			reportwriteinterval="30000ms">
+			reportwriteinterval="30000ms"
+			singlereportpdfdirectory="SingleReportPDF">
 			</testsuite>
 			<testmodule
 			id="d268486b-b935-4fbd-924a-7bacec339375"

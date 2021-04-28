@@ -113,6 +113,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'CreateAccount-tbody']/tr[4]//table//td/?/?/table/tbody/tr/td[1]/?/?/table/tbody/tr[2]/td/div/div[1]/div/div/a[1]//span[@innertext='gregar Documento']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="62f5826d-96cd-4d4b-a540-c2efed5b564c">
@@ -225,6 +227,8 @@ jJ7n8aKKAJaR/uj6j+dFFAC0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[2]/td/div/div[3]/div[1]/div/table/tbody/tr/td[2]/div
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="f968f6e3-c326-43bf-b232-9457a0bd3155">
@@ -344,6 +348,8 @@ NFFFVEln/9k=
 				<path>
 					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']//table/tbody/tr[@class='  x-grid-row']/td[2]/../..//input[@data-tabindexsaved='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -452,6 +458,8 @@ NFFFVEln/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body/div[12]/?/?/ul/li[@innertext='D.N.I.']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="4e2b3cfa-22ce-43ca-8d25-34a56096af22">
@@ -648,6 +656,8 @@ b7t/30aAFz7H8qM+x/Kk2+7f99Gjb7t/30aAFz7H8qM+x/Kk2+7f99Gjb7t/30aAFz7H8qM+x/Kk
 				<path>
 					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[2]/td/div/div[3]/div[1]/div/table/tbody/tr/td[2]/div[@innertext='D.N.I.']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -721,6 +731,8 @@ b7t/30aAFz7H8qM+x/Kk2+7f99Gjb7t/30aAFz7H8qM+x/Kk2+7f99Gjb7t/30aAFz7H8qM+x/Kk
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[2]/td/div/div[3]/div[1]/div[1]/table/tbody/tr/td[3]/div
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="f757242f-673f-450a-8e86-a1a4a839f752">
@@ -849,6 +861,8 @@ mgLXh65a/u7i5mRRIiLGCuQMEknv7Ct2iikAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUANl/
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[2]/td/div/div[3]/div[1]/div[1]/table/tbody/tr/td[3]/div
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<loggingrecorditem
@@ -950,6 +964,8 @@ mgLXh65a/u7i5mRRIiLGCuQMEknv7Ct2iikAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUANl/
 				<path>
 					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[3]/td/div/div/div/table/tbody/tr/td/a//span[@innertext='Validar Documento']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="5b985f9a-27c4-4b86-8281-c64229657886">
@@ -1084,6 +1100,8 @@ KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA/9k=
 				<path>
 					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']//span[@innertext='Validar Documento' and @data-tabindexsaved='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -1162,6 +1180,8 @@ KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA/9k=
 				<path>
 					/dom[@domain~$Ambiente]//tbody[#'VerifiedAddressSelectionPopup-tbody']/tr[3]/td/div/div[3]/div[1]/div/table[1]/?/?/tr/td[1]/?/?/a[@innertext='Seleccionar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="dd0e8bd5-6f70-4806-a242-aca84f67809d">
@@ -1226,6 +1246,8 @@ tI0hggZjIXwyj5gRjnj15qZYH8xZGK53l2APT5ccVYoouFis0EoztIILliN5XP4ilggaPy9xB2h8
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[22]/td/div/div/div/div/div/div/div[3]/a[@href='javascript:void(0)']/img[@src='https://'+$Ambiente+'/pc/resources/themes/theme-9/resources/images/app/drop_button.png']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -1311,6 +1333,8 @@ tI0hggZjIXwyj5gRjnj15qZYH8xZGK53l2APT5ccVYoouFis0EoztIILliN5XP4ilggaPy9xB2h8
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body/div[12]/div/div[2]//span[@innertext='Buscar grupo...']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="aed7b432-58ba-4fe7-b21d-8e4c58eb497e">
@@ -1431,6 +1455,8 @@ jg4z0q/GixRLGgwqAKB7CiigD//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'GroupSearchPopup-tbody']/tr[1]/td/div/div/div/div/?/?/span[@innertext='Buscar grupos']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="9b09a949-a850-4e0c-b268-701a429fc802">
@@ -1500,7 +1526,7 @@ FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 		enabled="True"
 		optional="False">
 			<comment>
-				**** Validaci&#243;n de Carga de Datos de la Cuenta exitoso ****
+				**** Validación de Carga de Datos de la Cuenta exitoso ****
 			</comment>
 			<bindings>
 			</bindings>
@@ -1569,6 +1595,8 @@ FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'GroupSearchPopup-tbody']/tr[1]/td/div/div/div/div/?/?/span[@innertext='Buscar grupos']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<matchname>
 				InnerText
