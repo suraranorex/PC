@@ -112,6 +112,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//a[#'PolicyFile:PolicyFileMenuActions']//span[@innertext='Nuevo ...']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="999c5b67-4dad-4221-b3c6-ba516d01ae77">
@@ -239,6 +241,8 @@ Zo/WX/v63+NL5rego81vQUXYcq7CfZo/WX/v63+NH2aP1l/7+t/jS+a3oKPNb0FF2HKuwn2aP1l/
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body/div[11]/div/div[2]/div/div[10]/?/?/span[@innertext='Rehabilitar póliza']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="fe78134a-301e-4974-8e30-e266d506370d">
@@ -390,6 +394,8 @@ LsDaPrVXFFFAE6AeWv41IgG4UUUATbRRtFFFABtFG0UUUAG0UbRRRQAYFLRRQAUUUUAf/9k=
 				<path>
 					/dom[@domain='i-preproducciongestion.segurossura.com.ar']//span[@innertext='Iniciar la rehabilitación']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -414,6 +420,8 @@ LsDaPrVXFFFAE6AeWv41IgG4UUUATbRRtFFFABtFG0UUUAG0UbRRRQAYFLRRQAUUUUAf/9k=
 				<path>
 					/dom[@domain='i-preproducciongestion.segurossura.com.ar']//span[@innertext='Motivo']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<keysequenceitem
@@ -560,6 +568,8 @@ LsDaPrVXFFFAE6AeWv41IgG4UUUATbRRtFFFABtFG0UUUAG0UbRRRQAYFLRRQAUUUUAf/9k=
 				<path>
 					/dom[@domain='i-preproducciongestion.segurossura.com.ar']//span[@innertext='Motivo']/../..//input
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<mouseitem
@@ -643,6 +653,8 @@ LsDaPrVXFFFAE6AeWv41IgG4UUUATbRRtFFFABtFG0UUUAG0UbRRRQAYFLRRQAUUUUAf/9k=
 				<path>
 					/dom[@domain~$Ambiente]//div[#'ReinstatementWizard/Draft']/table/tbody/tr[4]//table/tbody/tr[20]/?/?/label[@innertext='Grupo de afinidad']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -728,6 +740,8 @@ LsDaPrVXFFFAE6AeWv41IgG4UUUATbRRtFFFABtFG0UUUAG0UbRRRQAYFLRRQAUUUUAf/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'ReinstatementWizard/Draft']/table/tbody/tr[2]/td/div/div/div/a[4]//span[@innertext='Re-Cotiar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -795,6 +809,8 @@ LsDaPrVXFFFAE6AeWv41IgG4UUUATbRRtFFFABtFG0UUUAG0UbRRRQAYFLRRQAUUUUAf/9k=
 				<path>
 					/dom[@domain='i-preproducciongestion.segurossura.com.ar']//div[#'ReinstatementWizard/ViewQuote']/table/tbody/tr[1]/td//span[@innertext='Cotización']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<loggingrecorditem
@@ -815,6 +831,8 @@ LsDaPrVXFFFAE6AeWv41IgG4UUUATbRRtFFFABtFG0UUUAG0UbRRRQAYFLRRQAUUUUAf/9k=
 				<path>
 					/dom[@domain~$Ambiente]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</loggingrecorditem>
 		<mouseitem
@@ -900,6 +918,8 @@ LsDaPrVXFFFAE6AeWv41IgG4UUUATbRRtFFFABtFG0UUUAG0UbRRRQAYFLRRQAUUUUAf/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//div[#'ReinstatementWizard/ViewQuote']/table/tbody/tr[2]/td/div/div/div/a[5]//span[@innertext='ehabilitar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -924,6 +944,8 @@ LsDaPrVXFFFAE6AeWv41IgG4UUUATbRRtFFFABtFG0UUUAG0UbRRRQAYFLRRQAUUUUAf/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext='Aceptar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<validationitem
@@ -991,6 +1013,8 @@ LsDaPrVXFFFAE6AeWv41IgG4UUUATbRRtFFFABtFG0UUUAG0UbRRRQAYFLRRQAUUUUAf/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'JobComplete-tbody']/tr[1]/td/div//span[@innertext='Rehabilitación Contratada']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="e0339a90-be9f-41b9-a73f-41ca6bc340bc">
@@ -1106,6 +1130,8 @@ FFanOFFFFABRRRQAUUUUAFFFFABRRRQAV0Wlf8g6L8f5miisquxvh/iLdFFFYHYFFFFAH//Z
 				<path>
 					/dom[@domain~$Ambiente]//tbody[#'JobComplete-tbody']//label[@innertext&gt;'Se contrat&#243; Rehabilitaci&#243;n']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</getvaluerecorditem>
 		<separatoritem

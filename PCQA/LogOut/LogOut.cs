@@ -89,19 +89,19 @@ namespace PCQA.LogOut
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.GPreferencesIconXBtnIconElXBtnI' at 7;7.", repo.ApplicationUnderTest.GPreferencesIconXBtnIconElXBtnIInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.GPreferencesIconXBtnIconElXBtnI.Click("7;7");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.GPreferencesIconXBtnIconElXBtnI' at 7;7.", repo.SURA.GPreferencesIconXBtnIconElXBtnIInfo, new RecordItemIndex(0));
+            repo.SURA.GPreferencesIconXBtnIconElXBtnI.Click("7;7");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(1));
             Delay.Duration(3000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.CerrarSesionSuperUser' at Center.", repo.ApplicationUnderTest.CerrarSesionSuperUserInfo, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.CerrarSesionSuperUser.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.CerrarSesionSuperUser' at Center.", repo.SURA.CerrarSesionSuperUserInfo, new RecordItemIndex(2));
+            repo.SURA.CerrarSesionSuperUser.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.bttn_Aceptar' at 21;7.", repo.ApplicationUnderTest.bttn_AceptarInfo, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.bttn_Aceptar.Click("21;7");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.bttn_Aceptar' at 21;7.", repo.SURA.bttn_AceptarInfo, new RecordItemIndex(3));
+            repo.SURA.bttn_Aceptar.Click("21;7");
             Delay.Milliseconds(0);
             
         }

@@ -705,6 +705,12 @@
 					variableid="04d36cde-c27a-450e-8e17-95af6cb453ba"
 					variablename="NumeroCalle">
 					</var>
+					<var
+					dataname="FechaNacimiento"
+					datasourceid="57b5df72-945a-40da-9f29-9b4998c89f02"
+					variableid="89bc5809-685f-44c5-a0bf-67fd8961b77e"
+					variablename="FechaNacimiento">
+					</var>
 				</databinding>
 			</testmodule>
 			<testmodule
@@ -748,7 +754,7 @@
 			datasource="xls_CuentasNuevas"
 			errorbehavior="ContinueNextIteration"
 			id="9ff78c3e-6440-429c-8263-52f6f7de3e2f"
-			maxrange="3"
+			maxrange="1"
 			minrange="0"
 			name="CrearCuentaSinValidateDNI">
 				<description>
@@ -1661,7 +1667,7 @@
 		filename="ExcelDatosCuentasValidaDNI.xlsx"
 		id="1e9ef14c-1c83-482e-b53b-167dbe51be03"
 		includefile="Checked"
-		lastknownrowcount="10"
+		lastknownrowcount="9"
 		name="CrearCuentaValidaDNI"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
@@ -1888,9 +1894,33 @@
 		</DataSource>
 	</datasources>
 	<testconfigurations
-	default="SmokeCuentas">
+	default="CreaCuentas">
 		<testconfiguration
-		name="SmokeCuentas">
+		name="AnularPolizas">
+			<testcontainer
+			id="c03bbc11-8669-439d-90f9-8876bfbc8ad9">
+			</testcontainer>
+			<testcontainer
+			id="e2b36b57-7adc-4cfe-a5e7-ddcabd014504">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="CreaCuentas">
+			<testcontainer
+			id="15cde1d1-5403-440a-b2bd-4ca4cab3196c">
+			</testcontainer>
+			<testcontainer
+			id="6f6e7473-52d3-4a2a-9e49-b39b80967e98">
+			</testcontainer>
+			<testcontainer
+			id="9ff78c3e-6440-429c-8263-52f6f7de3e2f">
+			</testcontainer>
+			<testcontainer
+			id="e2b36b57-7adc-4cfe-a5e7-ddcabd014504">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="RehabilitarPolizas">
 			<testcontainer
 			id="53449155-3b3d-4c44-aa93-6c09f4db3d09">
 			</testcontainer>

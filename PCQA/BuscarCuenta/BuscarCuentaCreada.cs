@@ -102,39 +102,39 @@ namespace PCQA.BuscarCuenta
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.MenuSupBuscar' at CenterRight.", repo.ApplicationUnderTest.MenuSupBuscarInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.MenuSupBuscar.Click(Location.CenterRight);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.MenuSupBuscar' at CenterRight.", repo.SURA.MenuSupBuscarInfo, new RecordItemIndex(0));
+            repo.SURA.MenuSupBuscar.Click(Location.CenterRight);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(1));
             Delay.Duration(1000, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Cuentas' at 24;5.", repo.ApplicationUnderTest.CuentasInfo, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.Cuentas.Click("24;5");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Cuentas' at 24;5.", repo.SURA.CuentasInfo, new RecordItemIndex(2));
+            repo.SURA.Cuentas.Click("24;5");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LControlKey down}{Akey}{LControlKey up}' with focus on 'ApplicationUnderTest.txt_cuenta'.", repo.ApplicationUnderTest.txt_cuentaInfo, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.txt_cuenta.PressKeys("{LControlKey down}{Akey}{LControlKey up}");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LControlKey down}{Akey}{LControlKey up}' with focus on 'SURA.txt_cuenta'.", repo.SURA.txt_cuentaInfo, new RecordItemIndex(3));
+            repo.SURA.txt_cuenta.PressKeys("{LControlKey down}{Akey}{LControlKey up}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$NroCuenta' with focus on 'ApplicationUnderTest.txt_cuenta'.", repo.ApplicationUnderTest.txt_cuentaInfo, new RecordItemIndex(4));
-            repo.ApplicationUnderTest.txt_cuenta.EnsureVisible();
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$NroCuenta' with focus on 'SURA.txt_cuenta'.", repo.SURA.txt_cuentaInfo, new RecordItemIndex(4));
+            repo.SURA.txt_cuenta.EnsureVisible();
             Keyboard.Press(NroCuenta);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'ApplicationUnderTest.btn_Buscar' at Center.", repo.ApplicationUnderTest.btn_BuscarInfo, new RecordItemIndex(5));
-            repo.ApplicationUnderTest.btn_Buscar.MoveTo();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'SURA.btn_Buscar' at Center.", repo.SURA.btn_BuscarInfo, new RecordItemIndex(5));
+            repo.SURA.btn_Buscar.MoveTo();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.btn_Buscar' at Center.", repo.ApplicationUnderTest.btn_BuscarInfo, new RecordItemIndex(6));
-            repo.ApplicationUnderTest.btn_Buscar.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.btn_Buscar' at Center.", repo.SURA.btn_BuscarInfo, new RecordItemIndex(6));
+            repo.SURA.btn_Buscar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.ResultadoBusquedaCuenta'", repo.ApplicationUnderTest.ResultadoBusquedaCuentaInfo, new ActionTimeout(30000), new RecordItemIndex(7));
-            repo.ApplicationUnderTest.ResultadoBusquedaCuentaInfo.WaitForExists(30000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'SURA.ResultadoBusquedaCuenta'", repo.SURA.ResultadoBusquedaCuentaInfo, new ActionTimeout(30000), new RecordItemIndex(7));
+            repo.SURA.ResultadoBusquedaCuentaInfo.WaitForExists(30000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'ApplicationUnderTest.lbl_ResultadosDeLaBusqueda' at Center.", repo.ApplicationUnderTest.lbl_ResultadosDeLaBusquedaInfo, new RecordItemIndex(8));
-            repo.ApplicationUnderTest.lbl_ResultadosDeLaBusqueda.MoveTo();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Move item 'SURA.lbl_ResultadosDeLaBusqueda' at Center.", repo.SURA.lbl_ResultadosDeLaBusquedaInfo, new RecordItemIndex(8));
+            repo.SURA.lbl_ResultadosDeLaBusqueda.MoveTo();
             Delay.Milliseconds(0);
             
         }

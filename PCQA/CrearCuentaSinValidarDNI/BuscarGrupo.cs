@@ -138,40 +138,40 @@ namespace PCQA.CrearCuentaSinValidarDNI
             // **** Buscar Grupo ****
             Report.Log(ReportLevel.Info, "Section", "**** Buscar Grupo ****", new RecordItemIndex(0));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Txt_Cod_PAS' at 57;15.", repo.ApplicationUnderTest.Txt_Cod_PASInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.Txt_Cod_PAS.Click("57;15");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Txt_Cod_PAS' at 57;15.", repo.SURA.Txt_Cod_PASInfo, new RecordItemIndex(1));
+            repo.SURA.Txt_Cod_PAS.Click("57;15");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'ApplicationUnderTest.Txt_Cod_PAS'.", repo.ApplicationUnderTest.Txt_Cod_PASInfo, new RecordItemIndex(2));
-            Keyboard.PrepareFocus(repo.ApplicationUnderTest.Txt_Cod_PAS);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+A' Press with focus on 'SURA.Txt_Cod_PAS'.", repo.SURA.Txt_Cod_PASInfo, new RecordItemIndex(2));
+            Keyboard.PrepareFocus(repo.SURA.Txt_Cod_PAS);
             Keyboard.Press(System.Windows.Forms.Keys.A | System.Windows.Forms.Keys.Control, Keyboard.DefaultScanCode, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$PAS' with focus on 'ApplicationUnderTest.Txt_Cod_PAS'.", repo.ApplicationUnderTest.Txt_Cod_PASInfo, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.Txt_Cod_PAS.PressKeys(PAS);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$PAS' with focus on 'SURA.Txt_Cod_PAS'.", repo.SURA.Txt_Cod_PASInfo, new RecordItemIndex(3));
+            repo.SURA.Txt_Cod_PAS.PressKeys(PAS);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Btn_BuscarPAS' at Center.", repo.ApplicationUnderTest.Btn_BuscarPASInfo, new RecordItemIndex(4));
-            repo.ApplicationUnderTest.Btn_BuscarPAS.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Btn_BuscarPAS' at Center.", repo.SURA.Btn_BuscarPASInfo, new RecordItemIndex(4));
+            repo.SURA.Btn_BuscarPAS.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SeleccionarPAS' at 38;13.", repo.ApplicationUnderTest.SeleccionarPASInfo, new RecordItemIndex(5));
-            repo.ApplicationUnderTest.SeleccionarPAS.Click("38;13");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.SeleccionarPAS' at 38;13.", repo.SURA.SeleccionarPASInfo, new RecordItemIndex(5));
+            repo.SURA.SeleccionarPAS.Click("38;13");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(6));
             Delay.Duration(300, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.XTableLayout.FlechaCodPAS' at 7;7.", repo.ApplicationUnderTest.XTableLayout.FlechaCodPASInfo, new RecordItemIndex(7));
-            repo.ApplicationUnderTest.XTableLayout.FlechaCodPAS.Click("7;7");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.XTableLayout.FlechaCodPAS' at 7;7.", repo.SURA.XTableLayout.FlechaCodPASInfo, new RecordItemIndex(7));
+            repo.SURA.XTableLayout.FlechaCodPAS.Click("7;7");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txt_CodPas' at Center.", repo.ApplicationUnderTest.txt_CodPasInfo, new RecordItemIndex(8));
-            repo.ApplicationUnderTest.txt_CodPas.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.txt_CodPas' at Center.", repo.SURA.txt_CodPasInfo, new RecordItemIndex(8));
+            repo.SURA.txt_CodPas.Click();
             Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.XTableLayout.FlechaCodPAS' at Center.", repo.ApplicationUnderTest.XTableLayout.FlechaCodPASInfo, new RecordItemIndex(9));
-            //repo.ApplicationUnderTest.XTableLayout.FlechaCodPAS.Click();
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.XTableLayout.FlechaCodPAS' at Center.", repo.SURA.XTableLayout.FlechaCodPASInfo, new RecordItemIndex(9));
+            //repo.SURA.XTableLayout.FlechaCodPAS.Click();
             //Delay.Milliseconds(0);
             
             //PASNombreProductor();
@@ -179,41 +179,41 @@ namespace PCQA.CrearCuentaSinValidarDNI
             
             //Report.Log(ReportLevel.Info, "User", PASNombre, new RecordItemIndex(11));
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$PAS' with focus on 'ApplicationUnderTest.txt_CodPas'.", repo.ApplicationUnderTest.txt_CodPasInfo, new RecordItemIndex(12));
-            repo.ApplicationUnderTest.txt_CodPas.PressKeys(PAS);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$PAS' with focus on 'SURA.txt_CodPas'.", repo.SURA.txt_CodPasInfo, new RecordItemIndex(12));
+            repo.SURA.txt_CodPas.PressKeys(PAS);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.ItemPasNombre' at Center.", repo.ApplicationUnderTest.ItemPasNombreInfo, new RecordItemIndex(13));
-            repo.ApplicationUnderTest.ItemPasNombre.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.ItemPasNombre' at Center.", repo.SURA.ItemPasNombreInfo, new RecordItemIndex(13));
+            repo.SURA.ItemPasNombre.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 300ms.", new RecordItemIndex(14));
             Delay.Duration(300, false);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Btn_Actualizar' at 44;7.", repo.ApplicationUnderTest.Btn_ActualizarInfo, new RecordItemIndex(15));
-            repo.ApplicationUnderTest.Btn_Actualizar.Click("44;7");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Btn_Actualizar' at 44;7.", repo.SURA.Btn_ActualizarInfo, new RecordItemIndex(15));
+            repo.SURA.Btn_Actualizar.Click("44;7");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.NroCuenta' and assigning its value to variable 'NroCuenta'.", repo.ApplicationUnderTest.NroCuentaInfo, new RecordItemIndex(16));
-            NroCuenta = repo.ApplicationUnderTest.NroCuenta.Element.GetAttributeValueText("InnerText");
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.NroCuenta' and assigning its value to variable 'NroCuenta'.", repo.SURA.NroCuentaInfo, new RecordItemIndex(16));
+            NroCuenta = repo.SURA.NroCuenta.Element.GetAttributeValueText("InnerText");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "User", "El número de cuenta es:", new RecordItemIndex(17));
             
             Report.Log(ReportLevel.Info, "User", NroCuenta, new RecordItemIndex(18));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Validar_ResumenDelArchivoDeCuenta' at 117;11.", repo.ApplicationUnderTest.Validar_ResumenDelArchivoDeCuentaInfo, new RecordItemIndex(19));
-            repo.ApplicationUnderTest.Validar_ResumenDelArchivoDeCuenta.Click("117;11");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Validar_ResumenDelArchivoDeCuenta' at 117;11.", repo.SURA.Validar_ResumenDelArchivoDeCuentaInfo, new RecordItemIndex(19));
+            repo.SURA.Validar_ResumenDelArchivoDeCuenta.Click("117;11");
             Delay.Milliseconds(0);
             
             // **** Validación de cuenta creada exitosamente ****
             Report.Log(ReportLevel.Info, "Section", "**** Validación de cuenta creada exitosamente ****", new RecordItemIndex(20));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Resumen del archivo de cuenta') on item 'ApplicationUnderTest.Validar_ResumenDelArchivoDeCuenta'.", repo.ApplicationUnderTest.Validar_ResumenDelArchivoDeCuentaInfo, new RecordItemIndex(21));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.Validar_ResumenDelArchivoDeCuentaInfo, "InnerText", "Resumen del archivo de cuenta");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Resumen del archivo de cuenta') on item 'SURA.Validar_ResumenDelArchivoDeCuenta'.", repo.SURA.Validar_ResumenDelArchivoDeCuentaInfo, new RecordItemIndex(21));
+            Validate.AttributeEqual(repo.SURA.Validar_ResumenDelArchivoDeCuentaInfo, "InnerText", "Resumen del archivo de cuenta");
             Delay.Milliseconds(0);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.ApplicationUnderTest.Self, false, new RecordItemIndex(22));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(22));
             
         }
 

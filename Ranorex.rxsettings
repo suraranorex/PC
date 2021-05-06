@@ -1,5 +1,9 @@
 ﻿<configuration
+<<<<<<< HEAD
 rxversion="9.3">
+=======
+rxversion="9.5">
+>>>>>>> 8e15246142e9a3fce7294356d3b75731a2f08713
 	<adapter.defaultsearchtimeout>
 		10000ms
 	</adapter.defaultsearchtimeout>

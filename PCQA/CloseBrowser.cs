@@ -53,16 +53,6 @@ namespace PCQA
 
 #region Variables
 
-        /// <summary>
-        /// Gets or sets the value of variable Ambiente.
-        /// </summary>
-        [TestVariable("6220ee55-3dcc-4717-9260-d89ec7bc2052")]
-        public string Ambiente
-        {
-            get { return repo.Ambiente; }
-            set { repo.Ambiente = value; }
-        }
-
 #endregion
 
         /// <summary>
@@ -89,8 +79,8 @@ namespace PCQA
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'ApplicationUnderTest'.", repo.ApplicationUnderTest.SelfInfo, new RecordItemIndex(0));
-            Host.Current.CloseApplication(repo.ApplicationUnderTest.Self, new Duration(0));
+            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'SURA'.", repo.SURA.SelfInfo, new RecordItemIndex(0));
+            Host.Current.CloseApplication(repo.SURA.Self, new Duration(0));
             Delay.Milliseconds(0);
             
         }

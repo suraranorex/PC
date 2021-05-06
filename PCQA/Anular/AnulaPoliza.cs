@@ -112,70 +112,70 @@ namespace PCQA.Anular
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Anulacion_Rehabilitacion.bttn_Nuevo' at Center.", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.bttn_NuevoInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.Anulacion_Rehabilitacion.bttn_Nuevo.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Anulacion_Rehabilitacion.bttn_Nuevo' at Center.", repo.SURA.Anulacion_Rehabilitacion.bttn_NuevoInfo, new RecordItemIndex(0));
+            repo.SURA.Anulacion_Rehabilitacion.bttn_Nuevo.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Anulacion_Rehabilitacion.bttn_AnularPoliza' at Center.", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.bttn_AnularPolizaInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.Anulacion_Rehabilitacion.bttn_AnularPoliza.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Anulacion_Rehabilitacion.bttn_AnularPoliza' at Center.", repo.SURA.Anulacion_Rehabilitacion.bttn_AnularPolizaInfo, new RecordItemIndex(1));
+            repo.SURA.Anulacion_Rehabilitacion.bttn_AnularPoliza.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to exist. Associated repository item: 'ApplicationUnderTest.Anulacion_Rehabilitacion.txt_IniciarAnulacion'", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.txt_IniciarAnulacionInfo, new ActionTimeout(20000), new RecordItemIndex(2));
-            repo.ApplicationUnderTest.Anulacion_Rehabilitacion.txt_IniciarAnulacionInfo.WaitForExists(20000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 20s to exist. Associated repository item: 'SURA.Anulacion_Rehabilitacion.txt_IniciarAnulacion'", repo.SURA.Anulacion_Rehabilitacion.txt_IniciarAnulacionInfo, new ActionTimeout(20000), new RecordItemIndex(2));
+            repo.SURA.Anulacion_Rehabilitacion.txt_IniciarAnulacionInfo.WaitForExists(20000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Anulacion_Rehabilitacion.txtbox_Fuente' at Center.", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.txtbox_FuenteInfo, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.Anulacion_Rehabilitacion.txtbox_Fuente.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Anulacion_Rehabilitacion.txtbox_Fuente' at Center.", repo.SURA.Anulacion_Rehabilitacion.txtbox_FuenteInfo, new RecordItemIndex(3));
+            repo.SURA.Anulacion_Rehabilitacion.txtbox_Fuente.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'ApplicationUnderTest.Anulacion_Rehabilitacion.option_Asegurado'", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.option_AseguradoInfo, new ActionTimeout(5000), new RecordItemIndex(4));
-            repo.ApplicationUnderTest.Anulacion_Rehabilitacion.option_AseguradoInfo.WaitForExists(5000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'SURA.Anulacion_Rehabilitacion.option_Asegurado'", repo.SURA.Anulacion_Rehabilitacion.option_AseguradoInfo, new ActionTimeout(5000), new RecordItemIndex(4));
+            repo.SURA.Anulacion_Rehabilitacion.option_AseguradoInfo.WaitForExists(5000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Anulacion_Rehabilitacion.option_Asegurado' at Center.", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.option_AseguradoInfo, new RecordItemIndex(5));
-            repo.ApplicationUnderTest.Anulacion_Rehabilitacion.option_Asegurado.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Anulacion_Rehabilitacion.option_Asegurado' at Center.", repo.SURA.Anulacion_Rehabilitacion.option_AseguradoInfo, new RecordItemIndex(5));
+            repo.SURA.Anulacion_Rehabilitacion.option_Asegurado.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to not exist. Associated repository item: 'ApplicationUnderTest.Anulacion_Rehabilitacion.Copy_of_txtbox_Fuente'", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.Copy_of_txtbox_FuenteInfo, new ActionTimeout(10000), new RecordItemIndex(6));
-            repo.ApplicationUnderTest.Anulacion_Rehabilitacion.Copy_of_txtbox_FuenteInfo.WaitForNotExists(10000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to not exist. Associated repository item: 'SURA.Anulacion_Rehabilitacion.Copy_of_txtbox_Fuente'", repo.SURA.Anulacion_Rehabilitacion.Copy_of_txtbox_FuenteInfo, new ActionTimeout(10000), new RecordItemIndex(6));
+            repo.SURA.Anulacion_Rehabilitacion.Copy_of_txtbox_FuenteInfo.WaitForNotExists(10000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Anulacion_Rehabilitacion.txtbox_Motivo' at Center.", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.txtbox_MotivoInfo, new RecordItemIndex(7));
-            repo.ApplicationUnderTest.Anulacion_Rehabilitacion.txtbox_Motivo.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Anulacion_Rehabilitacion.txtbox_Motivo' at Center.", repo.SURA.Anulacion_Rehabilitacion.txtbox_MotivoInfo, new RecordItemIndex(7));
+            repo.SURA.Anulacion_Rehabilitacion.txtbox_Motivo.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 7s to exist. Associated repository item: 'ApplicationUnderTest.Anulacion_Rehabilitacion.option_AnulacionPorDesistimiento'", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.option_AnulacionPorDesistimientoInfo, new ActionTimeout(7000), new RecordItemIndex(8));
-            repo.ApplicationUnderTest.Anulacion_Rehabilitacion.option_AnulacionPorDesistimientoInfo.WaitForExists(7000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 7s to exist. Associated repository item: 'SURA.Anulacion_Rehabilitacion.option_AnulacionPorDesistimiento'", repo.SURA.Anulacion_Rehabilitacion.option_AnulacionPorDesistimientoInfo, new ActionTimeout(7000), new RecordItemIndex(8));
+            repo.SURA.Anulacion_Rehabilitacion.option_AnulacionPorDesistimientoInfo.WaitForExists(7000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Anulacion_Rehabilitacion.option_AnulacionPorDesistimiento' at Center.", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.option_AnulacionPorDesistimientoInfo, new RecordItemIndex(9));
-            repo.ApplicationUnderTest.Anulacion_Rehabilitacion.option_AnulacionPorDesistimiento.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Anulacion_Rehabilitacion.option_AnulacionPorDesistimiento' at Center.", repo.SURA.Anulacion_Rehabilitacion.option_AnulacionPorDesistimientoInfo, new RecordItemIndex(9));
+            repo.SURA.Anulacion_Rehabilitacion.option_AnulacionPorDesistimiento.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to not exist. Associated repository item: 'ApplicationUnderTest.Anulacion_Rehabilitacion.Copy_of_txtbox_Motivo'", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.Copy_of_txtbox_MotivoInfo, new ActionTimeout(10000), new RecordItemIndex(10));
-            repo.ApplicationUnderTest.Anulacion_Rehabilitacion.Copy_of_txtbox_MotivoInfo.WaitForNotExists(10000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to not exist. Associated repository item: 'SURA.Anulacion_Rehabilitacion.Copy_of_txtbox_Motivo'", repo.SURA.Anulacion_Rehabilitacion.Copy_of_txtbox_MotivoInfo, new ActionTimeout(10000), new RecordItemIndex(10));
+            repo.SURA.Anulacion_Rehabilitacion.Copy_of_txtbox_MotivoInfo.WaitForNotExists(10000);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.ApplicationUnderTest.Self, false, new RecordItemIndex(11));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(11));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Anulacion_Rehabilitacion.bttn_IniciarAnulacion' at Center.", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.bttn_IniciarAnulacionInfo, new RecordItemIndex(12));
-            repo.ApplicationUnderTest.Anulacion_Rehabilitacion.bttn_IniciarAnulacion.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Anulacion_Rehabilitacion.bttn_IniciarAnulacion' at Center.", repo.SURA.Anulacion_Rehabilitacion.bttn_IniciarAnulacionInfo, new RecordItemIndex(12));
+            repo.SURA.Anulacion_Rehabilitacion.bttn_IniciarAnulacion.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'ApplicationUnderTest.Anulacion_Rehabilitacion.txt_Confirmacion'", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.txt_ConfirmacionInfo, new ActionTimeout(10000), new RecordItemIndex(13));
-            repo.ApplicationUnderTest.Anulacion_Rehabilitacion.txt_ConfirmacionInfo.WaitForExists(10000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 10s to exist. Associated repository item: 'SURA.Anulacion_Rehabilitacion.txt_Confirmacion'", repo.SURA.Anulacion_Rehabilitacion.txt_ConfirmacionInfo, new ActionTimeout(10000), new RecordItemIndex(13));
+            repo.SURA.Anulacion_Rehabilitacion.txt_ConfirmacionInfo.WaitForExists(10000);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.ApplicationUnderTest.Self, false, new RecordItemIndex(14));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(14));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Anulacion_Rehabilitacion.bttn_AnularAhora' at Center.", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.bttn_AnularAhoraInfo, new RecordItemIndex(15));
-            repo.ApplicationUnderTest.Anulacion_Rehabilitacion.bttn_AnularAhora.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Anulacion_Rehabilitacion.bttn_AnularAhora' at Center.", repo.SURA.Anulacion_Rehabilitacion.bttn_AnularAhoraInfo, new RecordItemIndex(15));
+            repo.SURA.Anulacion_Rehabilitacion.bttn_AnularAhora.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.bttn_Aceptar' at Center.", repo.ApplicationUnderTest.bttn_AceptarInfo, new RecordItemIndex(16));
-            repo.ApplicationUnderTest.bttn_Aceptar.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.bttn_Aceptar' at Center.", repo.SURA.bttn_AceptarInfo, new RecordItemIndex(16));
+            repo.SURA.bttn_Aceptar.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Anulación Contratada') on item 'ApplicationUnderTest.Anulacion_Rehabilitacion.txt_AnulacionContratada'.", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.txt_AnulacionContratadaInfo, new RecordItemIndex(17));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.Anulacion_Rehabilitacion.txt_AnulacionContratadaInfo, "InnerText", "Anulación Contratada");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Anulación Contratada') on item 'SURA.Anulacion_Rehabilitacion.txt_AnulacionContratada'.", repo.SURA.Anulacion_Rehabilitacion.txt_AnulacionContratadaInfo, new RecordItemIndex(17));
+            Validate.AttributeEqual(repo.SURA.Anulacion_Rehabilitacion.txt_AnulacionContratadaInfo, "InnerText", "Anulación Contratada");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'ApplicationUnderTest.Anulacion_Rehabilitacion.txt_NroAnulacion' and assigning the part of its value captured by '[0-9]{10}' to variable 'NumeroTransaccion'.", repo.ApplicationUnderTest.Anulacion_Rehabilitacion.txt_NroAnulacionInfo, new RecordItemIndex(18));
-            NumeroTransaccion = repo.ApplicationUnderTest.Anulacion_Rehabilitacion.txt_NroAnulacion.Element.GetAttributeValueText("InnerText", new Regex("[0-9]{10}"));
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'InnerText' from item 'SURA.Anulacion_Rehabilitacion.txt_NroAnulacion' and assigning the part of its value captured by '[0-9]{10}' to variable 'NumeroTransaccion'.", repo.SURA.Anulacion_Rehabilitacion.txt_NroAnulacionInfo, new RecordItemIndex(18));
+            NumeroTransaccion = repo.SURA.Anulacion_Rehabilitacion.txt_NroAnulacion.Element.GetAttributeValueText("InnerText", new Regex("[0-9]{10}"));
             Delay.Milliseconds(0);
             
             // El número de transacción es

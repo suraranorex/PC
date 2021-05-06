@@ -118,77 +118,76 @@ namespace PCQA.CrearCuentaSinValidarDNI
             // **** Ingresar Información de la Cuenta ****
             Report.Log(ReportLevel.Info, "Section", "**** Ingresar Información de la Cuenta ****", new RecordItemIndex(0));
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.Btn_Cuenta'", repo.ApplicationUnderTest.Btn_CuentaInfo, new ActionTimeout(30000), new RecordItemIndex(1));
-            repo.ApplicationUnderTest.Btn_CuentaInfo.WaitForExists(30000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'SURA.Btn_Cuenta'", repo.SURA.Btn_CuentaInfo, new ActionTimeout(30000), new RecordItemIndex(1));
+            repo.SURA.Btn_CuentaInfo.WaitForExists(30000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Btn_Cuenta' at CenterRight.", repo.ApplicationUnderTest.Btn_CuentaInfo, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.Btn_Cuenta.Click(Location.CenterRight);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Btn_Cuenta' at CenterRight.", repo.SURA.Btn_CuentaInfo, new RecordItemIndex(2));
+            repo.SURA.Btn_Cuenta.Click(Location.CenterRight);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Btn_NuevaCuenta1' at 46;11.", repo.ApplicationUnderTest.Btn_NuevaCuenta1Info, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.Btn_NuevaCuenta1.Click("46;11");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Btn_NuevaCuenta1' at 46;11.", repo.SURA.Btn_NuevaCuenta1Info, new RecordItemIndex(3));
+            repo.SURA.Btn_NuevaCuenta1.Click("46;11");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txt_Nombre' at 78;15.", repo.ApplicationUnderTest.txt_NombreInfo, new RecordItemIndex(4));
-            repo.ApplicationUnderTest.txt_Nombre.Click("78;15");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.txt_Nombre' at 78;15.", repo.SURA.txt_NombreInfo, new RecordItemIndex(4));
+            repo.SURA.txt_Nombre.Click("78;15");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Name' with focus on 'ApplicationUnderTest.txt_Nombre'.", repo.ApplicationUnderTest.txt_NombreInfo, new RecordItemIndex(5));
-            repo.ApplicationUnderTest.txt_Nombre.PressKeys(Name);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Name' with focus on 'SURA.txt_Nombre'.", repo.SURA.txt_NombreInfo, new RecordItemIndex(5));
+            repo.SURA.txt_Nombre.PressKeys(Name);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "User", Name, new RecordItemIndex(6));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.IngresarInformacionDeLaCuenta' at 285;15.", repo.ApplicationUnderTest.IngresarInformacionDeLaCuentaInfo, new RecordItemIndex(7));
-            repo.ApplicationUnderTest.IngresarInformacionDeLaCuenta.Click("285;15");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.IngresarInformacionDeLaCuenta' at 285;15.", repo.SURA.IngresarInformacionDeLaCuentaInfo, new RecordItemIndex(7));
+            repo.SURA.IngresarInformacionDeLaCuenta.Click("285;15");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.txt_NombreEspera'", repo.ApplicationUnderTest.txt_NombreEsperaInfo, new ActionTimeout(30000), new RecordItemIndex(8));
-            repo.ApplicationUnderTest.txt_NombreEsperaInfo.WaitForNotExists(30000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.Copy_of_txt_Nombre'", repo.SURA.Copy_of_txt_NombreInfo, new ActionTimeout(30000), new RecordItemIndex(8));
+            repo.SURA.Copy_of_txt_NombreInfo.WaitForNotExists(30000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.txt_Apellido' at 74;10.", repo.ApplicationUnderTest.txt_ApellidoInfo, new RecordItemIndex(9));
-            repo.ApplicationUnderTest.txt_Apellido.Click("74;10");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.txt_Apellido' at 74;10.", repo.SURA.txt_ApellidoInfo, new RecordItemIndex(9));
+            repo.SURA.txt_Apellido.Click("74;10");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$LastName' with focus on 'ApplicationUnderTest.txt_Apellido'.", repo.ApplicationUnderTest.txt_ApellidoInfo, new RecordItemIndex(10));
-            repo.ApplicationUnderTest.txt_Apellido.EnsureVisible();
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$LastName' with focus on 'SURA.txt_Apellido'.", repo.SURA.txt_ApellidoInfo, new RecordItemIndex(10));
+            repo.SURA.txt_Apellido.EnsureVisible();
             Keyboard.Press(LastName);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "User", LastName, new RecordItemIndex(11));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.IngresarInformacionDeLaCuenta' at 285;15.", repo.ApplicationUnderTest.IngresarInformacionDeLaCuentaInfo, new RecordItemIndex(12));
-            repo.ApplicationUnderTest.IngresarInformacionDeLaCuenta.Click("285;15");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.IngresarInformacionDeLaCuenta' at 285;15.", repo.SURA.IngresarInformacionDeLaCuentaInfo, new RecordItemIndex(12));
+            repo.SURA.IngresarInformacionDeLaCuenta.Click("285;15");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'ApplicationUnderTest.txt_ApellidoEspera'", repo.ApplicationUnderTest.txt_ApellidoEsperaInfo, new ActionTimeout(30000), new RecordItemIndex(13));
-            repo.ApplicationUnderTest.txt_ApellidoEsperaInfo.WaitForNotExists(30000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to not exist. Associated repository item: 'SURA.Copy_of_txt_Apellido'", repo.SURA.Copy_of_txt_ApellidoInfo, new ActionTimeout(30000), new RecordItemIndex(13));
+            repo.SURA.Copy_of_txt_ApellidoInfo.WaitForNotExists(30000);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Bucar' at 34;12.", repo.ApplicationUnderTest.BucarInfo, new RecordItemIndex(14));
-            //repo.ApplicationUnderTest.Bucar.Click("34;12");
-            //Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'SURA.Btn_CrearCuentaNueva'", repo.SURA.Btn_CrearCuentaNuevaInfo, new ActionTimeout(30000), new RecordItemIndex(14));
+            repo.SURA.Btn_CrearCuentaNuevaInfo.WaitForExists(30000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Btn_CrearCuentaNueva' at 93;10.", repo.ApplicationUnderTest.Btn_CrearCuentaNuevaInfo, new RecordItemIndex(15));
-            repo.ApplicationUnderTest.Btn_CrearCuentaNueva.Click("93;10");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Btn_CrearCuentaNueva' at 93;10.", repo.SURA.Btn_CrearCuentaNuevaInfo, new RecordItemIndex(15));
+            repo.SURA.Btn_CrearCuentaNueva.Click("93;10");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Personal' at 45;12.", repo.ApplicationUnderTest.PersonalInfo, new RecordItemIndex(16));
-            repo.ApplicationUnderTest.Personal.Click("45;12");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.Personal' at 45;12.", repo.SURA.PersonalInfo, new RecordItemIndex(16));
+            repo.SURA.Personal.Click("45;12");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.bl_CrearCuenta' at 91;12.", repo.ApplicationUnderTest.bl_CrearCuentaInfo, new RecordItemIndex(17));
-            repo.ApplicationUnderTest.bl_CrearCuenta.Click("91;12");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SURA.bl_CrearCuenta' at 91;12.", repo.SURA.bl_CrearCuentaInfo, new RecordItemIndex(17));
+            repo.SURA.bl_CrearCuenta.Click("91;12");
             Delay.Milliseconds(0);
             
             // **** Validación a próxima ventana - Cargar Datos de la Cuenta ****
             Report.Log(ReportLevel.Info, "Section", "**** Validación a próxima ventana - Cargar Datos de la Cuenta ****", new RecordItemIndex(18));
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Crear cuenta') on item 'ApplicationUnderTest.bl_CrearCuenta'.", repo.ApplicationUnderTest.bl_CrearCuentaInfo, new RecordItemIndex(19));
-            Validate.AttributeEqual(repo.ApplicationUnderTest.bl_CrearCuentaInfo, "InnerText", "Crear cuenta");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Crear cuenta') on item 'SURA.bl_CrearCuenta'.", repo.SURA.bl_CrearCuentaInfo, new RecordItemIndex(19));
+            Validate.AttributeEqual(repo.SURA.bl_CrearCuentaInfo, "InnerText", "Crear cuenta");
             Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.bl_CrearCuenta'", repo.ApplicationUnderTest.bl_CrearCuentaInfo, new ActionTimeout(30000), new RecordItemIndex(20));
-            //repo.ApplicationUnderTest.bl_CrearCuentaInfo.WaitForExists(30000);
+            //Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'SURA.bl_CrearCuenta'", repo.SURA.bl_CrearCuentaInfo, new ActionTimeout(30000), new RecordItemIndex(20));
+            //repo.SURA.bl_CrearCuentaInfo.WaitForExists(30000);
             
         }
 
