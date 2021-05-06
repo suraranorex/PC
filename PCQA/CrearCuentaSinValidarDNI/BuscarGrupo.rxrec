@@ -206,6 +206,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'GroupSearchPopup-tbody']/tr[3]/td/?/?/table/tbody/tr[3]/td/div/div//input[@name='GroupSearchPopup:GroupSearchPickerScreen:GroupSearchDV:ProducerCode']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="a064c625-328a-45aa-8b40-235482f024d0">
@@ -275,6 +277,8 @@ SUAFFFFABRRRQAUUUUAFFFFABRRRQB//2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'GroupSearchPopup-tbody']/tr[3]/td/?/?/table/tbody/tr[3]/td/div/div//input[@name='GroupSearchPopup:GroupSearchPickerScreen:GroupSearchDV:ProducerCode']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keyitem>
 		<keysequenceitem
@@ -430,6 +434,8 @@ SUAFFFFABRRRQAUUUUAFFFFABRRRQB//2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'GroupSearchPopup-tbody']/tr[3]/td/?/?/table/tbody/tr[3]/td/div/div//input[@name='GroupSearchPopup:GroupSearchPickerScreen:GroupSearchDV:ProducerCode']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="0070167e-b4b8-4561-983d-4811387744ac">
@@ -550,6 +556,8 @@ E+b++35D/Cj5v77fkP8AClooAT5gR85PPtUlRnt9RUlABRRRQAUUUUAFFFFABRRRQAUUUUAf/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'GroupSearchPopup-tbody']/tr[3]//table/tbody/tr[5]/td/div/div/?/?/table/?/?/tr/td[1]/a[@innertext='Bucar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="6ad61ac1-fe70-4e0b-96c5-9cf005ac864c">
@@ -701,6 +709,8 @@ a/75NJRQAvmL/tf98mjzF/2v++TSUUAL5i/7X/fJo8xf9r/vk0lFAB5qnpn/AL5NL5i/7X/fJpkf
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'GroupSearchPopup-tbody']/tr[4]/td/div/div[4]/div[1]/div/table[2]/?/?/tr/td[1]/?/?/a[@innertext='Seleccionar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="7db84be9-d8d0-4eb9-abd2-406d9ef339f0">
@@ -827,6 +837,8 @@ ACiiigAooooA/9k=
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[23]/td/div/div/div/div[2]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="c1705e02-2e5c-458f-adc1-8bbc1d6f46ce">
@@ -880,6 +892,8 @@ RRQB/9k=
 				<path>
 					/dom[@domain~$Ambiente]//input[@name='CreateAccount:SuraCreateAccountScreen:CreateAccountDV:ProducerSelectionInputSet:ProducerCode']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -952,6 +966,8 @@ RRQB/9k=
 				<path>
 					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[23]/td/div/div/div/div[2]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<userrecorditem
@@ -1025,6 +1041,8 @@ RRQB/9k=
 				<path>
 					/dom[@domain~$Ambiente]//input[@name='CreateAccount:SuraCreateAccountScreen:CreateAccountDV:ProducerSelectionInputSet:ProducerCode']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<mouseitem
@@ -1049,6 +1067,8 @@ RRQB/9k=
 				<path>
 					/dom[@domain~$Ambiente]/body//ul/li[@innertext=$PASNombre]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<explicitdelayitem
@@ -1143,6 +1163,8 @@ RRQB/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'CreateAccount-tbody']/tr[2]/td/div/div/div/a[1]//span[@innertext='Actalizar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="39461757-86c5-41bd-b2c3-11b8f0795e85">
@@ -1191,8 +1213,10 @@ pipQcgEgj2PaiigAooooAKKKKACiiigD/9k=
 			id="447252d3-d612-432f-85fc-aca4c7efb496"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext='Cuenta n&#250;mero']/../..//div[@innertext~'[0-9]+']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext='Cuenta número']/../..//div[@innertext~'[0-9]+']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</getvaluerecorditem>
 		<loggingrecorditem
@@ -1294,6 +1318,8 @@ pipQcgEgj2PaiigAooooAKKKKACiiigD/9k=
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'AccountFile_Summary-tbody']/tr[1]/td/div//span[@innertext&gt;'Resumen del archivo de cu']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="465c341c-a44e-45a6-b874-8f50dc7c0ce4">
@@ -1402,7 +1428,7 @@ AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//2Q==
 		enabled="True"
 		optional="False">
 			<comment>
-				**** Validaci&#243;n de cuenta creada exitosamente ****
+				**** Validación de cuenta creada exitosamente ****
 			</comment>
 			<bindings>
 			</bindings>
@@ -1441,6 +1467,8 @@ AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'AccountFile_Summary-tbody']/tr[1]/td/div//span[@innertext&gt;'Resumen del archivo de cu']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<matchname>
 				InnerText
@@ -1467,6 +1495,8 @@ AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</loggingrecorditem>
 	</recorditems>
