@@ -372,9 +372,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Anular\AnulaPoliza.rxrec">
-      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
       <id>20db9d22-2cc8-4b81-839a-2b009a5807bc</id>
       <recordtableid>7255da00-480d-461c-a448-6c665cc6ccdc</recordtableid>
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
     </None>
     <None Include="Anular\BuscaPoliza.rxrec">
       <id>8c5293c7-1ced-442c-994d-eb8bb10d4d2d</id>
