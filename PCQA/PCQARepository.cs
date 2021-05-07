@@ -147,6 +147,18 @@ namespace PCQA
             set { _Calle = value; }
         }
 
+        string _MotivoAnulacion = "";
+
+        /// <summary>
+        /// Gets or sets the value of variable MotivoAnulacion.
+        /// </summary>
+        [TestVariable("a6548f80-6213-45b4-9a83-54b133aa2483")]
+        public string MotivoAnulacion
+        {
+            get { return _MotivoAnulacion; }
+            set { _MotivoAnulacion = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -3321,7 +3333,7 @@ namespace PCQA
                 _txt_confirmacionInfo = new RepoItemInfo(this, "txt_Confirmacion", ".//span[@innertext='Confirmación']", "", 30000, null, "628fe87e-daaa-4db8-a13a-eb6da872b1b3");
                 _bttn_rehabilitarpolizaInfo = new RepoItemInfo(this, "bttn_RehabilitarPoliza", ".//span[@innertext='Rehabilitar póliza']", "", 30000, null, "09bfc612-3875-405a-b01f-90c65065218e");
                 _bttn_rehabilitarInfo = new RepoItemInfo(this, "bttn_Rehabilitar", ".//span[@innertext~'ehabilitar']", "", 30000, null, "cd3ba35c-4fc8-4225-ab89-1ecbf46e3394");
-                _option_anulacionpordesistimientoInfo = new RepoItemInfo(this, "option_AnulacionPorDesistimiento", ".//li[@innertext~'Anulación por desistimien']", "", 30000, null, "e2485a7a-6c58-4fbd-b802-4b1ca1da2256");
+                _option_anulacionpordesistimientoInfo = new RepoItemInfo(this, "option_AnulacionPorDesistimiento", ".//li[@innertext~$MotivoAnulacion]", "", 30000, null, "e2485a7a-6c58-4fbd-b802-4b1ca1da2256");
                 _bttn_nuevoInfo = new RepoItemInfo(this, "bttn_Nuevo", ".//a[#'PolicyFile:PolicyFileMenuActions']//span[@innertext~'Nuevo ...']", "", 30000, null, "56d1aa6f-7ebc-4958-87a0-c1834892dacb");
                 _bttn_anularpolizaInfo = new RepoItemInfo(this, "bttn_AnularPoliza", ".//span[@innertext~'Anular póliza']", "", 30000, null, "bbfed3b7-36fa-4e5c-9e8c-3ac8b7399c9e");
                 _lbl_grupodeafinidadInfo = new RepoItemInfo(this, "lbl_GrupoDeAfinidad", ".//label[@innertext='Grupo de afinidad']", "", 30000, null, "ee72a67a-50ba-4b42-8be8-09aee9f989c2");

@@ -76,6 +76,16 @@ namespace PCQA.Anular
             set { repo.Ambiente = value; }
         }
 
+        /// <summary>
+        /// Gets or sets the value of variable MotivoAnulacion.
+        /// </summary>
+        [TestVariable("a6548f80-6213-45b4-9a83-54b133aa2483")]
+        public string MotivoAnulacion
+        {
+            get { return repo.MotivoAnulacion; }
+            set { repo.MotivoAnulacion = value; }
+        }
+
 #endregion
 
         /// <summary>

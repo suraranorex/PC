@@ -1287,7 +1287,7 @@ name="PCQARepository">
 				refimgid="98712d65-1d21-4d93-9b95-ea7fe1c9d9ee"
 				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain~$Ambiente]//li[@innertext~'Anulación por desistimien']
+					/dom[@domain~$Ambiente]//li[@innertext~$MotivoAnulacion]
 				</item>
 				<item
 				addcaps="unknown,webelement,spantag"
@@ -1502,6 +1502,10 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		id="ce887bab-8035-486a-8a91-1b619a54641e"
 		name="Calle">
 			Jujuy
+		</var>
+		<var
+		id="a6548f80-6213-45b4-9a83-54b133aa2483"
+		name="MotivoAnulacion">
 		</var>
 	</variables>
 </repository>
