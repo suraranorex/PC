@@ -80,16 +80,14 @@ namespace PCQA.Login
             set { _Contrasenia = value; }
         }
 
-        string _Ambiente;
-
         /// <summary>
         /// Gets or sets the value of variable Ambiente.
         /// </summary>
         [TestVariable("6220ee55-3dcc-4717-9260-d89ec7bc2052")]
         public string Ambiente
         {
-            get { return _Ambiente; }
-            set { _Ambiente = value; }
+            get { return repo.Ambiente; }
+            set { repo.Ambiente = value; }
         }
 
 #endregion
