@@ -119,6 +119,8 @@ mode="Global">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[#':TabLinkMenuButton-btnEl']/span[1]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="2e5c682a-6041-4ac9-a1af-e965d0da154b">
@@ -207,7 +209,7 @@ zfj5t+/Oe+3b/KqkJMOtTQIf3ckQmK+jZwcfXGfrU2oytBp88icMqEigDJtb3UFtIVS13IEUKfLY
 					<attribute
 					name="innertext"
 					type="System.String">
-						Cerrar sesi&#243;n Super User
+						Cerrar sesión Super User
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -233,8 +235,10 @@ zfj5t+/Oe+3b/KqkJMOtTQIf3ckQmK+jZwcfXGfrU2oytBp88icMqEigDJtb3UFtIVS13IEUKfLY
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body/div[11]/div/div[2]/div/?/?/span[@innertext='Cerrar sesi&#243;n Super User']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body/div[11]/div/div[2]/div/?/?/span[@innertext='Cerrar sesión Super User']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -320,6 +324,8 @@ zfj5t+/Oe+3b/KqkJMOtTQIf3ckQmK+jZwcfXGfrU2oytBp88icMqEigDJtb3UFtIVS13IEUKfLY
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//span[@innertext='Aceptar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="1e617397-6c0e-44dc-a9cf-c074662aa310">

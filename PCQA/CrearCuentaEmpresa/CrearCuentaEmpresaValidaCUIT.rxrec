@@ -146,6 +146,8 @@ mode="Global">
 				<path>
 					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[2]/td/div/div//input[@name='CreateAccount:SuraCreateAccountScreen:CreateAccountDV:CreateAccountContactInputSet:OfficialIDInputSet:OfficialIDDV_Input']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<keysequenceitem
@@ -307,6 +309,8 @@ mode="Global">
 				<path>
 					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[2]/td/div/div//input[@name='CreateAccount:SuraCreateAccountScreen:CreateAccountDV:CreateAccountContactInputSet:OfficialIDInputSet:OfficialIDDV_Input']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<mouseitem
@@ -364,7 +368,7 @@ mode="Global">
 					<attribute
 					name="innertext"
 					type="System.String">
-						Identificaci&#243;n
+						Identificación
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -388,8 +392,10 @@ mode="Global">
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/div/table/tbody/tr[1]/?/?/label[@innertext='Identificaci&#243;n']
+					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/div/table/tbody/tr[1]/?/?/label[@innertext='Identificación']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -408,6 +414,8 @@ mode="Global">
 				<path>
 					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[2]/td/div/div//input[@name='CreateAccount:SuraCreateAccountScreen:CreateAccountDV:CreateAccountContactInputSet:OfficialIDInputSet:OfficialIDDV_Input' and @data-tabindexsaved='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -493,6 +501,8 @@ mode="Global">
 				<path>
 					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[2]/td/div/div/div/a[4]//span[@innertext='Validar Documento']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -571,6 +581,8 @@ mode="Global">
 				<path>
 					/dom[@domain~$Ambiente]//tbody[#'VerifiedAddressSelectionPopup-tbody']/tr[3]/td/div/div[3]/div[1]/div/table[1]/?/?/tr/td[1]/?/?/a[@innertext='Seleccionar']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="dd0e8bd5-6f70-4806-a242-aca84f67809d">
@@ -629,6 +641,8 @@ tI0hggZjIXwyj5gRjnj15qZYH8xZGK53l2APT5ccVYoouFis0EoztIILliN5XP4ilggaPy9xB2h8
 				<path>
 					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[2]/td/div/div/div/a[4]//span[@innertext='Validar Documento' and @data-tabindexsaved='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<explicitdelayitem
@@ -710,6 +724,8 @@ tI0hggZjIXwyj5gRjnj15qZYH8xZGK53l2APT5ccVYoouFis0EoztIILliN5XP4ilggaPy9xB2h8
 				<path>
 					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[7]/td/div/div/div/div[2]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<keysequenceitem
@@ -860,6 +876,8 @@ tI0hggZjIXwyj5gRjnj15qZYH8xZGK53l2APT5ccVYoouFis0EoztIILliN5XP4ilggaPy9xB2h8
 				<path>
 					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//td/?/?/table/?/?/tr/td[1]/?/?/table/tbody/tr[7]/td/div/div/div/div[1]/input[@name='CreateAccount:SuraCreateAccountScreen:CreateAccountDV:CreateAccountContactInputSet:FiscalConditionInputSetRef:Ext_FiscalConditionInputSet:IVAFiscalConditionTypeKeyInput']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<mouseitem
@@ -917,7 +935,7 @@ tI0hggZjIXwyj5gRjnj15qZYH8xZGK53l2APT5ccVYoouFis0EoztIILliN5XP4ilggaPy9xB2h8
 					<attribute
 					name="innertext"
 					type="System.String">
-						Condici&#243;n Fiscal
+						Condición Fiscal
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -941,8 +959,10 @@ tI0hggZjIXwyj5gRjnj15qZYH8xZGK53l2APT5ccVYoouFis0EoztIILliN5XP4ilggaPy9xB2h8
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/div/table/tbody/tr[6]/?/?/label[@innertext='Condici&#243;n Fiscal']
+					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/div/table/tbody/tr[6]/?/?/label[@innertext='Condición Fiscal']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -961,6 +981,8 @@ tI0hggZjIXwyj5gRjnj15qZYH8xZGK53l2APT5ccVYoouFis0EoztIILliN5XP4ilggaPy9xB2h8
 				<path>
 					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//td/?/?/table/?/?/tr/td[1]/?/?/table/tbody/tr[7]/td/div/div/div/div[1]/input[@name='CreateAccount:SuraCreateAccountScreen:CreateAccountDV:CreateAccountContactInputSet:FiscalConditionInputSetRef:Ext_FiscalConditionInputSet:IVAFiscalConditionTypeKeyInput' and @data-tabindexsaved='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -1033,6 +1055,8 @@ tI0hggZjIXwyj5gRjnj15qZYH8xZGK53l2APT5ccVYoouFis0EoztIILliN5XP4ilggaPy9xB2h8
 				<path>
 					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/?/?/table/tbody/tr[8]/td/div/div/div/div[2]
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<keysequenceitem
@@ -1183,6 +1207,8 @@ tI0hggZjIXwyj5gRjnj15qZYH8xZGK53l2APT5ccVYoouFis0EoztIILliN5XP4ilggaPy9xB2h8
 				<path>
 					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//td/?/?/table/?/?/tr/td[1]/?/?/table/tbody/tr[8]/td/div/div/div/div[1]/input[@name='CreateAccount:SuraCreateAccountScreen:CreateAccountDV:CreateAccountContactInputSet:FiscalConditionInputSetRef:Ext_FiscalConditionInputSet:IIBBFiscalConditionTypeKeyInput']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<mouseitem
@@ -1240,7 +1266,7 @@ tI0hggZjIXwyj5gRjnj15qZYH8xZGK53l2APT5ccVYoouFis0EoztIILliN5XP4ilggaPy9xB2h8
 					<attribute
 					name="innertext"
 					type="System.String">
-						Condici&#243;n Fiscal
+						Condición Fiscal
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -1264,8 +1290,10 @@ tI0hggZjIXwyj5gRjnj15qZYH8xZGK53l2APT5ccVYoouFis0EoztIILliN5XP4ilggaPy9xB2h8
 					</dynamicattribute>
 				</element>
 				<path>
-					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/div/table/tbody/tr[6]/?/?/label[@innertext='Condici&#243;n Fiscal']
+					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[1]/div/table/tbody/tr[6]/?/?/label[@innertext='Condición Fiscal']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<WaitForRecordItem
@@ -1284,6 +1312,8 @@ tI0hggZjIXwyj5gRjnj15qZYH8xZGK53l2APT5ccVYoouFis0EoztIILliN5XP4ilggaPy9xB2h8
 				<path>
 					/dom[@domain~$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//td/?/?/table/?/?/tr/td[1]/?/?/table/tbody/tr[8]/td/div/div/div/div[1]/input[@name='CreateAccount:SuraCreateAccountScreen:CreateAccountDV:CreateAccountContactInputSet:FiscalConditionInputSetRef:Ext_FiscalConditionInputSet:IIBBFiscalConditionTypeKeyInput' and @data-tabindexsaved='True']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
@@ -1308,6 +1338,8 @@ tI0hggZjIXwyj5gRjnj15qZYH8xZGK53l2APT5ccVYoouFis0EoztIILliN5XP4ilggaPy9xB2h8
 				<path>
 					/dom[@domain=$Ambiente]//tbody[#'CreateAccount-tbody']/tr[4]//table//div/table/?/?/tr/td[2]/?/?/table/tbody/tr[22]/td/div/div/div/div/div/div/div[3]/a[@href='javascript:void(0)']/img[@src='https://'+$Ambiente+'/pc/resources/themes/theme-9/resources/images/app/drop_button.png']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</mouseitem>
 		<mouseitem
@@ -1393,6 +1425,8 @@ tI0hggZjIXwyj5gRjnj15qZYH8xZGK53l2APT5ccVYoouFis0EoztIILliN5XP4ilggaPy9xB2h8
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']/body/div[12]/div/div[2]//span[@innertext='Buscar grupo...']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="aed7b432-58ba-4fe7-b21d-8e4c58eb497e">
@@ -1513,6 +1547,8 @@ jg4z0q/GixRLGgwqAKB7CiigD//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'GroupSearchPopup-tbody']/tr[1]/td/div/div/div/div/?/?/span[@innertext='Buscar grupos']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="9b09a949-a850-4e0c-b268-701a429fc802">
@@ -1582,7 +1618,7 @@ FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 		enabled="True"
 		optional="False">
 			<comment>
-				**** Validaci&#243;n de Carga de Datos de la Cuenta exitoso ****
+				**** Validación de Carga de Datos de la Cuenta exitoso ****
 			</comment>
 			<bindings>
 			</bindings>
@@ -1651,6 +1687,8 @@ FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'GroupSearchPopup-tbody']/tr[1]/td/div/div/div/div/?/?/span[@innertext='Buscar grupos']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<matchname>
 				InnerText
