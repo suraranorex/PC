@@ -1776,7 +1776,7 @@
 		filename="ExcelAnulaciones.xlsx"
 		id="72c4823b-5358-4dda-a5f2-1d9f7bda32cb"
 		includefile="Checked"
-		lastknownrowcount="1"
+		lastknownrowcount="2"
 		name="xls_Anulaciones"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
