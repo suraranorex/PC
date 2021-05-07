@@ -198,6 +198,8 @@ mode="Desktop">
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'Login-tbody']/tr[3]/td/?/?/table/tbody/tr[1]/td/div/div//input[@name='Login:LoginScreen:LoginDV:username']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="6c516c6c-3ed9-4d5d-88b2-1e479d98bd7b">
@@ -273,6 +275,8 @@ KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'Login-tbody']/tr[3]/td/?/?/table/tbody/tr[1]/td/div/div//input[@name='Login:LoginScreen:LoginDV:username']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<keysequenceitem
@@ -423,6 +427,8 @@ KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'Login-tbody']/tr[3]/td/?/?/table/tbody/tr[1]/td/div/div//input[@name='Login:LoginScreen:LoginDV:username']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="ccf90b94-73df-4d26-bf30-d7ae85ada05f">
@@ -629,6 +635,8 @@ AooooAKKKKACiiigAooooA//2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'Login-tbody']/tr[3]/td/?/?/table/tbody/tr[2]/td/div/div//input[@name='Login:LoginScreen:LoginDV:password']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="3c023849-c8ef-47e9-aa1d-155f490462e9">
@@ -714,6 +722,8 @@ igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'Login-tbody']/tr[3]/td/?/?/table/tbody/tr[2]/td/div/div//input[@name='Login:LoginScreen:LoginDV:password']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 		</keysequenceitem>
 		<keysequenceitem
@@ -864,6 +874,8 @@ igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/2Q==
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'Login-tbody']/tr[3]/td/?/?/table/tbody/tr[2]/td/div/div//input[@name='Login:LoginScreen:LoginDV:password']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="607000c3-de31-49c9-a2ea-d7bab1ac34b8">
@@ -1012,6 +1024,8 @@ RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//Z
 				<path>
 					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'Login-tbody']/tr[3]//table/tbody/tr[3]/td/div/div/?/?/table/?/?/tr/td/a//span[@innertext='Log In']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="9f28a342-cda6-4dd4-a856-2f05f269ef98">
@@ -1057,7 +1071,7 @@ FFFFABRRRQB//9k=
 		enabled="True"
 		optional="False">
 			<comment>
-				**** Validaci&#243;n de Login Exitoso ****
+				**** Validación de Login Exitoso ****
 			</comment>
 			<bindings>
 			</bindings>
@@ -1123,7 +1137,7 @@ FFFFABRRRQB//9k=
 					<attribute
 					name="innertext"
 					type="System.String">
-						Mis solicitudes de p&#243;liza
+						Mis solicitudes de póliza
 					</attribute>
 					<attribute
 					name="safeclass"
@@ -1137,8 +1151,10 @@ FFFFABRRRQB//9k=
 					</attribute>
 				</element>
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'DesktopSubmissions-tbody']/tr[1]/td/div//span[@innertext='Mis solicitudes de p&#243;liza']
+					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']//tbody[#'DesktopSubmissions-tbody']/tr[1]/td/div//span[@innertext='Mis solicitudes de póliza']
 				</path>
+				<robustPath>
+				</robustPath>
 			</info>
 			<helperscreenshot
 			guid="521cc618-43e1-4d2d-a985-63179805866b">

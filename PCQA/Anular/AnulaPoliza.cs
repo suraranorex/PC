@@ -77,13 +77,13 @@ namespace PCQA.Anular
         }
 
         /// <summary>
-        /// Gets or sets the value of variable MotivoAnulacion.
+        /// Gets or sets the value of variable OpcionMotivo.
         /// </summary>
-        [TestVariable("a6548f80-6213-45b4-9a83-54b133aa2483")]
-        public string MotivoAnulacion
+        [TestVariable("b25db5d0-a417-43d3-be0e-d5e60e58e9ba")]
+        public string OpcionMotivo
         {
-            get { return repo.MotivoAnulacion; }
-            set { repo.MotivoAnulacion = value; }
+            get { return repo.OpcionMotivo; }
+            set { repo.OpcionMotivo = value; }
         }
 
 #endregion

@@ -1165,10 +1165,10 @@
 					variablename="Ambiente">
 					</var>
 					<var
-					dataname="MotivoAnulacion"
+					dataname="OpcionMotivo"
 					datasourceid="72c4823b-5358-4dda-a5f2-1d9f7bda32cb"
-					variableid="a6548f80-6213-45b4-9a83-54b133aa2483"
-					variablename="MotivoAnulacion">
+					variableid="b25db5d0-a417-43d3-be0e-d5e60e58e9ba"
+					variablename="OpcionMotivo">
 					</var>
 				</databinding>
 			</testmodule>
@@ -1667,7 +1667,7 @@
 		filename="ExcelDatosCuentasValidaDNI.xlsx"
 		id="1e9ef14c-1c83-482e-b53b-167dbe51be03"
 		includefile="Checked"
-		lastknownrowcount="10"
+		lastknownrowcount="9"
 		name="CrearCuentaValidaDNI"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
@@ -1798,7 +1798,7 @@
 					NroPoliza
 				</column>
 				<column>
-					MotivoAnulacion
+					OpcionMotivo
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
