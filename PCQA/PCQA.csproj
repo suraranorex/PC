@@ -186,6 +186,18 @@
       <UserCode>true</UserCode>
       <id>e4376ec7-51fd-4d21-8c20-3ccf5e097c57</id>
     </Compile>
+    <Compile Include="CrearCuentaEmpresa\ActualizaDireccion.cs">
+      <BoundTo>3dd6c369-3a0d-4467-af43-fbb6a50bcbe9</BoundTo>
+      <DependentUpon>ActualizaDireccion.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c657207f-24ec-40df-a87d-26cb8560bd0d</id>
+    </Compile>
+    <Compile Include="CrearCuentaEmpresa\ActualizaDireccion.UserCode.cs">
+      <BoundTo>3dd6c369-3a0d-4467-af43-fbb6a50bcbe9</BoundTo>
+      <DependentUpon>ActualizaDireccion.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>243324f0-ad48-4051-bd6e-c2487338927f</id>
+    </Compile>
     <Compile Include="CrearCuentaEmpresa\BuscarCuentaCompania.cs">
       <BoundTo>62090391-0616-4195-8b85-7fb1db550c9d</BoundTo>
       <DependentUpon>BuscarCuentaCompania.rxrec</DependentUpon>
@@ -197,6 +209,18 @@
       <DependentUpon>BuscarCuentaCompania.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>d8d925c3-b70e-441c-b4eb-98793d9b65e5</id>
+    </Compile>
+    <Compile Include="CrearCuentaEmpresa\CompletaDatosCuenta.cs">
+      <BoundTo>bad095a6-2d1e-4447-b7a6-d675d24dae05</BoundTo>
+      <DependentUpon>CompletaDatosCuenta.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>48d653b0-97fb-4853-8f57-e7fcd3193bf2</id>
+    </Compile>
+    <Compile Include="CrearCuentaEmpresa\CompletaDatosCuenta.UserCode.cs">
+      <BoundTo>bad095a6-2d1e-4447-b7a6-d675d24dae05</BoundTo>
+      <DependentUpon>CompletaDatosCuenta.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>029b1461-bb05-4c5c-a822-5e65f46d923c</id>
     </Compile>
     <Compile Include="CrearCuentaEmpresa\CrearCuentaCompania.cs">
       <BoundTo>26202b84-5a7f-4929-85b8-1a4329659970</BoundTo>
@@ -233,6 +257,18 @@
       <DependentUpon>CrearCuentaEmpresaValidaCUIT.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>6b98da2e-5b61-42af-9d3a-665ed0f4e958</id>
+    </Compile>
+    <Compile Include="CrearCuentaEmpresa\SeleccionaDireccion.cs">
+      <BoundTo>53d63014-8ffe-453e-a945-b06cb236f592</BoundTo>
+      <DependentUpon>SeleccionaDireccion.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>509bc3ef-1c51-46e4-a3ca-a8df25be1d99</id>
+    </Compile>
+    <Compile Include="CrearCuentaEmpresa\SeleccionaDireccion.UserCode.cs">
+      <BoundTo>53d63014-8ffe-453e-a945-b06cb236f592</BoundTo>
+      <DependentUpon>SeleccionaDireccion.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2b7f627c-fb65-48a1-a481-50dca69bc631</id>
     </Compile>
     <Compile Include="CrearCuentaSinValidarDNI\BuscarCuentaSinValidarDNI.cs">
       <BoundTo>8ad19881-c23f-4ac9-96d4-914b2edafc2a</BoundTo>
@@ -399,10 +435,20 @@
       <id>05485a62-2452-4897-85de-9319cf67530e</id>
       <recordtableid>737d7ede-8d83-4bbd-9558-750c7ed97f03</recordtableid>
     </None>
+    <None Include="CrearCuentaEmpresa\ActualizaDireccion.rxrec">
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
+      <id>3dd6c369-3a0d-4467-af43-fbb6a50bcbe9</id>
+      <recordtableid>9a19f4b8-bf0d-4d70-9973-dbcf49d0c08b</recordtableid>
+    </None>
     <None Include="CrearCuentaEmpresa\BuscarCuentaCompania.rxrec">
       <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
       <id>62090391-0616-4195-8b85-7fb1db550c9d</id>
       <recordtableid>b244f87c-c2dc-4b2c-95b8-8617f5a2dc30</recordtableid>
+    </None>
+    <None Include="CrearCuentaEmpresa\CompletaDatosCuenta.rxrec">
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
+      <id>bad095a6-2d1e-4447-b7a6-d675d24dae05</id>
+      <recordtableid>9939a8db-a670-4cb0-9b27-b618cf723219</recordtableid>
     </None>
     <None Include="CrearCuentaEmpresa\CrearCuentaCompania.rxrec">
       <id>26202b84-5a7f-4929-85b8-1a4329659970</id>
@@ -418,6 +464,11 @@
       <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
       <id>9b62c5e8-cfd2-4023-b80d-132151fc6671</id>
       <recordtableid>10ef46c3-18df-441d-b5ac-98544abdbd4e</recordtableid>
+    </None>
+    <None Include="CrearCuentaEmpresa\SeleccionaDireccion.rxrec">
+      <BoundTo>f43766b1-86ac-4cb6-a5b8-30b74fd0c064</BoundTo>
+      <id>53d63014-8ffe-453e-a945-b06cb236f592</id>
+      <recordtableid>d9ee13ec-2754-490e-a9f7-4ce09b921470</recordtableid>
     </None>
     <None Include="CrearCuentaSinValidarDNI\BuscarCuentaSinValidarDNI.rxrec">
       <id>8ad19881-c23f-4ac9-96d4-914b2edafc2a</id>

@@ -1420,6 +1420,108 @@ name="PCQARepository">
 			searchtimeout="30000ms">
 				/dom[@domain~$Ambiente]//span[@innertext='Información de póliza']
 			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="d542483c-f82c-4dba-9bb5-3c5fa2737aff"
+			name="lbl_DireccionVerificada"
+			refimgid="a07ebe9c-3c03-4b80-92ce-4af62e0efe97"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain~$Ambiente]//tbody[#'EditAccountPopup-tbody']//div[@innertext='Verificada']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="a541e5dd-a0f1-4b38-aaf7-82525a2d3694"
+			name="Btn_ActualizarDireccion"
+			refimgid="1df57923-9aca-43ea-b562-183878e735df"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain~$Ambiente]//tbody[#'EditAccountPopup-tbody']//span[@innertext='Actualizar']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="e0f7698d-6fd3-42d1-a33e-2407f66ef028"
+			name="txt_Cotizacion1"
+			refimgid="86858e38-5230-44f3-9afd-cc1dd47ceca4"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain~$Ambiente]//tbody//span[@innertext='Cotización']
+			</item>
+			<folder
+			capname="webdocument"
+			id="93196034-2128-46fb-8bc7-8d303884f49d"
+			isrooted="False"
+			name="PC"
+			searchtimeout="0ms">
+				<folder
+				capname="webdocument"
+				id="bec14953-2773-437d-a89f-d13b48726d46"
+				isrooted="False"
+				name="Emision"
+				searchtimeout="0ms">
+					<folder
+					capname="webdocument"
+					id="cff7be2b-358f-48c1-a38d-4575a4fdf23f"
+					isrooted="False"
+					name="PolizaMotor"
+					searchtimeout="0ms">
+						<folder
+						capname="webdocument"
+						id="76f6cef9-aa28-466a-b81e-b6dcc2f6c5bf"
+						isrooted="True"
+						name="CoberturasAdicionales"
+						searchtimeout="30000ms"
+						usecache="False">
+							<item
+							addcaps="unknown,webelement,atag"
+							capname="atag"
+							id="34df0347-7ad5-45c6-8744-dd4392e987ea"
+							name="Lnk_Seleccionar"
+							refimgid="841b8847-78eb-43f3-ab67-d7d3ebf1af9a"
+							robustPath=""
+							searchtimeout="30000ms">
+								/dom[@domain~$Ambiente]//tbody[#'VerifiedAddressSelectionPopup-tbody']//a[@innertext='Seleccionar']
+							</item>
+							<basepath>
+								/dom[@domain~$Ambiente]
+							</basepath>
+						</folder>
+					</folder>
+				</folder>
+			</folder>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="6751c046-789f-4b74-b523-e9afc20a2ea1"
+			name="lbl_DireccionVerificada1"
+			refimgid="b8b6a82e-34a8-4feb-97fa-f6417af77b34"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain~$Ambiente]//tbody[#'EditAccountPopup-tbody']//div[@innertext='Verificada']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="1b28ab07-cb82-4dae-9184-d9279056481b"
+			name="Btn_ActualizarDireccion1"
+			refimgid="824670d7-a939-45f2-a323-156f0bd13e13"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain~$Ambiente]//tbody[#'EditAccountPopup-tbody']//span[@innertext='Actualizar']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="b17dae93-5fae-4b58-814c-6d2e6f58218a"
+			name="txt_Cotizacion11"
+			refimgid="c2b5f12d-03e2-42a5-a79f-691b33d07bd0"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain~$Ambiente]//tbody//span[@innertext='Cotización']
+			</item>
 			<basepath>
 				/dom[@domain~$Ambiente]
 			</basepath>
@@ -1455,6 +1557,36 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			robustPath=""
 			searchtimeout="5000ms">
 				/dom[@domain~$Ambiente]//tbody[#'VerifiedAddressSelectionPopup-tbody']//a[@innertext='Seleccionar']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="d7354d50-672c-4a01-ae9a-d51bc50cee0f"
+			name="lbl_ExisteCtaAnonimaConMismoDNI_COF"
+			refimgid="11186a7a-94a3-4135-bcf3-b6491d0366bd"
+			robustPath=""
+			searchtimeout="0ms">
+				/dom[@domain~$Ambiente]//tbody[#'EditAccountPopup-tbody']//div[@innertext&gt;'Existe una cuenta an&#243;nima']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="a2277cde-25cf-4c60-8633-f3e8f6097050"
+			name="lbl_ExisteCtaAnonimaConMismoDNI_COF1"
+			refimgid="d915544c-46cb-44b2-8a6e-6e88de39d3c2"
+			robustPath=""
+			searchtimeout="0ms">
+				/dom[@domain~$Ambiente]//tbody[#'EditAccountPopup-tbody']//div[@innertext&gt;'Existe una cuenta an&#243;nima']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="5d40c77a-640e-4842-b770-5cae5a03dd21"
+			name="Btn_ActualizarDireccion_COF"
+			refimgid="66647375-0a92-4543-91d6-84a3a9d56225"
+			robustPath=""
+			searchtimeout="0ms">
+				/dom[@domain~$Ambiente]//tbody[#'EditAccountPopup-tbody']//span[@innertext='Actualizar']
 			</item>
 			<basepath>
 				/dom[@domain~$Ambiente]

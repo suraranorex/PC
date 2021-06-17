@@ -75,6 +75,20 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="0877069e-6e2c-45aa-8e2d-2703c7d7e1bf"
+			name="ActualizaDireccion"
+			ref="9a19f4b8-bf0d-4d70-9973-dbcf49d0c08b"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="1e0163a0-e555-4aa5-902b-84f18c3c483c"
+					variableid="6220ee55-3dcc-4717-9260-d89ec7bc2052"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="0e7b8516-f6b7-4b47-9932-55d74896f622"
 			name="CloseBrowser"
 			ref="737d7ede-8d83-4bbd-9558-750c7ed97f03"
@@ -646,6 +660,10 @@
 			id="8282f892-fb55-4169-aeaf-d77646568725"
 			name="teardown">
 			</teardown>
+			<smartfoldernode
+			id="831a6785-ae22-422e-bf0d-69a5c3d1a50c"
+			name="SeleccionaDireccionDefault">
+			</smartfoldernode>
 			<testmodule
 			id="8b56dceb-c18d-4132-a35b-14ffc05609ea"
 			name="OpenBrowser"
@@ -831,6 +849,20 @@
 			id="af237f2b-445e-4d9a-a9d8-cfd3f9f60e3b"
 			name="setup">
 			</setup>
+			<testmodule
+			id="b0aaa714-4824-4331-9444-9810c955df3c"
+			name="CompletaDatosCuenta"
+			ref="9939a8db-a670-4cb0-9b27-b618cf723219"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="1e0163a0-e555-4aa5-902b-84f18c3c483c"
+					variableid="6220ee55-3dcc-4717-9260-d89ec7bc2052"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
 			<setup
 			id="b38d1239-3b2e-4af8-91d3-97422749aadb"
 			name="setup">
@@ -1032,6 +1064,20 @@
 			singlereportpdfdirectory="SingleReportPDF">
 			</testsuite>
 			<testmodule
+			id="cebeb196-6723-4fb0-b2b6-a3a2bc149d22"
+			name="SeleccionaDireccion"
+			ref="d9ee13ec-2754-490e-a9f7-4ce09b921470"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Ambiente"
+					datasourceid="1e0163a0-e555-4aa5-902b-84f18c3c483c"
+					variableid="6220ee55-3dcc-4717-9260-d89ec7bc2052"
+					variablename="Ambiente">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="d268486b-b935-4fbd-924a-7bacec339375"
 			name="CloseBrowser"
 			ref="737d7ede-8d83-4bbd-9558-750c7ed97f03"
@@ -1045,6 +1091,10 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			id="d6605c73-afb1-427f-ba75-938bb9ba50b8"
+			name="SeleccionaDireccion">
+			</smartfoldernode>
 			<testmodule
 			id="d8174d18-6b4f-467e-bec9-185ac14a2242"
 			name="OpenBrowser"
@@ -1164,13 +1214,15 @@
 					variableid="6220ee55-3dcc-4717-9260-d89ec7bc2052"
 					variablename="Ambiente">
 					</var>
+				</databinding>
+				<missingdatavariablesbinding>
 					<var
 					dataname="OpcionMotivo"
 					datasourceid="72c4823b-5358-4dda-a5f2-1d9f7bda32cb"
 					variableid="b25db5d0-a417-43d3-be0e-d5e60e58e9ba"
 					variablename="OpcionMotivo">
 					</var>
-				</databinding>
+				</missingdatavariablesbinding>
 			</testmodule>
 			<setup
 			id="e9f86abb-dc57-46a2-80cc-45df35621908"
@@ -1362,6 +1414,26 @@
 						<testmodule
 						id="10ae5f50-955e-4bde-b51b-c744da4244fb"
 						name="CrearCuentaCompania">
+						</testmodule>
+						<smartfoldernode
+						id="d6605c73-afb1-427f-ba75-938bb9ba50b8"
+						name="SeleccionaDireccion">
+							<testmodule
+							id="cebeb196-6723-4fb0-b2b6-a3a2bc149d22"
+							name="SeleccionaDireccion">
+							</testmodule>
+						</smartfoldernode>
+						<smartfoldernode
+						id="831a6785-ae22-422e-bf0d-69a5c3d1a50c"
+						name="SeleccionaDireccionDefault">
+							<testmodule
+							id="0877069e-6e2c-45aa-8e2d-2703c7d7e1bf"
+							name="ActualizaDireccion">
+							</testmodule>
+						</smartfoldernode>
+						<testmodule
+						id="b0aaa714-4824-4331-9444-9810c955df3c"
+						name="CompletaDatosCuenta">
 						</testmodule>
 						<testmodule
 						id="ac127371-4686-41f9-a0a3-9edecf58ed57"
@@ -1667,7 +1739,7 @@
 		filename="ExcelDatosCuentasValidaDNI.xlsx"
 		id="1e9ef14c-1c83-482e-b53b-167dbe51be03"
 		includefile="Checked"
-		lastknownrowcount="9"
+		lastknownrowcount="10"
 		name="CrearCuentaValidaDNI"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
@@ -1776,7 +1848,7 @@
 		filename="ExcelAnulaciones.xlsx"
 		id="72c4823b-5358-4dda-a5f2-1d9f7bda32cb"
 		includefile="Checked"
-		lastknownrowcount="2"
+		lastknownrowcount="1"
 		name="xls_Anulaciones"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
@@ -1913,7 +1985,13 @@
 			id="6f6e7473-52d3-4a2a-9e49-b39b80967e98">
 			</testcontainer>
 			<testcontainer
+			id="831a6785-ae22-422e-bf0d-69a5c3d1a50c">
+			</testcontainer>
+			<testcontainer
 			id="9ff78c3e-6440-429c-8263-52f6f7de3e2f">
+			</testcontainer>
+			<testcontainer
+			id="d6605c73-afb1-427f-ba75-938bb9ba50b8">
 			</testcontainer>
 			<testcontainer
 			id="e2b36b57-7adc-4cfe-a5e7-ddcabd014504">

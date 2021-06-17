@@ -1490,10 +1490,10 @@ AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//2Q==
 			<bindings>
 			</bindings>
 			<info
-			id="974942a0-d03d-4d55-b8bc-555f389500a9"
+			id="073e4057-7841-443a-9fa4-ca48cedb927b"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='ssurgwsoadev4.opc.oracleoutsourcing.com']
+					/dom[@domain~$Ambiente]//tbody[#'AccountFile_Summary-tbody']/tr[1]/td/div//span[@innertext&gt;'Resumen del archivo de cu']
 				</path>
 				<robustPath>
 				</robustPath>

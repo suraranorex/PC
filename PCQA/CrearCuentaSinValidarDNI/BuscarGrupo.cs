@@ -213,7 +213,7 @@ namespace PCQA.CrearCuentaSinValidarDNI
             Validate.AttributeEqual(repo.SURA.Validar_ResumenDelArchivoDeCuentaInfo, "InnerText", "Resumen del archivo de cuenta");
             Delay.Milliseconds(0);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Self, false, new RecordItemIndex(22));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.SURA.Validar_ResumenDelArchivoDeCuenta, false, new RecordItemIndex(22));
             
         }
 
