@@ -147,7 +147,7 @@ namespace PCQA
             set { _Calle = value; }
         }
 
-        string _MotivoAnulacion = "";
+        string _MotivoAnulacion = "Anulación por desistimiento";
 
         /// <summary>
         /// Gets or sets the value of variable MotivoAnulacion.
@@ -4249,6 +4249,7 @@ namespace PCQA
             RepoItemInfo _lbl_existectaanonimaconmismodni_cofInfo;
             RepoItemInfo _lbl_existectaanonimaconmismodni_cof1Info;
             RepoItemInfo _btn_actualizardireccion_cofInfo;
+            RepoItemInfo _bttn_aceptacoberfinansusp_cofInfo;
 
             /// <summary>
             /// Creates a new SURA_COF  folder.
@@ -4260,6 +4261,7 @@ namespace PCQA
                 _lbl_existectaanonimaconmismodni_cofInfo = new RepoItemInfo(this, "lbl_ExisteCtaAnonimaConMismoDNI_COF", ".//tbody[#'EditAccountPopup-tbody']//div[@innertext>'Existe una cuenta anónima']", "", 0, null, "d7354d50-672c-4a01-ae9a-d51bc50cee0f");
                 _lbl_existectaanonimaconmismodni_cof1Info = new RepoItemInfo(this, "lbl_ExisteCtaAnonimaConMismoDNI_COF1", ".//tbody[#'EditAccountPopup-tbody']//div[@innertext>'Existe una cuenta anónima']", "", 0, null, "a2277cde-25cf-4c60-8633-f3e8f6097050");
                 _btn_actualizardireccion_cofInfo = new RepoItemInfo(this, "Btn_ActualizarDireccion_COF", ".//tbody[#'EditAccountPopup-tbody']//span[@innertext='Actualizar']", "", 0, null, "5d40c77a-640e-4842-b770-5cae5a03dd21");
+                _bttn_aceptacoberfinansusp_cofInfo = new RepoItemInfo(this, "bttn_AceptaCoberFinanSusp_COF", ".//span[@innertext='Aceptar']", "", 0, null, "d6c8272c-9c38-4b34-b5fe-f33172506517");
             }
 
             /// <summary>
@@ -4379,6 +4381,30 @@ namespace PCQA
                 get
                 {
                     return _btn_actualizardireccion_cofInfo;
+                }
+            }
+
+            /// <summary>
+            /// The bttn_AceptaCoberFinanSusp_COF item.
+            /// </summary>
+            [RepositoryItem("d6c8272c-9c38-4b34-b5fe-f33172506517")]
+            public virtual Ranorex.SpanTag bttn_AceptaCoberFinanSusp_COF
+            {
+                get
+                {
+                    return _bttn_aceptacoberfinansusp_cofInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The bttn_AceptaCoberFinanSusp_COF item info.
+            /// </summary>
+            [RepositoryItemInfo("d6c8272c-9c38-4b34-b5fe-f33172506517")]
+            public virtual RepoItemInfo bttn_AceptaCoberFinanSusp_COFInfo
+            {
+                get
+                {
+                    return _bttn_aceptacoberfinansusp_cofInfo;
                 }
             }
         }

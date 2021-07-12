@@ -158,6 +158,7 @@
 			name="CrearCuentaValidaDNI">
 			</testcase>
 			<testmodule
+			enabled="False"
 			id="1cb30ed0-d106-4166-b9e1-65ceff0e9e16"
 			name="OpenBrowser"
 			ref="77b83fe9-3cd4-494b-b78d-a23cf13206b8"
@@ -732,6 +733,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="979f15af-53ec-4ee2-bad8-69ee2f0949f2"
 			name="LogOut"
 			ref="e63d618d-91f9-4211-a7c3-02920791d1e2"
@@ -973,9 +975,10 @@
 			<testcase
 			datarangeactive="True"
 			datasource="xls_Anulaciones"
+			errorbehavior="ContinueNextIteration"
 			id="c03bbc11-8669-439d-90f9-8876bfbc8ad9"
-			maxrange="0"
-			minrange="0"
+			maxrange="24"
+			minrange="12"
 			name="Anular">
 				<description>
 					<![CDATA[PC QA - Caso de Prueba - Anular Póliza]]>
@@ -1078,6 +1081,7 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="d268486b-b935-4fbd-924a-7bacec339375"
 			name="CloseBrowser"
 			ref="737d7ede-8d83-4bbd-9558-750c7ed97f03"
@@ -1214,6 +1218,12 @@
 					variableid="6220ee55-3dcc-4717-9260-d89ec7bc2052"
 					variablename="Ambiente">
 					</var>
+					<var
+					dataname="OpcionMotivo"
+					datasourceid="72c4823b-5358-4dda-a5f2-1d9f7bda32cb"
+					variableid="a6548f80-6213-45b4-9a83-54b133aa2483"
+					variablename="MotivoAnulacion">
+					</var>
 				</databinding>
 				<missingdatavariablesbinding>
 					<var
@@ -1279,6 +1289,7 @@
 			name="teardown">
 			</teardown>
 			<testmodule
+			enabled="False"
 			id="ff944292-10b2-46ae-a194-6c4db6653081"
 			name="Login"
 			ref="570f2e8a-441d-44b3-8154-9f41958b5f14"
@@ -1848,12 +1859,15 @@
 		filename="ExcelAnulaciones.xlsx"
 		id="72c4823b-5358-4dda-a5f2-1d9f7bda32cb"
 		includefile="Checked"
-		lastknownrowcount="1"
+		lastknownrowcount="25"
 		name="xls_Anulaciones"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Hoja1"
 		worksheetrange="Auto-Range">
 			<lastknowncolumns>
+				<column>
+					ID
+				</column>
 				<column>
 					Ambiente
 				</column>

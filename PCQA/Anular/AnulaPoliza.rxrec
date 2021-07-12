@@ -27,6 +27,11 @@ mode="Global">
 		id="fb75159b-884f-4325-8756-4d5741544595"
 		name="NumeroTransaccion">
 		</var>
+		<var
+		id="a6548f80-6213-45b4-9a83-54b133aa2483"
+		name="MotivoAnulacion">
+			Anulación por desistimiento
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -240,6 +245,32 @@ i/6af9/W/wAaPskX/TT/AL+t/jTvNb0FHmt6Ci7DlXYb9ki/6af9/W/xop3mt6Cii7DlXY//2Q==
 				</element>
 				<path>
 					/dom[@domain~$Ambiente]/body/div[10]/div/div[2]/div/div[15]/?/?/span[@innertext='Anular póliza']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="True"
+		searchpropertyid="eb133b4d-7774-4093-b717-de760912d471"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d6c8272c-9c38-4b34-b5fe-f33172506517"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain~$Ambiente]//span[@innertext='Aceptar']
 				</path>
 				<robustPath>
 				</robustPath>
@@ -724,7 +755,7 @@ ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP//Z
 		optional="False"
 		searchpropertyid="0f1bc3c6-dea0-4d07-810b-a09eee532df7"
 		waitaction="Exists"
-		waittimeout="7000ms">
+		waittimeout="30000ms">
 			<comment>
 			</comment>
 			<bindings>

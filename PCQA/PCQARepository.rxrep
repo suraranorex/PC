@@ -1588,6 +1588,16 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			searchtimeout="0ms">
 				/dom[@domain~$Ambiente]//tbody[#'EditAccountPopup-tbody']//span[@innertext='Actualizar']
 			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="d6c8272c-9c38-4b34-b5fe-f33172506517"
+			name="bttn_AceptaCoberFinanSusp_COF"
+			refimgid="41a7c4c8-3871-4579-bc7f-dcceef6d2cdf"
+			robustPath=""
+			searchtimeout="0ms">
+				/dom[@domain~$Ambiente]//span[@innertext='Aceptar']
+			</item>
 			<basepath>
 				/dom[@domain~$Ambiente]
 			</basepath>
@@ -1638,6 +1648,7 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		<var
 		id="a6548f80-6213-45b4-9a83-54b133aa2483"
 		name="MotivoAnulacion">
+			Anulación por desistimiento
 		</var>
 	</variables>
 </repository>
